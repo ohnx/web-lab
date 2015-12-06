@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Circular progress bar (canvas) - jsFiddle demo by oskar</title>
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mootools/1.5.2/mootools-core-compat.min.js'></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+  <style type='text/css'>
+input {
+    width: 200px;
+}
+canvas {
+    clear: both;
+    width: 480px;
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+    background: #000;
+}
+h1, h2 {
+    font-family: 'Roboto';
+    margin: 1em 0 0 0;
+    color: #fff;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 5em;
+}
+  </style>
+<script type='text/javascript'>//<![CDATA[
+var myFx, didThang = false;
+window.addEvent('load', function() {
+// SVG stuff
+var canvas = document.getElementById('counter');
+var ctx = ctx = canvas.getContext('2d');
+var imd = null;
+var circ = Math.PI * 2;
+var quart = Math.PI / 2;
+/*
+ctx.beginPath();
+ctx.strokeStyle = 'blue';
+ctx.lineCap = 'square';
+ctx.closePath();
+ctx.fill();
+ctx.lineWidth = 9.0;
+*/
+imd = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+var draw = function(current) {
+    if(Math.round(current*100)>=98 && Math.round(current*100)!=100) return;
+    if(Math.round(current*100)==100) current = 0.98;
+    ctx.beginPath();
+    ctx.strokeStyle = 'rgba(255,255,255,0.2)';
+    ctx.lineCap = 'square';
+    ctx.closePath();
+    ctx.fill();
+    ctx.lineWidth = 8.0;
+    ctx.beginPath();
+    ctx.putImageData(imd, 0, 0);
+    ctx.arc(canvas.width/2, canvas.height/2, canvas.height/2-10, -quart, (circ) - quart, false);
+    ctx.stroke();
+    ctx.beginPath();
+    if(current==0.98) {
+        ctx.strokeStyle = "red";
+    } else {
+        ctx.strokeStyle = "#0187E9";
+    }
+    ctx.lineCap = 'square';
+    ctx.closePath();
+    ctx.fill();
+    ctx.beginPath();
+    ctx.arc(canvas.width/2, canvas.height/2, canvas.height/2-10, -(quart), ((circ) * current) - quart, false);
+    ctx.stroke();
+    ctx.font = "7.5em 'Roboto'";
+    ctx.fillStyle = "white";
+    ctx.textAlign = "center";
+    ctx.fillText(Math.round((current)*100)+"%", canvas.width/2+10, canvas.height/2+35);
+    if(Math.round(current*100)==98) {didThang = true; document.getElementById("msg").innerHTML = "Fatal Error";}
+    if(Math.round(current*100)==1) {document.getElementById("msg").innerHTML = "Installing Windows 10";}
+}
+
+myFx = new Fx({
+    duration: 10000,
+    transition: 'linear',
+    onStep: function(step) {
+        draw(step / 100);
+        range.set('value', step);
+    }
+});
+
+myFx.set = function(now){
+    var ret = Fx.prototype.set.call(this, now);
+    this.fireEvent('step', now);
+    return ret;
+};
+
+setTimeout(function() {draw(0); setTimeout(function() {draw(0);}, 100);}, 100);
+});//]]> 
+function doThang() {
+    if(didThang) {myFx.start(0,0); myFx.start(0, 100);}
+    myFx.start(0, 100);
+}
+</script>
+
+</head>
+<body>
+  <h1 id="msg">Click the circle to install Windows 10</h1><br />
+<a href="javascript:;" onclick="doThang();"><canvas id="counter" width="500" height="500"></canvas></a> 
+</body>
+</html>

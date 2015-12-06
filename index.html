@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ohnx labs</title>
+        <meta charset='utf-8' />
+        <style>
+            body {
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                font-size: 5em;
+                font-weight: 100;
+                margin: 0;
+            }
+            h2 {
+                margin: 0;
+            }
+            @keyframes rainbow {
+                0% {background-color: #ff0000;}
+                10% {background-color: #ff8000;}
+                19% {background-color: #ffff00;}
+                28% {background-color: #80ff00;}
+                37% {background-color: #00ff00;}
+                46% {background-color: #00ff80;}
+                55% {background-color: #00ffff; color: #000;}
+                65% {background-color: #0080ff;}
+                74% {background-color: #0000ff; color: #fff;}
+                83% {background-color: #8000ff; color: #fff;}
+                91% {background-color: #ff0080; color: #000;}
+                100% {background-color: #ff0000;}
+	    	}
+            html { animation: rainbow 10s infinite linear; overflow: hidden; }
+        
+        </style>
+    </head>
+    <body>
+        <marquee direction="down" scrollamount="40" behavior="alternate" id="welcome">
+            <marquee behavior="alternate" class="welcome">
+                <h1>Welcome to ohnx labs</h1>
+                <h2 id="main">the future of the web is here</h2>
+            </marquee>
+        </marquee>
+        <script>
+            var array1 = new Array("aggregating", "beta-testing", "integrating", "capturing", "creating", "designing", "disintermediating", "enabling", "integrating", "posting", "remixing", "reinventing", "sharing", "syndicating", "tagging", "incentivizing", "engaging", "reinventing", "harnessing", "empowering");
+            var array2 = new Array("performative", "aleatoric", "productive", "rogue", "ruderal", "experiential", "industrial", "elastic", "systematic", "exurban", "pliant", "open-ended", "synthetic", "steady-state", "successional", "boolean", "post-fordist", "eidetic", "bionomic", "emergent", "unassigned", "dendritic", "self-organizing", "post-urban", "abandoned", "post-industrial", "suburban", "adaptive", "hyperbolic", "vertical", "scalar", "site-specific", "imbricate", "heterogeneous", "robust", "revolutionary", "scalable", "geographic", "green", "algorithmic", "generative", "invasive", "fluctuating", "porous", "interstitial", "hydrological", "fluid", "innovative", "latent", "intermodal", "intuitive", "strategic", "urbanistic", "fallow", "malleable", "hybrid", "temporal", "undefined", "ephemeral", "urban", "end-to-end", "global", "sectional", "granular", "scaled", "landscape", "interconnected", "frictionless", "sustainable", "virtual", "viral", "dynamic", "mutable", "magnetic", "revelatory", "bleeding-edge", "interactive", "back-end", "real-time", "efficient", "front-end", "distributed", "seamless", "extensible", "open-source", "hyper", "cross-platform", "integrated", "regional", "transparent", "indexical", "permeable", "rhizomatic", "topographical", "probabilistic", "infrastructural", "visionary", "customized", "vegetal", "ubiquitous", "plug-and-play", "collaborative", "compelling", "holistic");
+            var array3 = new Array("synergies", "scenarios", "basins", "paradigms", "agents", "vocabularies", "surfaces", "morphologies", "phase-states", "dynamic equilibria", "conditions", "territories", "regimes", "markets", "programs", "partnerships", "infrastructures", "planes", "recipes", "armatures", "platforms", "maps", "furrows", "mappings", "grids", "initiatives", "channels", "fields", "communities", "solutions", "palimpsests", "ecologies", "pluralities", "flows", "clusters", "sites", "edges", "membranes", "sinks", "peripheries", "ecosystems", "nodes", "operations", "corridors", "rhizomes", "methodologies", "ecologies", "portals", "niches", "technologies", "contexts", "laminar flows", "convergence", "relationships", "processes", "urbanisms", "architectures", "interfaces", "taxonomies", "systems", "commons", "meshworks", "hybrids", "gradients", "frameworks", "events", "microclimates", "models", "interventions", "deliverables", "users", "schemas", "networks", "applications", "ecotomes", "drosscapes", "peripheries", "metrics", "functionalities", "nests", "equilibria", "strata", "circuits", "constituencies", "dynamics", "terrains", "thresholds", "dichotomies", "matrices", "mosaics", "experiences", "methodologies");
+            var array4 = new Array("the beginning of time", "the future");
+            function genDesc() {
+                var index1 = Math.round(Math.random() * array1.length); index1 = index1 >= array1.length? 0 : index1;
+                var index2 = Math.round(Math.random() * array2.length); index1 = index2 >= array2.length? 0 : index2;
+                var index3 = Math.round(Math.random() * array3.length); index1 = index3 >= array3.length? 0 : index3;
+                var index4 = Math.round(Math.random() * array4.length); index1 = index4 >= array4.length? 0 : index4;
+            	document.getElementById("main").innerHTML = array1[index1] + " " + array2[index2] + " " + array3[index3] + " since " + array4[index4];	
+            }
+            function resizeMarquee() {
+                var i = window,
+                    d = document,
+                    e = d.documentElement,
+                    g = d.getElementsByTagName('body')[0],
+                    w = i.innerWidth || e.clientWidth || g.clientWidth,
+                    h = i.innerHeight|| e.clientHeight|| g.clientHeight;
+                document.getElementById("welcome").width = w;
+                document.getElementById("welcome").height = h;
+            }
+            window.onresize = resizeMarquee;
+            resizeMarquee();
+            genDesc();
+            setInterval(genDesc, 5000);
+        </script>
+    </body>
+</html>
