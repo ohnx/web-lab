@@ -49,9 +49,9 @@
             var array4 = new Array("the beginning of time", "the future");
             function genDesc() {
                 var index1 = Math.round(Math.random() * array1.length); index1 = index1 >= array1.length? 0 : index1;
-                var index2 = Math.round(Math.random() * array2.length); index1 = index2 >= array2.length? 0 : index2;
-                var index3 = Math.round(Math.random() * array3.length); index1 = index3 >= array3.length? 0 : index3;
-                var index4 = Math.round(Math.random() * array4.length); index1 = index4 >= array4.length? 0 : index4;
+                var index2 = Math.round(Math.random() * array2.length); index2 = index2 >= array2.length? 0 : index2;
+                var index3 = Math.round(Math.random() * array3.length); index3 = index3 >= array3.length? 0 : index3;
+                var index4 = Math.round(Math.random() * array4.length); index4 = index4 >= array4.length? 0 : index4;
             	document.getElementById("main").innerHTML = array1[index1] + " " + array2[index2] + " " + array3[index3] + " since " + array4[index4];	
             }
             function resizeMarquee() {
