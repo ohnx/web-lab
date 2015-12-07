@@ -48,10 +48,10 @@
             var array3 = new Array("synergies", "scenarios", "basins", "paradigms", "agents", "vocabularies", "surfaces", "morphologies", "phase-states", "dynamic equilibria", "conditions", "territories", "regimes", "markets", "programs", "partnerships", "infrastructures", "planes", "recipes", "armatures", "platforms", "maps", "furrows", "mappings", "grids", "initiatives", "channels", "fields", "communities", "solutions", "palimpsests", "ecologies", "pluralities", "flows", "clusters", "sites", "edges", "membranes", "sinks", "peripheries", "ecosystems", "nodes", "operations", "corridors", "rhizomes", "methodologies", "ecologies", "portals", "niches", "technologies", "contexts", "laminar flows", "convergence", "relationships", "processes", "urbanisms", "architectures", "interfaces", "taxonomies", "systems", "commons", "meshworks", "hybrids", "gradients", "frameworks", "events", "microclimates", "models", "interventions", "deliverables", "users", "schemas", "networks", "applications", "ecotomes", "drosscapes", "peripheries", "metrics", "functionalities", "nests", "equilibria", "strata", "circuits", "constituencies", "dynamics", "terrains", "thresholds", "dichotomies", "matrices", "mosaics", "experiences", "methodologies");
             var array4 = new Array("the beginning of time", "the future");
             function genDesc() {
-                var index1 = Math.round(Math.random() * array1.length); index1 = index1 >= array1.length? 0 : index1;
-                var index2 = Math.round(Math.random() * array2.length); index2 = index2 >= array2.length? 0 : index2;
-                var index3 = Math.round(Math.random() * array3.length); index3 = index3 >= array3.length? 0 : index3;
-                var index4 = Math.round(Math.random() * array4.length); index4 = index4 >= array4.length? 0 : index4;
+                var index1 = Math.floor(Math.random() * array1.length);
+                var index2 = Math.floor(Math.random() * array2.length);
+                var index3 = Math.floor(Math.random() * array3.length);
+                var index4 = Math.floor(Math.random() * array4.length);
             	document.getElementById("main").innerHTML = array1[index1] + " " + array2[index2] + " " + array3[index3] + " since " + array4[index4];	
             }
             function resizeMarquee() {
