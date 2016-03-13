@@ -49,12 +49,18 @@ var currRow = -1, currImage = -1, currDetailBox, currFilter = null;
 
 function filterImages(filter) {
     var ignore;
-    var currFilter
+    var currFilter = null;
     if (filter == null) {
         ignore = true;
     } else {
         ignore = false;
         currFilter = filter;
+    }
+    if (currDetailBox != null) {
+        document.getElementById("gallery").removeChild(currDetailBox);
+        currImage = -1;
+        currDetailBox = undefined;
+        currRow = -1;
     }
     var allTags = [];
     var newHTML = "";
@@ -75,9 +81,12 @@ function filterImages(filter) {
     document.getElementById("gallery").innerHTML = newHTML;
     
     newHTML = "";
+    if (currFilter != null) {
+        newHTML += "<span onclick=\"filterImages();\" class=\"tag\">none</span>&nbsp;";
+    }
     for (var i = 0; i < allTags.length; i++) {
-        if (currFilter == allTags[i]) newHTML += "<b onclick=\"filterImages('"+allTags[i]+"');\">" + allTags[i] + "</b>&nbsp;";
-        else newHTML += "<span onclick=\"filterImages('"+allTags[i]+"');\">" + allTags[i] + "</span>&nbsp;";
+        if (currFilter == allTags[i]) newHTML += "<span onclick=\"filterImages('"+allTags[i]+"');\" class=\"selected tag\">" + allTags[i] + "</span>&nbsp;";
+        else newHTML += "<span onclick=\"filterImages('"+allTags[i]+"');\" class=\"tag\">" + allTags[i] + "</span>&nbsp;";
     }
     document.getElementById("tags").innerHTML = newHTML;
 }

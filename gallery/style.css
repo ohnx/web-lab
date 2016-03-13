@@ -11,6 +11,10 @@ body {
     margin: 1.5em auto;
 }
 
+a, a:visited, a:active {
+    color: #0099FF
+}
+
 h1 {
     font-size: 5em;
     font-weight: lighter;
@@ -67,4 +71,22 @@ h1 {
 
 .detail-name {
     display: inline;
+}
+
+.tag {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #e3e3e3;
+    transition: all .2s ease-in-out;
+}
+
+.tag:hover {
+    background-color: #0099FF;
+    color: #fff;
+}
+
+.selected {
+    background-color: #0099FF;
+    color: #fff;
 }
