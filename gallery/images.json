@@ -1,10 +1,16 @@
-[
+{
+"name":"Tests Gallerie",
+"desc":"A Gallery test thing to show off",
+"tags":true,
+"time":10,
+"images":[
 {"name":"A Nice Beach", "desc":"This is a very nice beach. I wish I could go there. <a href=\"about:blank\">Here's a link to how to go there</a>", "thumb":"http://lorempixel.com/image_output/nature-q-c-640-480-5.jpg", "img":"http://lorempixel.com/image_output/nature-q-c-640-480-5.jpg", "tags":["sunset", "cool", "photo"]},
 {"name":"Swimmer", "desc":"I can swim, too!", "thumb":"http://lorempixel.com/image_output/sports-q-c-640-480-7.jpg", "img":"http://lorempixel.com/image_output/sports-q-c-640-480-7.jpg", "tags":["sports", "photo"]},
-{"name":"Dog", "desc":"<b>Woof, Woof</b>", "thumb":"http://lorempixel.com/image_output/animals-q-g-987-393-9.jpg", "img":"http://lorempixel.com/image_output/animals-q-g-987-393-9.jpg", "tags":["dog", "animal", "photo"]},
+{"name":"Dog", "desc":"<b>Woof, Woof</b>", "thumb":"https://placeholdit.imgix.net/~text?txtsize=23&bg=000000&txtclr=ffffff&txt=Square&w=250&h=250", "img":"https://placeholdit.imgix.net/~text?txtsize=23&bg=666666&txtclr=ffffff&txt=Changed&w=700&h=700", "tags":["dog", "animal", "photo"]},
 {"name":"Horse", "desc":"My voice is feeling a bit <i>horse</i>", "thumb":"http://lorempixel.com/image_output/animals-q-c-640-480-10.jpg", "img":"http://lorempixel.com/image_output/animals-q-c-640-480-10.jpg", "tags":["horse", "animal", "photo"]},
 {"name":"Burger", "desc":"<h2>Yummy!</h2>", "thumb":"http://lorempixel.com/image_output/food-q-c-640-480-9.jpg", "img":"http://lorempixel.com/image_output/food-q-c-640-480-9.jpg", "tags":["food", "burger", "photo"]},
-{"name":"iPad", "desc":"look, its an ipad", "thumb":"http://lorempixel.com/image_output/technics-h-g-480-640-3.jpg", "img":"http://lorempixel.com/image_output/technics-h-g-480-640-3.jpg", "tags":["bw", "technology", "photo"]},
-{"name":"Food", "desc":"No idea what kind this is.", "thumb":"http://lorempixel.com/image_output/food-h-c-480-640-3.jpg", "img":"http://lorempixel.com/image_output/food-h-c-480-640-3.jpg", "tags":["food", "photo"]},
-{"name":"Mac", "desc":"mac", "thumb":"http://lorempixel.com/image_output/technics-h-c-586-1062-2.jpg", "img":"http://lorempixel.com/image_output/technics-h-c-586-1062-2.jpg", "tags":["technology", "photo"]}
+{"name":"Wat", "desc":"<h2>Yummy!</h2>", "thumb":"https://placeholdit.imgix.net/~text?txtsize=23&bg=ff0090&txtclr=ffffff&txt=Pink&w=900&h=250", "img":"https://placeholdit.imgix.net/~text?txtsize=23&bg=ffffff&txtclr=000000&txt=ImHigh&w=250&h=900", "tags":["food", "burger", "photo"]},
+{"name":"Food", "desc":"seamus wtf", "thumb":"https://placekitten.com/g/200/300", "img":"https://placekitten.com/g/800/300", "tags":["food", "photo"]},
+{"name":"Mac", "desc":"mac", "thumb":"http://i.imgur.com/ejeQyj0.jpg", "img":"http://i.imgur.com/ejeQyj0.jpg", "tags":["technology", "photo"]}
 ]
+}
