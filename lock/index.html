@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Encrypted page</title>
+        <title>Page Encryptor</title>
         <style>
-            html { height: 100%; width: 100%; }
-            body { height: 100%; width: 100%; margin: 0; text-align: center; display: table; font-family: sans-serif;}
-            .content { display: table-cell; vertical-align: middle; }
-            #lock { height: 64px; width: 64px; display: inline-block; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFQ0lEQVR4nOWbW4hWVRiGH22UsCFEUuTHxE5goiJ+EiYUmtFYpCalhSCUJORFQSFYiFdDaCAU3YgERXcmBiWCB4wGExPprTCzKDExcaKDDCIiwyBd7IXO6Oz9r9P+/4keGBz2+ta33/W69ux12qNoEWY2HngceBiYAUwBOl3xZeA8cAr4Gjgkqa8VukbVfQMzWwKsB5YAYz2r9QP7ge2S9telDWo0wMwWAO8CDyWmOg68LulouqpbyW6AmY0F3gFeA0ZnSnsNeB/YKKk/U04gswFmdhfwObAgZ95BHAWWS/o7V8JsBpjZZOBLYHqunCX8DCyS9EeOZFkMMLNO4CtgTmDVAfdvR2C974FHJF0OrHcLuZ7RD/Br/HlgK7AImChpjKQxwER3bauLacYcd89kknuAma0CPmkSdhF4C/hQ0kBVoJl1AGuBLcCEJnmfl7TLV+twJBlgZuOAX4FGRdgx4FlJFwJzN4BPgfkVYReAByRdCck9mNRH4BWqG98DLA5tPICrs9jlKKPhNEQT3QPMbDTwGzC1JOQsYJIuxt7D3WcCIGBaScg54B5J12Lyp/SAhZQ3HmBdauMBXI51FSFTnZYoUgxYXlF2UNKhhNxDcLkORmqpJMWARyvKtifkjclZpaWSKAPcq2pGSfFViplcbva73MMxw2kKJrYHTKF8antSUpnQaFzOkyXFY52mYGINqBqgnIvM6UNV7maDpmGJNaBqYSN6UOJBVW7fxZYh5JoLDKZyqDvSctdhwH+K/70BUa+OVMzsTmA8N/4DrgF9ki61WktLDDCzacAqoAuYS9H44eL6gG+BA8AuSWfr1larAWY2E+gGluH3uI0HHnM/W8xsD7BZUtn7P5laDHCjsm5gQ8I9RgPPAE+b2TZgcyZ5Q6jDgAnAFySMz2+iA3iTYqU5+25RrAGTK8qWReZsRjNDqzSVErwg4v6C/0D1WkA7OAfMCn2TxIwDuhl5jYdCU3dopaAeYGb3Az/RpvGDBwPAg5JO+1YI7QGbGLmNh0LbppAK3j3AzCYBvxM562oh/cDdkv70CQ7pAasZ+Y2HQuNq3+AQA1aGaynlEvCey7nS/Z5zHuCt1esRcMdb/iLP838KeFLSkNUdM5sK7KN8rTGEAYq9x6YDJ98eMJ88je8HVtzceAB3bYWLSaWD6i216/gaMDteyxD2SvqlrNCV7c10Ly/NvgbclyBkMN9livHBS7OvAVUboCHckSnGBy/NvgZ0Ng/x4olMMT54aW71muBcM3uxrNCVzW2ZGvwNyHk0bYeZrb35oru2I+N9vDT7GpDtWBrFSG3NMNfXkHekmXUofCZBSLs46xPka8CP8TrahpdmXwOOJQhpF16avQxw6/PeiwwjgNO+ewohr8HP4rS0BW+tIQZ8HCGkXXhr9TbA7c70xKgZhts9r8XQE7KTFDoSfDswvox5ZnZ9xOd+n5cpd5DGmH2BA+QZr18GdrrfXyDPfOOgpK6QCjGLHK9STFnHRdQdTCfwcmKOwVyh0BbEbaEVent7/2k0GpeAp0Lr1swbkvaFVgo2AKC3t/d4o9GYDsyMqV8DOyVtjKmYMh1+CTicUD8Xhym0RBFtgDu4uBQ4EpsjA0eApSkHM5MWRNxObBewOyVPJLuBrtRzRTm/GttA8Q6ue/eoH9gkaVuOZLm/G5xNcaq7zu8G10s6kSthLZ/OmtlzFGd6cu0nnAC6JWV/1Gr9eNrMFlL8hV5GydG4CvqAPcBHknryKrtB7V+Pw/VTY/MoHo1ZwL3AJG5MgK5SrOGdoTh+cxT4ptkndjn4FwCUW6B1tFD6AAAAAElFTkSuQmCC'); }
+            html { height: 100%; width: 100%; } body { height: 100%; width: 100%; margin: 0; text-align: center; display: table; font-family: monospace; } .content { display: table-cell; vertical-align: middle; }
         </style>
     </head>
     <body>
         <div class="content">
-            <div id="lock"></div>
-            <div id="input">
-                <br />
-                <br />
-                This page is locked. Please enter the password, and click the lock to unlock the page.<br />
-                <input id="password" type="password" />
-            </div>
+            <textarea id="html" rows="10" cols="50" placeholder="HTML to encrypt"></textarea><br />
+            <input type="password" id="password" />
+            <div id="msg">Please enter a password and the HTML to encrypt.</div>
+            <button id="enc">Encrypt</button>
         </div>
         <script type="text/javascript" src="https://rawgit.com/ricmoo/aes-js/master/index.js"></script>
+        <script type="test/javascript" src="https://gist.githubusercontent.com/ohnx/f2cf91d894f8d2257386806254f826e0/raw/7a6cc8195ef712f7edfd85088bd43f89f8a68f09/jssha256.js">
+        </script>
         <script>
-            var encryptedBytes = [183, 159, 225, 188, 69, 57, 227, 223, 246, 97, 244, 162, 5, 108, 252, 27, 217, 210, 21, 249, 4, 9, 249, 49, 142, 155, 56, 125, 165, 242, 96, 211];
-            var iv;
             (function(){
-                iv = aesjs.util.convertStringToBytes("IVMustBe16Bytes.");
-                document.getElementById("lock").addEventListener("click", function() {
-                    // The cipher feedback mode of operation maintains internal state,
-                    // so to decrypt a new instance must be instantiated.
-                    var aesCfb = new aesjs.ModeOfOperation.cfb(aesjs.util.convertStringToBytes(document.getElementById("password").value), iv, 8);
-                    var decryptedBytes = aesCfb.decrypt(encryptedBytes);
+                document.getElementById("enc").addEventListener("click", function() {
+                    var key = aesjs.util.convertStringToBytes(sha.sha256(document.getElementById("password").value));
+                    var textBytes = aesjs.util.convertStringToBytes("ok"+document.getElementById("html").value);
+
+                    var aesCtr = new aesjs.ModeOfOperation.ctr(key);
+                    var encrypted = btoa(aesCtr.encrypt(textBytes));
+                    document.getElementById("html").value = "<!DOCTYPE html><html lang=\"en\"><head><title>Encrypted page</title><style>html { height: 100%; width: 100%; } body { height: 100%; width: 100%; margin: 0; text-align: center; display: table; font-family: sans-serif; font-size: 120%; } .content { display: table-cell; vertical-align: middle; } .shake { animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; transform: translate3d(0, 0, 0); box-shadow: 0px 3px 0px 0px #ED0000 !important; } @keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-4px, 0, 0); } 40%, 60% { transform: translate3d(4px, 0, 0); } } input[type=password] { border: 0; box-shadow: 0px 3px 0px -0.5px #333; -webkit-transition: box-shadow 0.3s; transition: box-shadow 0.3s; font-size: 120%; } input[type=password]:focus { outline: none; box-shadow: 0px 3.5px 0px -0.5px #4EA6EA; } #lock { height: 64px; width: 64px; display: inline-block; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFQ0lEQVR4nOWbW4hWVRiGH22UsCFEUuTHxE5goiJ+EiYUmtFYpCalhSCUJORFQSFYiFdDaCAU3YgERXcmBiWCB4wGExPprTCzKDExcaKDDCIiwyBd7IXO6Oz9r9P+/4keGBz2+ta33/W69ux12qNoEWY2HngceBiYAUwBOl3xZeA8cAr4Gjgkqa8VukbVfQMzWwKsB5YAYz2r9QP7ge2S9telDWo0wMwWAO8CDyWmOg68LulouqpbyW6AmY0F3gFeA0ZnSnsNeB/YKKk/U04gswFmdhfwObAgZ95BHAWWS/o7V8JsBpjZZOBLYHqunCX8DCyS9EeOZFkMMLNO4CtgTmDVAfdvR2C974FHJF0OrHcLuZ7RD/Br/HlgK7AImChpjKQxwER3bauLacYcd89kknuAma0CPmkSdhF4C/hQ0kBVoJl1AGuBLcCEJnmfl7TLV+twJBlgZuOAX4FGRdgx4FlJFwJzN4BPgfkVYReAByRdCck9mNRH4BWqG98DLA5tPICrs9jlKKPhNEQT3QPMbDTwGzC1JOQsYJIuxt7D3WcCIGBaScg54B5J12Lyp/SAhZQ3HmBdauMBXI51FSFTnZYoUgxYXlF2UNKhhNxDcLkORmqpJMWARyvKtifkjclZpaWSKAPcq2pGSfFViplcbva73MMxw2kKJrYHTKF8antSUpnQaFzOkyXFY52mYGINqBqgnIvM6UNV7maDpmGJNaBqYSN6UOJBVW7fxZYh5JoLDKZyqDvSctdhwH+K/70BUa+OVMzsTmA8N/4DrgF9ki61WktLDDCzacAqoAuYS9H44eL6gG+BA8AuSWfr1larAWY2E+gGluH3uI0HHnM/W8xsD7BZUtn7P5laDHCjsm5gQ8I9RgPPAE+b2TZgcyZ5Q6jDgAnAFySMz2+iA3iTYqU5+25RrAGTK8qWReZsRjNDqzSVErwg4v6C/0D1WkA7OAfMCn2TxIwDuhl5jYdCU3dopaAeYGb3Az/RpvGDBwPAg5JO+1YI7QGbGLmNh0LbppAK3j3AzCYBvxM562oh/cDdkv70CQ7pAasZ+Y2HQuNq3+AQA1aGaynlEvCey7nS/Z5zHuCt1esRcMdb/iLP838KeFLSkNUdM5sK7KN8rTGEAYq9x6YDJ98eMJ88je8HVtzceAB3bYWLSaWD6i216/gaMDteyxD2SvqlrNCV7c10Ly/NvgbclyBkMN9livHBS7OvAVUboCHckSnGBy/NvgZ0Ng/x4olMMT54aW71muBcM3uxrNCVzW2ZGvwNyHk0bYeZrb35oru2I+N9vDT7GpDtWBrFSG3NMNfXkHekmXUofCZBSLs46xPka8CP8TrahpdmXwOOJQhpF16avQxw6/PeiwwjgNO+ewohr8HP4rS0BW+tIQZ8HCGkXXhr9TbA7c70xKgZhts9r8XQE7KTFDoSfDswvox5ZnZ9xOd+n5cpd5DGmH2BA+QZr18GdrrfXyDPfOOgpK6QCjGLHK9STFnHRdQdTCfwcmKOwVyh0BbEbaEVent7/2k0GpeAp0Lr1swbkvaFVgo2AKC3t/d4o9GYDsyMqV8DOyVtjKmYMh1+CTicUD8Xhym0RBFtgDu4uBQ4EpsjA0eApSkHM5MWRNxObBewOyVPJLuBrtRzRTm/GttA8Q6ue/eoH9gkaVuOZLm/G5xNcaq7zu8G10s6kSthLZ/OmtlzFGd6cu0nnAC6JWV/1Gr9eNrMFlL8hV5GydG4CvqAPcBHknryKrtB7V+Pw/VTY/MoHo1ZwL3AJG5MgK5SrOGdoTh+cxT4ptkndjn4FwCUW6B1tFD6AAAAAElFTkSuQmCC'); }</style></head><body><div class=\"content\"><div id=\"lock\"></div><div id=\"input\">This page is locked.<br />Please enter the password and click the lock,<br />or press enter, to unlock the page.<br /><input id=\"password\" type=\"password\" /></div></div><script type=\"test/javascript\" src=\"https://cdn.rawgit.com/ohnx/7fa0154db9212000f6eb33a8ecfad2fa/raw/fcb52f7f63494d1e454e0d3a0edf743d57fae1d1/sha256.min.js\"></scr"+"ipt><script type=\"text/javascript\" src=\"https://rawgit.com/ricmoo/aes-js/master/index.js\"></scr"+"ipt><scr"+"ipt>var encryptedBytes = \""+encrypted+"\"; function decrypt() { try { var aesCtr = new aesjs.ModeOfOperation.ctr(aesjs.util.convertStringToBytes(sha256_digest(document.getElementById(\"password\").value))); var decryptedBytes = aesCtr.decrypt(encryptedBytes); var decryptedText = aesjs.util.convertBytesToString(decryptedBytes); if (decryptedText.substring(0,2) != \"ok\") { throw \"invalid password\"; } document.documentElement.innerHTML = decryptedText.substring(2); } catch (err) { document.getElementById(\"password\").classList.add(\"shake\"); setTimeout(function(){ document.getElementById(\"password\").classList.remove(\"shake\"); }, 1000); } } (function(){ encryptedBytes = atob(encryptedBytes); document.onkeydown = function(evt) { evt = evt || window.event; if (evt.keyCode == 13) { decrypt(); } }; document.getElementById(\"lock\").addEventListener(\"click\", function() { decrypt(); }); })();</sc"+"ript></body></html>";
                     
-                    // Convert our bytes back into text
-                    var decryptedText = aesjs.util.convertBytesToString(decryptedBytes);
-                    document.documentElement.innerHTML = decryptedText;
                 });
+                
             })();
-            
         </script>
     </body>
 </html>
