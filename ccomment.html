@@ -1,0 +1,18 @@
+<html>
+<head><title>Convert</title></head>
+<body>
+<h1>Convert</h1>
+<h2>c99 style comments //</h2>
+<textarea id="from" rows=10 cols=40></textarea><br />
+<h2>c89 style output /**/</h2>
+<textarea id="to" rows=10 cols=40></textarea><br />
+<a href="javascript:;" onclick="convert();">Convert</a>
+<script>
+function convertA() {
+    var dataIn = document.getElementById("from").value;
+    var dataOut = dataIn.replace(/\s*\/\/ (.*)/gmi, "/* $1 */");
+    document.getElementById("to").value = dataOut;
+}
+</script>
+</body>
+</html>
