@@ -8,7 +8,7 @@
 <textarea id="to" rows=10 cols=40></textarea><br />
 <a href="javascript:;" onclick="convert();">Convert</a>
 <script>
-function convertA() {
+function convert() {
     var dataIn = document.getElementById("from").value;
     var dataOut = dataIn.replace(/\s*\/\/ (.*)/gmi, "/* $1 */");
     document.getElementById("to").value = dataOut;
