@@ -10,7 +10,7 @@
 <script>
 function convert() {
     var dataIn = document.getElementById("from").value;
-    var dataOut = dataIn.replace(/(\s)*\/\/ (.*)/gmi, "$1/* $2 */");
+    var dataOut = dataIn.replace(/(\s*)\/\/ (.*)/gmi, "$1/* $2 */");
     document.getElementById("to").value = dataOut;
 }
 </script>
