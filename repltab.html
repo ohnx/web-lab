@@ -10,9 +10,9 @@
 <script>
 function convert() {
     var dataIn = document.getElementById("from").value;
-    var dataOut = dataIn.replace(/(.*)\t(.*)/gmi, "$1 — $2");
-    dataOut = dataOut.replace(/ — \n/gmi, "\n");
-    dataOut = dataOut.replace(/(.)  (.)/gmi, "$1 — $2");
+    var dataOut = dataIn.replace(/(.*)\t(.*)/gmi, "$1 - $2");
+    dataOut = dataOut.replace(/ - \n/gmi, "\n");
+    dataOut = dataOut.replace(/(.)  (.)/gmi, "$1 - $2");
     
     document.getElementById("to").value = dataOut;
 }
