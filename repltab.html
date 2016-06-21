@@ -1,0 +1,18 @@
+<html>
+<head><title>Convert</title></head>
+<body>
+<h1>Convert</h1>
+<h2>From</h2>
+<textarea id="from" rows=10 cols=40></textarea><br />
+<h2>To</h2>
+<textarea id="to" rows=10 cols=40></textarea><br />
+<a href="javascript:;" onclick="convert();">Convert</a>
+<script>
+function convert() {
+    var dataIn = document.getElementById("from").value;
+    var dataOut = dataIn.replace(/(.*)\t(.*)/gmi, "$1 — $2");
+    document.getElementById("to").value = dataOut;
+}
+</script>
+</body>
+</html>
