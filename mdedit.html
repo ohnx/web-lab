@@ -174,6 +174,8 @@ div {
 /* global Split */
 /* global localStorage */
 var x;
+var defaultText = "#ohnx's markdown editor\nThis is ohnx's live markdown editor :smile:\nThis editor has two interesting features:\n\n - Auto-saving. When the save icon is visible, that means that what you have typed has been saved to LocalStorage.\n - Adjustable textbox and preview area size. The bar in the middle allows you to adjust the sizes of the textbox and preview areas.\n\nThanks for checking this out!";
+
 var updateMD = function() {
     document.getElementById('result').innerHTML = emojione.toImage(marked(document.getElementById("editor").value));
 };
@@ -203,7 +205,7 @@ var saveDrag = function() {
         onDragEnd: saveDrag
     });
     
-    document.getElementById("editor").value = localStorage.getItem('text');
+    document.getElementById("editor").value = localStorage.getItem('text') || defaultText;
     updateMD();
 
     document.getElementById("editor").addEventListener("input", function(){updateMD(); document.getElementById('save-icon').style.display = "none"; if (x) clearTimeout(x); x = setTimeout(saveStuff, 400);});
