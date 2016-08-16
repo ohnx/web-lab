@@ -1,0 +1,213 @@
+<html lang="en">
+    <head>
+        <title>Markdown editor</title>
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/2.2.2/assets/css/emojione.min.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+<style>
+/* splitter styling */
+.gutter {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: ew-resize;
+    z-index: 100;
+}
+
+.gutter-horizontal {
+    height: 100%;
+    float: left;
+    background-image: url('https://cdn.rawgit.com/nathancahill/Split.js/2b2563f7ca8ed0ddf732e9c8677db727559fab22/grips/vertical.png');
+}
+</style>
+<style>
+/* markdown styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-weight: normal;
+}
+
+pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+
+code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+    font-family: monospace;
+}
+
+blockquote {
+    padding: 0 15px;
+    color: #777;
+    border-left: 4px solid #6D2FA1;
+    margin: 0;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+th {
+    font-weight: bold;
+}
+
+th, td {
+    padding: 6px 13px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #e3e3e3; /* E3! */
+}
+</style>
+<style>
+/* main styling */
+body {
+    background-color: #e3e3e3;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+}
+
+#editorwrap {
+    float: left;
+}
+
+#editor {
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+    font-family: 'Roboto Mono', monospace;
+    border: 0;
+    resize: none;
+    box-sizing: border-box;
+    font-size: 1.04em;
+}
+
+#resultwrap {
+    max-height: 100vh;
+    padding: 0 1em 1em 1em;
+    color: #333;
+    float: right;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+#result {
+    width: 100%;
+    font-family: 'Georgia', serif;
+}
+</style>
+<style>
+/* save icon from http://codepen.io/Tyriar/pen/mjyKI */
+#save-icon {
+    position: fixed;
+    width: 32px;
+    height: 32px;
+    background-color: #333;
+    border-radius: 2px;
+    border-bottom-left-radius: 7px !important;
+    bottom: 0.5em;
+    right: 1.5em;
+}
+#save-icon:hover {
+    opacity: 0;
+}
+#save-icon:before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    background-color: #CCC;
+    width: 16px;
+    height: 12px;
+    margin-left: -8px;
+}
+#save-icon:after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    background-color: #333;
+    width: 4px;
+    height: 8px;
+    margin-left: -5.33333px;
+    margin-bottom: 2px;
+}
+</style>
+    </head>
+    <body>
+        <div id="row">
+            <div id="editorwrap"><textarea id="editor"></textarea></div>
+            <div id="resultwrap"><div id="result"></div></div>
+            
+        </div>
+        <div id="save-icon"></div>
+<script src="//cdn.rawgit.com/chjj/marked/eddec20467c2d10c7769061ee9074e268500966f/lib/marked.js"></script>
+<script src="//cdn.jsdelivr.net/emojione/2.2.2/lib/js/emojione.min.js"></script>
+<script src="//cdn.rawgit.com/nathancahill/Split.js/2b2563f7ca8ed0ddf732e9c8677db727559fab22/split.min.js"></script>
+<script>
+/* global marked */
+/* global emojione */
+/* global Split */
+/* global localStorage */
+var x;
+var updateMD = function() {
+    document.getElementById('result').innerHTML = emojione.toImage(marked(document.getElementById("editor").value));
+};
+
+var saveStuff = function() {
+    localStorage.setItem('text', document.getElementById("editor").value);
+    document.getElementById('save-icon').style.display = "block";
+};
+
+var loadDrag = function() {
+    var split = localStorage.getItem('split');
+    if (!split) return [50, 50];
+    try {return JSON.parse(split);} catch (e) {return [50, 50];}
+};
+
+var saveDrag = function() {
+    var a = document.getElementById("editorwrap").style.width;
+    var b = document.getElementById("resultwrap").style.width;
+    var s = "[" + a.replace(/calc\((\d*\.?\d*)%\s*-\s*5px\)/, "$1") + "," + b.replace(/calc\((\d*\.?\d*)%\s*-\s*5px\)/, "$1") + "]";
+    localStorage.setItem('split', s);
+};
+
+(function() {
+    Split(['#editorwrap', '#resultwrap'], {
+        sizes: loadDrag(),
+        minSize: 300,
+        onDragEnd: saveDrag
+    });
+    
+    document.getElementById("editor").value = localStorage.getItem('text');
+    updateMD();
+
+    document.getElementById("editor").addEventListener("keyup", function(){updateMD(); document.getElementById('save-icon').style.display = "none"; if (x) clearTimeout(x); x = setTimeout(saveStuff, 400);});
+})();
+</script>
+    </body>
+</html>
