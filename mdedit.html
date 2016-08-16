@@ -208,7 +208,7 @@ var saveDrag = function() {
     document.getElementById("editor").value = localStorage.getItem('text');
     updateMD();
 
-    document.getElementById("editor").addEventListener("keydown", function(){updateMD(); document.getElementById('save-icon').style.display = "none"; if (x) clearTimeout(x); x = setTimeout(saveStuff, 400);});
+    document.getElementById("editor").addEventListener("input", function(){updateMD(); document.getElementById('save-icon').style.display = "none"; if (x) clearTimeout(x); x = setTimeout(saveStuff, 400);});
 })();
 </script>
     </body>
