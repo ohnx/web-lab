@@ -50,8 +50,8 @@ code {
 
 blockquote {
     padding: 0 15px;
-    color: #777;
-    border-left: 4px solid #6D2FA1;
+    color: #444;
+    border-left: 4px solid #333;
     margin: 0;
 }
 
@@ -174,7 +174,7 @@ div {
 /* global Split */
 /* global localStorage */
 var x;
-var defaultText = "# ohnx's markdown editor\nThis is ohnx's live markdown editor :smile:\n\nThis editor has two interesting features:\n\n - Auto-saving. When the save icon is visible, that means that what you have typed has been saved to LocalStorage.\n - Adjustable textbox and preview area size. The bar in the middle allows you to adjust the sizes of the textbox and preview areas.\n\nThanks for checking this out!";
+var defaultText = "# ohnx's markdown editor\nThis is ohnx's live [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) editor :smile:\n\nThis editor has two interesting features:\n\n - Auto-saving. When the save icon is visible, that means that what you have typed has been saved to LocalStorage.\n - Adjustable textbox and preview area size. The bar in the middle allows you to adjust the sizes of the textbox and preview areas.\n\nThanks for checking this out!";
 
 var updateMD = function() {
     document.getElementById('result').innerHTML = emojione.toImage(marked(document.getElementById("editor").value));
