@@ -2,6 +2,7 @@
     <head>
         <title>Markdown editor</title>
         <link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/2.2.2/assets/css/emojione.min.css"/>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
 <style>
 /* splitter styling */
@@ -168,9 +169,11 @@ div {
 <script src="//cdn.rawgit.com/chjj/marked/eddec20467c2d10c7769061ee9074e268500966f/lib/marked.js"></script>
 <script src="//cdn.jsdelivr.net/emojione/2.2.2/lib/js/emojione.min.js"></script>
 <script src="//cdn.rawgit.com/nathancahill/Split.js/2b2563f7ca8ed0ddf732e9c8677db727559fab22/split.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
 <script>
 /* global marked */
 /* global emojione */
+/* global hljs */
 /* global Split */
 /* global localStorage */
 var x;
@@ -181,6 +184,7 @@ var updateMD = function() {
 };
 
 var saveStuff = function() {
+    hljs.initHighlighting();
     localStorage.setItem('text', document.getElementById("editor").value);
     document.getElementById('save-icon').style.display = "block";
 };
