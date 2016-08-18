@@ -184,7 +184,8 @@ var updateMD = function() {
 };
 
 var saveStuff = function() {
-    hljs.initHighlighting();
+    var codeblocks = document.getElementsByTagName('pre');
+    for (var i=0; i < codeblocks.length; i++) hljs.highlightBlock(codeblocks[i]);
     localStorage.setItem('text', document.getElementById("editor").value);
     document.getElementById('save-icon').style.display = "block";
 };
