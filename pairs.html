@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pairing</title>
+    </head>
+    <body>
+        <div class="desc">
+            <h1>Pairings!</h1>
+            <p>One-way random pairings can be generated using this page.</p>
+            <p>ie, Secret Santa - a person is paired with someone else, but only one-way.</p>
+            <p>Paste in a list of names in the textbox to the left (a new name on each line), and get out a list of pairings on the right.</p>
+            <p>People are guaranteed to not be paired with each other (ie, A -&gt; A won't happen), but there may be circles (ie, A -&gt; B -&gt; C -&gt; A).</p>
+            <button id="pair">Click me to generate a pairing</button>
+            <br />
+            <hr />
+            <br />
+        </div>
+        <div class="l">
+            <textarea id="in" rows=15 cols=30 placeholder="Input names here..."></textarea>
+        </div>
+        <br />
+        <div class="r">
+            <textarea id="out" rows=15 cols=30 placeholder="Paired names will show up here..."></textarea>
+        </div>
+        <script>
+            document.getElementById("pair").addEventListener("click", function() {
+                var names = document.getElementById("in").value.split("\n");
+                var pairings = names.slice(0);
+                var out = [];
+                var ci;
+                for (var i = 0; i < names.length; i++) {
+                    while (true) {
+                        ci = Math.floor(Math.random()*pairings.length); /* pick a random name that still is in the list */
+                        if (names[i] != pairings[ci]) {
+                            out.push(names[i] + " -> " + pairings[ci]); /* output as a pairing */
+                            pairings.splice(ci, 1); /* remove the name from the list of possible names */
+                            break; /* escape the loop */
+                        } else if (pairings.length == 1) { /* only 1 name left, so we can't create a pair without using yourself */
+                            /* display an error message */
+                            document.getElementById("out").value = "Failed to generate a pairing. Please press the button to try again.\n\nThis is as far as the program got: "+out.join("\n");
+                            return;
+                        }
+                        /* failed to find one that wasn't itself, so keep trying */
+                    }
+                }
+                document.getElementById("out").value = out.join("\n");
+            });
+        </script>
+    </body>
+</html>
