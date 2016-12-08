@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lint Errors/Warnings</title>
+    </head>
+    <body>
+        <div class="desc">
+            <h1>Lint!</h1>
+            <p>The output of <code>haikuporter --lint</code> contains a lot of valid recipes.</p>
+            <p>What if you just want to see the errors and warnings? Then paste the full output in the first textarea, and press the button below!</p>
+            <button id="ewonly">Click me to only see errors and warnings</button>
+            <br />
+            <hr />
+            <br />
+        </div>
+        <div class="l">
+            <textarea id="in" rows=15 cols=30 placeholder="Input lint here..."></textarea>
+        </div>
+        <br />
+        <div class="r">
+            <textarea id="out" rows=15 cols=30 placeholder="Linted lint here..."></textarea>
+        </div>
+        <script>
+            document.getElementById("ewonly").addEventListener("click", function() {
+                var input = document.getElementById("in").value;
+                var output = input.match(/(Error|Warning): (.*)/gmi);
+                document.getElementById("out").value = output.join("\n");
+            });
+        </script>
+    </body>
+</html>
