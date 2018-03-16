@@ -1,0 +1,241 @@
+Afghanistan	Afghan Persian 80%, Pashto 47%, Uzbek 11%, English 5%, Turkmen 2%, Urdu 2%, Pashayi 1%, Nuristani 1%, Arabic 1%
+Akrotiri	English, Greek
+Albania	Albanian 98.8% , Greek 0.5%, other 0.6%, unspecified 0.1%
+Algeria	Arabic, French, Berber or Tamazight; dialects include Kabyle Berber, Shawiya Berber, Mzab Berber, Tuareg Berber
+American Samoa	Samoan 88.6%, English 3.9%, Tongan 2.7%, other Pacific islander 3%, other 1.8%
+Andorra	Catalan, French, Castilian, Portuguese
+Angola	Portuguese 71.2%, Umbundu 23%, Kikongo 8.2%, Kimbundu 7.8%, Chokwe 6.5%, Nhaneca 3.4%, Nganguela 3.1%, Fiote 2.4%, Kwanhama 2.3%, Muhumbi 2.1%, Luvale 1%, other 3.6%
+Anguilla	English
+Antigua and Barbuda	English, Antiguan creole
+Argentina	Spanish, Italian, English, German, French, indigenous
+Armenia	Armenian 97.9%, Kurdish 1%, other 1%
+Aruba	Papiamento 69.4%, Spanish 13.7%, English 7.1%, Dutch 6.1%, Chinese 1.5%, other 1.7%, unspecified 0.4%
+Australia	English 76.8%, Mandarin 1.6%, Italian 1.4%, Arabic 1.3%, Greek 1.2%, Cantonese 1.2%, Vietnamese 1.1%, other 10.4%, unspecified 5%
+Austria	German 88.6%, Turkish 2.3%, Serbian 2.2%, Croatian 1.6%, other 5.3%
+Azerbaijan	Azerbaijani 92.5%, Russian 1.4%, Armenian 1.4%, other 4.7%
+Bahamas, The	English, Creole
+Bahrain	Arabic, English, Farsi, Urdu
+Bangladesh	Bangla 98.8%, other 1.2%
+Barbados	English, Bajan
+Belarus	Russian 70.2%, Belarusian 23.4%, other 3.1%, unspecified 3.3%
+Belgium	Dutch 60%, French 40%, German less than 1%
+Belize	English 62.9%, Spanish 56.6%, Creole 44.6%, Maya 10.5%, German 3.2%, Garifuna 2.9%, other 1.8%, unknown 0.3%, none 0.2%
+Benin	French, Fon and Yoruba, tribal languages
+Bermuda	English, Portuguese
+Bhutan	Sharchhopka 28%, Dzongkha 24%, Lhotshamkha 22%, other 26%
+Bolivia	Spanish 60.7%, Quechua 21.2%, Aymara 14.6%, foreign languages 2.4%, Guarani 0.6%, other native languages 0.4%, none 0.1%
+Bosnia and Herzegovina	Bosnian 52.9%, Serbian 30.8%, Croatian 14.6%, other 1.6%, no answer 0.2%
+Botswana	Setswana 77.3%, Sekalanga 7.4%, Shekgalagadi 3.4%, English 2.8%, Zezuru/Shona 2%, Sesarwa 1.7%, Sembukushu 1.6%, Ndebele 1%, other 2.8%
+Brazil	Portuguese
+British Virgin Islands	English
+Brunei	Malay, English, Chinese dialects
+Bulgaria	Bulgarian 76.8%, Turkish 8.2%, Romani 3.8%, other 0.7%, unspecified 10.5%
+Burkina Faso	French, native African languages belonging to Sudanic family spoken by 90% of the population
+Burma	Burmese
+Burundi	Kirundi 29.7%, Kirundi and other language 9.1%, French and French and other language 0.3%, Swahili and Swahili and other language 0.2%, English 0.06%, more than 2 languages 3.7%, unspecified 56.9%
+Cabo Verde	Portuguese, Crioulo
+Cambodia	Khmer 96.3%, other 3.7%
+Cameroon	24 major African language groups, English, French
+Canada	English 58.7%, French 22%, Punjabi 1.4%, Italian 1.3%, Spanish 1.3%, German 1.3%, Cantonese 1.2%, Tagalog 1.2%, Arabic 1.1%, other 10.5%
+Cayman Islands	English 90.9%, Spanish 4%, Filipino 3.3%, other 1.7%, unspecified 0.1%
+Central African Republic	French, Sangho, tribal languages
+Chad	French, Arabic, Sara, more than 120 different languages and dialects
+Chile	Spanish 99.5%, English 10.2%, indigenous 1%, other 2.3%, unspecified 0.2%
+China	Mandarin, Cantonese
+Christmas Island	English, Mandarin, Cantonese, Malay, Tagalog
+Cocos (Keeling) Islands	Malay, English
+Colombia	Spanish
+Comoros	Arabic, French, Shikomoro
+Congo, Democratic Republic of the	French, Lingala, Kingwana, Kikongo, Tshiluba
+Congo, Republic of the	French, Lingala and Monokutuba, many local languages and dialects
+Cook Islands	English 86.4%, Cook Islands Maori 76.2%, other 8.3%
+Costa Rica	Spanish, English
+Cote d'Ivoire	French, 60 native dialects of which Dioula is the most widely spoken
+Croatia	Croatian 95.6%, Serbian 1.2%, other 3%, unspecified 0.2%
+Cuba	Spanish
+Curacao	Papiamento 81.2%, Dutch 8%, Spanish 4%, English 2.9%, other 3.9%
+Cyprus	Greek 80.9%, Turkish 0.2%, English 4.1%, Romanian 2.9%, Russian 2.5%, Bulgarian 2.2%, Arabic 1.2%, Filipino 1.1%, other 4.3%, unspecified 0.6%
+Czechia	Czech 95.4%, Slovak 1.6%, other 3%
+Denmark	Danish, Faroese, Greenlandic, German
+Dhekelia	English, Greek
+Djibouti	French, Arabic, Somali, Afar
+Dominica	English, French patois
+Dominican Republic	Spanish
+Ecuador	Spanish 93%, Quechua 4.1%, other indigenous 0.7%, foreign 2.2%
+Egypt	Arabic, English and French widely understood by educated classes
+El Salvador	Spanish, Nawat
+Equatorial Guinea	Spanish 67.6%, other 32.4%
+Eritrea	Tigrinya, Arabic, English, Tigre, Kunama, Afar, other Cushitic languages
+Estonia	Estonian 68.5%, Russian 29.6%, Ukrainian 0.6%, other 1.2%, unspecified 0.1%
+Ethiopia	Oromo 33.8%, Amharic 29.3%, Somali 6.2%, Tigrigna 5.9%, Sidamo 4%, Wolaytta 2.2%, Gurage 2%, Afar 1.7%, Hadiyya 1.7%, Gamo 1.5%, Gedeo 1.3%, Opuuo 1.2%, Kafa 1.1%, other 8.1%, English, Arabic
+European Union	Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovene, Spanish, Swedish
+Falkland Islands (Islas Malvinas)	English 89%, Spanish 7.7%, other 3.3%
+Faroe Islands	Faroese 93.8%, Danish 3.2%, other 3%
+Fiji	English, Fijian, Hindustani
+Finland	Finnish 88.3%, Swedish 5.3%, Russian 1.4%, other 5%
+France	French 100%, declining regional dialects and languages
+overseas departments: French, Creole patois, Mahorian
+French Polynesia	French 70%, Polynesian 28.2%, other 1.8%
+Gabon	French, Fang, Myene, Nzebi, Bapounou/Eschira, Bandjabi
+Gambia, The	English, Mandinka, Wolof, Fula, other indigenous vernaculars
+Gaza Strip	Arabic, Hebrew, English
+Georgia	Georgian 87.6%, Azeri 6.2%, Armenian 3.9%, Russian 1.2%, other 1%
+Germany	German
+Ghana	Asante 16%, Ewe 14%, Fante 11.6%, Boron 4.9%, Dagomba 4.4%, Dangme 4.2%, Dagarte 3.9%, Kokomba 3.5%, Akyem 3.2%, Ga 3.1%, other 31.2%
+Gibraltar	English, Spanish, Italian, Portuguese
+Greece	Greek 99%, other 1%
+Greenland	Greenlandic, Danish, English
+Grenada	English, French patois
+Guam	English 43.6%, Filipino 21.2%, Chamorro 17.8%, other Pacific island languages 10%, Asian languages 6.3%, other 1.1%
+Guatemala	Spanish 68.9%, K'iche 8.7%, Q'eqchi 7%, Mam 4.6%, Kaqchikel 4.3%, other 6.6%
+Guernsey	English, French, Norman-French dialect spoken in country districts
+Guinea	French
+Guinea-Bissau	Crioulo, Portuguese, Pular, Mandingo
+Guyana	English, Guyanese Creole, Amerindian languages, Indian languages, Chinese
+Haiti	French, Creole
+Holy See (Vatican City)	Italian, Latin, French, various other languages
+Honduras	Spanish, Amerindian dialects
+Hong Kong	Cantonese 88.9%, English 4.3%, Mandarin 1.9%, other Chinese dialects 3.1%, other 1.9%
+Hungary	Hungarian 99.6%, English 16%, German 11.2%, Russian 1.6%, Romanian 1.3%, French 1.2%, other 4.2%
+Iceland	Icelandic, English, Nordic languages, German widely spoken
+India	Hindi 41%, Bengali 8.1%, Telugu 7.2%, Marathi 7%, Tamil 5.9%, Urdu 5%, Gujarati 4.5%, Kannada 3.7%, Malayalam 3.2%, Oriya 3.2%, Punjabi 2.8%, Assamese 1.3%, Maithili 1.2%, other 5.9%
+Indonesia	Bahasa Indonesia, English, Dutch, local dialects
+Iran	Persian, Azeri Turkic and Turkic dialects, Kurdish, Gilaki and Mazandarani, Luri, Balochi, Arabic, other
+Iraq	Arabic, Kurdish, Turkmen, Syriac, and Armenian are official in areas where native speakers of these languages constitute a majority of the population)
+Ireland	English, Irish
+Isle of Man	English, Manx Gaelic
+Israel	Hebrew, Arabic, English
+Italy	Italian, German, French, Slovene
+Jamaica	English, English patois
+Japan	Japanese
+Jersey	English 94.5%, Portuguese 4.6%, other 0.9%
+Jordan	Arabic, English
+Kazakhstan	Kazakh 74%, Russian 94.4%
+Kenya	English, Kiswahili, numerous indigenous languages
+Kiribati	I-Kiribati, English
+Korea, North	Korean
+Korea, South	Korean, English
+Kosovo	Albanian 94.5%, Bosnian 1.7%, Serbian 1.6%, Turkish 1.1%, other 0.9%, unspecified 0.1%
+Kuwait	Arabic, English widely spoken
+Kyrgyzstan	Kyrgyz 71.4%, Uzbek 14.4%, Russian 9%, other 5.2%
+Laos	Lao, French, English, various ethnic languages
+Latvia	Latvian 56.3%, Russian 33.8%, other 0.6%, unspecified 9.4%
+Lebanon	Arabic, French, English, Armenian
+Lesotho	Sesotho, English, Zulu, Xhosa
+Liberia	English 20%, some 20 ethnic group languages few of which can be written or used in correspondence
+Libya	Arabic, Italian, English; Berber
+Liechtenstein	German 94.5%, Italian 1.1%, other 4.3%
+Lithuania	Lithuanian 82%, Russian 8%, Polish 5.6%, other 0.9%, unspecified 3.5%
+Luxembourg	Luxembourgish 55.8%, Portuguese 15.7%, French 12.1%, German 3.1%, Italian 2.9%, English 2.1%, other 8.4%
+Macau	Cantonese 80.1%, Mandarin 5.5%, other Chinese dialects 5.3%, Tagalog 3%, English 2.8%, Portuguese 0.6%, other 2.8%
+Macedonia	Macedonian 66.5%, Albanian 25.1%, Turkish 3.5%, Romani 1.9%, Serbian 1.2%, other 1.8%
+Madagascar	French, Malagasy, English
+Malawi	English, Chichewa, Chinyanja, Chiyao, Chitumbuka, Chilomwe, Chinkhonde, Chingoni, Chisena, Chitonga, Chinyakyusa, Chilambya
+Malaysia	Bahasa Malaysia, English, Cantonese, Mandarin, Tamil, Telugu, Malayalam, Panjabi, Thai
+Maldives	Dhivehi, English
+Mali	French, Bambara 46.3%, Peul/Foulfoulbe 9.4%, Dogon 7.2%, Maraka/Soninke 6.4%, Malinke 5.6%, Sonrhai/Djerma 5.6%, Minianka 4.3%, Tamacheq 3.5%, Senoufo 2.6%, Bobo 2.1%, unspecified 0.7%, other 6.3%
+Malta	Maltese 90.1%, English 6%, multilingual 3%, other 0.9%
+Marshall Islands	Marshallese 98.2%, other languages 1.8%
+Mauritania	Arabic, Pular, Soninke, Wolof, French
+Mauritius	Creole 86.5%, Bhojpuri 5.3%, French 4.1%, two languages 1.4%, other 2.6%, unspecified 0.1%
+Mexico	Spanish only 92.7%, Spanish and indigenous languages 5.7%, indigenous only 0.8%, unspecified 0.8%
+Micronesia, Federated States of	English, Chuukese, Kosrean, Pohnpeian, Yapese, Ulithian, Woleaian, Nukuoro, Kapingamarangi
+Moldova	Moldovan/Romanian 80.2%, Russian 9.7%, Gagauz 4.2%, Ukrainian 3.9%, Bulgarian 1.5%, Romani 0.3%, other 0.2%
+Monaco	French, English, Italian, Monegasque
+Mongolia	Mongolian 90%, Turkic, Russian
+Montenegro	Serbian 42.9%, Montenegrin 37%, Bosnian 5.3%, Albanian 5.3%, Serbo-Croat 2%, other 3.5%, unspecified 4%
+Montserrat	English
+Morocco	Arabic, Berber languages, French
+Mozambique	Emakhuwa 25.3%, Portuguese 10.7%, Xichangana 10.3%, Cisena 7.5%, Elomwe 7%, Echuwabo 5.1%, other Mozambican languages 30.1%, other 0.3%, unspecified 3.7%
+Namibia	Oshivambo languages 48.9%, Nama/Damara 11.3%, Afrikaans 10.4%, Otjiherero languages 8.6%, Kavango languages 8.5%, Caprivi languages 4.8%, English 3.4%, other African languages 2.3%, other 1.7%
+Nauru	Nauruan 93%, English 2%, other 5%
+Nepal	Nepali 44.6%, Maithali 11.7%, Bhojpuri 6%, Tharu 5.8%, Tamang 5.1%, Newar 3.2%, Magar 3%, Bajjika 3%, Urdu 2.6%, Avadhi 1.9%, Limbu 1.3%, Gurung 1.2%, other 10.4%, unspecified 0.2%
+Netherlands	Dutch
+New Caledonia	French, 33 Melanesian-Polynesian dialects
+New Zealand	English 89.8%, Maori 3.5%, Samoan 2%, Hindi 1.6%, French 1.2%, Northern Chinese 1.2%, Yue 1%, other or not stated 20.5%, New Zealand Sign Language
+Nicaragua	Spanish 95.3%, Miskito 2.2%, Mestizo of the Caribbean coast 2%, other 0.5%
+Niger	French, Hausa, Djerma
+Nigeria	English, Hausa, Yoruba, Igbo, Fulani, over 500 additional indigenous languages
+Niue	Niuean 46%, Niuean and English 32%, English 11%, Niuean and others 5%, other 6%
+Norfolk Island	English 67.6%, other 32.4%
+Northern Mariana Islands	Philippine languages 32.8%, Chamorro 24.1%, English 17%, other Pacific island languages 10.1%, Chinese 6.8%, other Asian languages 7.3%, other 1.9%
+Norway	Bokmal Norwegian, Nynorsk Norwegian, small Sami- and Finnish-speaking minorities
+Oman	Arabic, English, Baluchi, Urdu, Indian dialects
+Pakistan	Punjabi 48%, Sindhi 12%, Saraiki 10%, Pashto 8%, Urdu 8%, Balochi 3%, Hindko 2%, Brahui 1%, English, Burushaski, and other 8%
+Palau	Palauan 65.2%, other Micronesian 1.9%, English 19.1%, Filipino 9.9%, Chinese 1.2%, other 2.8%
+Panama	Spanish, indigenous languages, Panamanian English Creole, English, Chinese, Arabic, French Creole
+Papua New Guinea	Tok Pisin, English, Hiri Motu, indigenous languages spoken
+Paraguay	Spanish, Guarani
+Peru	Spanish 84.1%, Quechua 13%, Aymara 1.7%, Ashaninka 0.3%, other native languages 0.7%, other 0.2%
+Philippines	Filipino and English; eight major dialects - Tagalog, Cebuano, Ilocano, Hiligaynon or Ilonggo, Bicol, Waray, Pampango, and Pangasinan
+Pitcairn Islands	English, Pitkern
+Poland	Polish 98.2%, Silesian 1.4%, other 1.1%, unspecified 1.3%
+Portugal	Portuguese, Mirandese
+Puerto Rico	Spanish, English
+Qatar	Arabic, English commonly used as a second language
+Romania	Romanian 85.4%, Hungarian 6.3%, Romani 1.2%, other 1%, unspecified 6.1%
+Russia	Russian 85.7%, Tatar 3.2%, Chechen 1%, other 10.1%
+Rwanda	Kinyarwanda 93.2%, other 6.3%
+Saint Barthelemy	French, English
+Saint Helena, Ascension, and Tristan da Cunha	English
+Saint Kitts and Nevis	English
+Saint Lucia	English, French patois
+Saint Martin	French, English, Dutch, French Patois, Spanish, Papiamento
+Saint Pierre and Miquelon	French
+Saint Vincent and the Grenadines	English, French patois
+Samoa	Samoan, English
+San Marino	Italian
+Sao Tome and Principe	Portuguese 98.4%, Forro 36.2%, Cabo Verdian 8.5%, French 6.8%, Angolar 6.6%, English 4.9%, Lunguie 1%, other 2.4%
+Saudi Arabia	Arabic
+Senegal	French, Wolof, Pular, Jola, Mandinka, Serer, Soninke
+Serbia	Serbian 88.1%, Hungarian 3.4%, Bosnian 1.9%, Romani 1.4%, other 3.4%, undeclared or unknown 1.8%
+Seychelles	Seychellois Creole 89.1%, English 5.1%, French 0.7%, other 3.8%, unspecified 1.4%
+Sierra Leone	English, Mende, Temne, Krio
+Singapore	Mandarin 36.3%, English 29.8%, Malay 11.9%, Hokkien 8.1%, Cantonese 4.1%, Tamil 3.2%, Teochew 3.2%, other Indian languages 1.2%, other Chinese dialects 1.1%, other 1.1%
+Sint Maarten	English 67.5%, Spanish 12.9%, Creole 8.2%, Dutch 4.2%, Papiamento 2.2%, French 1.5%, other 3.5%
+Slovakia	Slovak 78.6%, Hungarian 9.4%, Roma 2.3%, Ruthenian 1%, other or unspecified 8.8%
+Slovenia	Slovenian 91.1%, Serbo-Croatian 4.5%, other or unspecified 4.4%, Italian, Hungarian
+Solomon Islands	Melanesian pidgin, English, 120 indigenous languages
+Somalia	Somali, Arabic, Italian, English
+South Africa	isiZulu 22.7%, isiXhosa 16%, Afrikaans 13.5%, English 9.6%, Sepedi 9.1%, Setswana 8%, Sesotho 7.6%, Xitsonga 4.5%, siSwati 2.5%, Tshivenda 2.4%, isiNdebele 2.1%, sign language 0.5%, other 1.6%
+South Sudan	English, Arabic, regional languages include Dinka, Nuer, Bari, Zande, Shilluk
+Spain	Castilian Spanish 74%, Catalan 17%, Galician 7%, Basque 2%
+Sri Lanka	Sinhala 74%, Tamil 18%, other 8%
+Sudan	Arabic, English, Nubian, Ta Bedawie, Fur
+Suriname	Dutch, English, Sranang Tongo, Caribbean Hindustani, Javanese
+Svalbard	Norwegian, Russian
+Swaziland	English, siSwati
+Sweden	Swedish
+Switzerland	German 63%, French 22.7%, Italian 8.1%, English 4.9%, Portuguese 3.7%, Albanian 3%, Serbo-Croatian 2.4%, Spanish 2.2%, Romansch 0.5%, other 7.1%
+Syria	Arabic, Kurdish, Armenian, Aramaic, Circassian, French, English
+Taiwan	Mandarin Chinese, Taiwanese, Hakka dialects
+Tajikistan	Tajik, Russian widely used in government and business
+Tanzania	Kiswahili or Swahili, Kiunguja, English, Arabic, many local languages
+Thailand	Thai 90.7%, Burmese 1.3%, other 8%
+Timor-Leste	Tetun Prasa 30.6%, Mambai 16.6%, Makasai 10.5%, Tetun Terik 6.1%, Baikenu 5.9%, Kemak 5.8%, Bunak 5.5%, Tokodede 4%, Fataluku 3.5%, Waima'a 1.8%, Galoli 1.4%, Naueti 1.4%, Idate 1.2%, Midiki 1.2%, other 4.5%
+Togo	French, Ewe and Mina, Kabye and Dagomba
+Tokelau	Tokelauan 88.1%, English 48.6%, Samoan 26.7%, Tuvaluan 11.2%, Kiribati 1.5%, other 2.8%, none 2.8%, unspecified 0.8%
+Tonga	English and Tongan 87%, Tongan 10.7%, English 1.2%, other 1.1%, unspecified 0.03%
+Trinidad and Tobago	English, Trinidadian Creole English, Tobagonian Creole English, Caribbean Hindustani, Trinidadian Creole French, Spanish, Chinese
+Tunisia	Arabic, French, Berber
+Turkey	Turkish, Kurdish, other minority languages
+Turkmenistan	Turkmen 72%, Russian 12%, Uzbek 9%, other 7%
+Turks and Caicos Islands	English
+Tuvalu	Tuvaluan, English, Samoan, Kiribati
+Uganda	English, Ganda or Luganda, Nilo-Saharan languages, Swahili, Arabic
+Ukraine	Ukrainian 67.5%, Russian 29.6%, ther 2.9%
+United Arab Emirates	Arabic, Persian, English, Hindi, Urdu
+United Kingdom	English
+United States	English 79%, Spanish 13%, other Indo-European 3.7%, Asian and Pacific island 3.4%, other 1%
+Uruguay	Spanish, Portunol, Brazilero
+Uzbekistan	Uzbek 74.3%, Russian 14.2%, Tajik 4.4%, other 7.1%
+Vanuatu	local languages 63.2%, Bislama 33.7%, English 2%, French 0.6%, other 0.5%
+Venezuela	Spanish, numerous indigenous dialects
+Vietnam	Vietnamese, English, some French, Chinese, and Khmer, mountain area languages
+Virgin Islands	English 71.6%, Spanish or Spanish Creole 17.2%, French or French Creole 8.6%, other 2.5%
+Wallis and Futuna	Wallisian 58.9%, Futunian 30.1%, French 10.8%, other 0.2%
+West Bank	Arabic, Hebrew, English
+Western Sahara	Standard Arabic, Hassaniya Arabic, Moroccan Arabic
+Yemen	Arabic
+Zambia	Bembe 33.4%, Nyanja 14.7%, Tonga 11.4%, Lozi 5.5%, Chewa 4.5%, Nsenga 2.9%, Tumbuka 2.5%, Lunda 1.9%, Kaonde 1.8%, Lala 1.8%, Lamba 1.8%, English 1.7%, Luvale 1.5%, Mambwe 1.3%, Namwanga 1.2%, Lenje 1.1%, Bisa 1%, other 9.7%, unspecified 0.2%
+Zimbabwe	Shona, Ndebele, English, Chewa, Chibarwe, Kalanga, Koisan, Nambya, Ndau, Shangani, sign language, Sotho, Tonga, Tswana, Venda, Xhosa

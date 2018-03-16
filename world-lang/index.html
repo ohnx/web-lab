@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>World Language Map</title>
+        <style>
+            body { margin: 0; overflow: hidden; }
+            body, .datamaps-hoverover { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Arial', Arial, sans-serif !important; }
+            #modal { transition: 0.2s all; position: fixed; opacity: 0.5; display: inline-block; top: 0; right: 0; z-index: 1000; background: white; padding: 0.5em; max-height: 10%; max-width: 50%; overflow: auto; }
+            #modal:hover { opacity: 1; max-height: 50%; }
+            label { display: block; padding-bottom: 0.4em; }
+        </style>
+    </head>
+    <body>
+        <div id="modal">
+            <h2>What languages can you speak?</h2>
+            <p>You're able to communicate with <span style="font-weight: bold;" id="language_percentage">0%</span> of the world!</p>
+            <fieldset id="language_checkboxes">Loading languages...</fieldset>
+            <p>Data Sources</p>
+            <ul>
+                <li><a href="https://github.com/OpenBookPrices/country-data">Country and Language info</a></li>
+                <li><a href="https://www.npmjs.com/package/countryjs">Population data</a></li>
+                <li><a href="https://github.com/markmarkoh/datamaps">World map</a></li>
+            </ul>
+        </div>
+        <div id="map"></div>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
+        <script src="data/datamaps.world.hires.min.js"></script>
+        <script src="data/language_codes.js"></script>
+        <script src="data/country_languages.js"></script>
+        <script>
+            /* global Datamap, d3, randomColor, language_codes, country_languages, navigator */
+            var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+            var str = '';
+            var used_languages = {}, used_languages_array = [];
+            var selected_languages = [];
+            var country_colours = {};
+            var totalPopulation = 0, runningTotalPopulation = 0;
+            const NO_COLOUR = '#ccc';
+            /* build a list of all used language codes */
+            for (var country in country_languages) {
+                if (!country_languages.hasOwnProperty(country)) continue;
+                for (var i = 0; i < country_languages[country].languages.length; i++) {
+                    used_languages[country_languages[country].languages[i]] = true;
+                }
+                totalPopulation += country_languages[country].population == undefined ? 0 : country_languages[country].population;
+            }
+            for (var code in used_languages) {
+                if (!used_languages.hasOwnProperty(code)) continue;
+                used_languages_array.push(code);
+                country_colours[code] = randomColor();
+            }
+            used_languages_array.sort(function(a,b){
+                if (language_codes[a].name > language_codes[b].name) return 1;
+                else if (language_codes[a].name < language_codes[b].name) return -1;
+                return 0;
+            });
+            for (var i = 0; i < used_languages_array.length; i++) {
+                str += '<label><input type="checkbox" value="' + used_languages_array[i] + '" class="language_hook">';
+                str += language_codes[used_languages_array[i]].name + '</label>';
+            }
+            setTimeout(function(){
+                document.getElementById('language_checkboxes').innerHTML = str;
+                setTimeout(function() {
+                    var checkboxes = document.getElementsByClassName('language_hook');
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        checkboxes[i].addEventListener('click', updateMap);
+                    }
+                }, 100);
+            }, 10);
+            var map = new Datamap({
+                scope: 'world',
+                element: document.getElementById('map'),
+                projection: 'mercator',
+                responsive: true,
+                fills: {
+                    defaultFill: NO_COLOUR
+                },
+                done: function(datamap){
+                    datamap.svg.call(d3.behavior.zoom().on("zoom", redraw));
+                    function redraw() {
+                        datamap.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+                    }
+                },
+                data: country_languages,
+                geographyConfig: {
+                    popupTemplate: function(geo, data) {
+                        var str = '<div class="hoverinfo"><strong>Languages spoken in ' + geo.properties.name + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
+                        var lang;
+                        for (var i = 0; i < data.languages.length; i++) {
+                            lang = (data.languages[i] in language_codes) ? language_codes[data.languages[i]].name : data.languages[i];
+                            str += '<li>' + lang + '</li>';
+                        }
+                        str += '</ul></div>';
+                        return str;
+                    }
+                }
+            });
+            d3.select(window).on('resize', function() {
+                map.resize();
+            });
+            function updateMap(sender) {
+                var language_code = sender.target.value;
+                /* build list of countries with this language */
+                var langs_to_update = {};
+                var updatedColor = sender.target.checked ? country_colours[language_code] : NO_COLOUR;
+                if (sender.target.checked) selected_languages.push(language_code);
+                else {
+                    var index = selected_languages.indexOf(language_code);
+                    if (index > -1) selected_languages.splice(index, 1);
+                }
+
+                for (var country in country_languages) {
+                    if (!country_languages.hasOwnProperty(country)) continue;
+                    if (country_languages[country].languages.indexOf(language_code) >= 0) {
+                        var dontChangeColour = false;
+                        /* check that this country doesn't already have a selected language (but only if deselecting) */
+                        for (var i = 0; i < country_languages[country].languages.length && !sender.target.checked; i++) {
+                            if (selected_languages.indexOf(country_languages[country].languages[i]) >= 0) {
+                                /* don't change colour */
+                                dontChangeColour = true;
+                                break;
+                            }
+                        }
+                        /* always change colour if we're updating */
+                        if (!dontChangeColour) {
+                            langs_to_update[country] = updatedColor;
+                            console.log(country + " has population " + country_languages[country].population);
+                            /* TODO - fix data collection so there are no undefined */
+                            var nbrToAdd = country_languages[country].population == undefined ? 0 : country_languages[country].population;
+                            if (!sender.target.checked) nbrToAdd = -nbrToAdd; /* subtracting */
+                            runningTotalPopulation += nbrToAdd; /* TODO this is broken */
+                        }
+                    }
+                }
+                console.log(langs_to_update);
+                map.updateChoropleth(langs_to_update);
+                var percentage = runningTotalPopulation / totalPopulation;
+                percentage *= 1000;
+                percentage = Math.round(percentage);
+                percentage /= 10;
+                document.getElementById('language_percentage').innerHTML = percentage + '%';
+            }
+        </script>
+    </body>
+</html>
