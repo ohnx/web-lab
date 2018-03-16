@@ -66,6 +66,9 @@ this is really annoying.
 6. "Philippines" make it only have Filipino and English
 4. Save as "languages.txt"
 
+We have a bit of a pickle here. Some of the languages don't come with percentage_spoken. So, we invent a number.
+How? Just assume equal share. I know it's bad.
+
 now open nodejs repl.
 
 ```js
@@ -147,11 +150,16 @@ for (var cc in data_bycc) {
         languages[i] = languages[i].trim().replace('%', '');
         var lang_name = languages[i].substring(0, languages[i].lastIndexOf(' '));
         var percentage_spoken = languages[i].substring(languages[i].lastIndexOf(' ') + 1, languages[i].length);
+        var certainty = true;
         if (isNaN(percentage_spoken)) {
             if (percentage_spoken.length != 0) {
                 lang_name += ' ' + percentage_spoken;
             }
-            percentage_spoken = 0;
+            /* this is terrible. */
+            percentage_spoken = 100 / languages.length;
+            if (languages.length >= 3)
+                percentage_spoken *= (Math.random() * (0.5) + 0.25);
+            certainty = false;
         } else {
             percentage_spoken = +percentage_spoken;
             if (percentage_spoken < 3) percentage_spoken = -1;
@@ -163,15 +171,18 @@ for (var cc in data_bycc) {
                 lang_name.indexOf('tribal') == 0 || lang_name.indexOf('dialect') >= 0) {
                 
             } else {
-                data_final[cc].languages.push({language: lang_name.replace('languages', '').trim(), percentage_spoken: percentage_spoken});
+                data_final[cc].languages.push({name: lang_name.replace('languages', '').trim(), percent: +percentage_spoken.toFixed(1), y: certainty});
             }
         }
     }
 }
 
-fs.writeFile("country_info.js", "var country_info = " + JSON.stringify(data_final) + ";", function(){});
 fs.writeFile("country_info.json", JSON.stringify(data_final, null, 2), function(){});
 
 ```
 
+Now update `country_info.json` as needed. To generate the final thing:
 
+```js
+fs.writeFile("country_info.js", "var country_info = " + JSON.stringify(require('./country_info.json')) + ";", function(){});
+```

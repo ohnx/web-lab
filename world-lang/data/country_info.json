@@ -4,20 +4,24 @@
     "emoji": "🇦🇫",
     "languages": [
       {
-        "language": "Afghan Persian",
-        "percentage_spoken": 80
+        "name": "Afghan Persian",
+        "percent": 80,
+        "y": true
       },
       {
-        "language": "Pashto",
-        "percentage_spoken": 47
+        "name": "Pashto",
+        "percent": 47,
+        "y": true
       },
       {
-        "language": "Uzbek",
-        "percentage_spoken": 11
+        "name": "Uzbek",
+        "percent": 11,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 5
+        "name": "English",
+        "percent": 5,
+        "y": true
       }
     ]
   },
@@ -26,8 +30,9 @@
     "emoji": "🇦🇱",
     "languages": [
       {
-        "language": "Albanian",
-        "percentage_spoken": 98.8
+        "name": "Albanian",
+        "percent": 98.8,
+        "y": true
       }
     ]
   },
@@ -36,16 +41,19 @@
     "emoji": "🇩🇿",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 18.5,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 14.9,
+        "y": false
       },
       {
-        "language": "Berber",
-        "percentage_spoken": 0
+        "name": "Berber",
+        "percent": 16.6,
+        "y": false
       }
     ]
   },
@@ -54,12 +62,14 @@
     "emoji": "🇦🇸",
     "languages": [
       {
-        "language": "Samoan",
-        "percentage_spoken": 88.6
+        "name": "Samoan",
+        "percent": 88.6,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 3.9
+        "name": "English",
+        "percent": 3.9,
+        "y": true
       }
     ]
   },
@@ -68,32 +78,39 @@
     "emoji": "🇦🇴",
     "languages": [
       {
-        "language": "Portuguese",
-        "percentage_spoken": 71.2
+        "name": "Portuguese",
+        "percent": 71.2,
+        "y": true
       },
       {
-        "language": "Umbundu",
-        "percentage_spoken": 23
+        "name": "Umbundu",
+        "percent": 23,
+        "y": true
       },
       {
-        "language": "Kikongo",
-        "percentage_spoken": 8.2
+        "name": "Kikongo",
+        "percent": 8.2,
+        "y": true
       },
       {
-        "language": "Kimbundu",
-        "percentage_spoken": 7.8
+        "name": "Kimbundu",
+        "percent": 7.8,
+        "y": true
       },
       {
-        "language": "Chokwe",
-        "percentage_spoken": 6.5
+        "name": "Chokwe",
+        "percent": 6.5,
+        "y": true
       },
       {
-        "language": "Nhaneca",
-        "percentage_spoken": 3.4
+        "name": "Nhaneca",
+        "percent": 3.4,
+        "y": true
       },
       {
-        "language": "Nganguela",
-        "percentage_spoken": 3.1
+        "name": "Nganguela",
+        "percent": 3.1,
+        "y": true
       }
     ]
   },
@@ -102,8 +119,9 @@
     "emoji": "🇦🇮",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -112,12 +130,14 @@
     "emoji": "🇦🇬",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Antiguan creole",
-        "percentage_spoken": 0
+        "name": "Antiguan creole",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -126,24 +146,29 @@
     "emoji": "🇦🇷",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 8.5,
+        "y": false
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 8.7,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 12.3,
+        "y": false
       },
       {
-        "language": "German",
-        "percentage_spoken": 0
+        "name": "German",
+        "percent": 6,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 5.4,
+        "y": false
       }
     ]
   },
@@ -152,8 +177,9 @@
     "emoji": "🇦🇲",
     "languages": [
       {
-        "language": "Armenian",
-        "percentage_spoken": 97.9
+        "name": "Armenian",
+        "percent": 97.9,
+        "y": true
       }
     ]
   },
@@ -162,20 +188,24 @@
     "emoji": "🇦🇼",
     "languages": [
       {
-        "language": "Papiamento",
-        "percentage_spoken": 69.4
+        "name": "Papiamento",
+        "percent": 69.4,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 13.7
+        "name": "Spanish",
+        "percent": 13.7,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 7.1
+        "name": "English",
+        "percent": 7.1,
+        "y": true
       },
       {
-        "language": "Dutch",
-        "percentage_spoken": 6.1
+        "name": "Dutch",
+        "percent": 6.1,
+        "y": true
       }
     ]
   },
@@ -184,8 +214,9 @@
     "emoji": "🇦🇺",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 76.8
+        "name": "English",
+        "percent": 76.8,
+        "y": true
       }
     ]
   },
@@ -194,8 +225,9 @@
     "emoji": "🇦🇹",
     "languages": [
       {
-        "language": "German",
-        "percentage_spoken": 88.6
+        "name": "German",
+        "percent": 88.6,
+        "y": true
       }
     ]
   },
@@ -204,8 +236,9 @@
     "emoji": "🇦🇿",
     "languages": [
       {
-        "language": "Azerbaijani",
-        "percentage_spoken": 92.5
+        "name": "Azerbaijani",
+        "percent": 92.5,
+        "y": true
       }
     ]
   },
@@ -214,20 +247,24 @@
     "emoji": "🇧🇭",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 17.4,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 15.8,
+        "y": false
       },
       {
-        "language": "Farsi",
-        "percentage_spoken": 0
+        "name": "Farsi",
+        "percent": 18.3,
+        "y": false
       },
       {
-        "language": "Urdu",
-        "percentage_spoken": 0
+        "name": "Urdu",
+        "percent": 9.8,
+        "y": false
       }
     ]
   },
@@ -236,8 +273,9 @@
     "emoji": "🇧🇩",
     "languages": [
       {
-        "language": "Bangla",
-        "percentage_spoken": 98.8
+        "name": "Bangla",
+        "percent": 98.8,
+        "y": true
       }
     ]
   },
@@ -246,12 +284,14 @@
     "emoji": "🇧🇧",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Bajan",
-        "percentage_spoken": 0
+        "name": "Bajan",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -260,12 +300,14 @@
     "emoji": "🇧🇾",
     "languages": [
       {
-        "language": "Russian",
-        "percentage_spoken": 70.2
+        "name": "Russian",
+        "percent": 70.2,
+        "y": true
       },
       {
-        "language": "Belarusian",
-        "percentage_spoken": 23.4
+        "name": "Belarusian",
+        "percent": 23.4,
+        "y": true
       }
     ]
   },
@@ -274,12 +316,14 @@
     "emoji": "🇧🇪",
     "languages": [
       {
-        "language": "Dutch",
-        "percentage_spoken": 60
+        "name": "Dutch",
+        "percent": 60,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 40
+        "name": "French",
+        "percent": 40,
+        "y": true
       }
     ]
   },
@@ -288,24 +332,29 @@
     "emoji": "🇧🇿",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 62.9
+        "name": "English",
+        "percent": 62.9,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 56.6
+        "name": "Spanish",
+        "percent": 56.6,
+        "y": true
       },
       {
-        "language": "Creole",
-        "percentage_spoken": 44.6
+        "name": "Creole",
+        "percent": 44.6,
+        "y": true
       },
       {
-        "language": "Maya",
-        "percentage_spoken": 10.5
+        "name": "Maya",
+        "percent": 10.5,
+        "y": true
       },
       {
-        "language": "German",
-        "percentage_spoken": 3.2
+        "name": "German",
+        "percent": 3.2,
+        "y": true
       }
     ]
   },
@@ -314,12 +363,19 @@
     "emoji": "🇧🇯",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 11,
+        "y": false
       },
       {
-        "language": "Fon and Yoruba",
-        "percentage_spoken": 0
+        "name": "Yoruba",
+        "percent": 15.7,
+        "y": false
+      },
+      {
+        "name": "Fon",
+        "percent": 15.7,
+        "y": false
       }
     ]
   },
@@ -328,12 +384,14 @@
     "emoji": "🇧🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -342,16 +400,19 @@
     "emoji": "🇧🇹",
     "languages": [
       {
-        "language": "Sharchhopka",
-        "percentage_spoken": 28
+        "name": "Sharchhopka",
+        "percent": 28,
+        "y": true
       },
       {
-        "language": "Dzongkha",
-        "percentage_spoken": 24
+        "name": "Dzongkha",
+        "percent": 24,
+        "y": true
       },
       {
-        "language": "Lhotshamkha",
-        "percentage_spoken": 22
+        "name": "Lhotshamkha",
+        "percent": 22,
+        "y": true
       }
     ]
   },
@@ -360,16 +421,19 @@
     "emoji": "🇧🇴",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 60.7
+        "name": "Spanish",
+        "percent": 60.7,
+        "y": true
       },
       {
-        "language": "Quechua",
-        "percentage_spoken": 21.2
+        "name": "Quechua",
+        "percent": 21.2,
+        "y": true
       },
       {
-        "language": "Aymara",
-        "percentage_spoken": 14.6
+        "name": "Aymara",
+        "percent": 14.6,
+        "y": true
       }
     ]
   },
@@ -378,16 +442,19 @@
     "emoji": "🇧🇦",
     "languages": [
       {
-        "language": "Bosnian",
-        "percentage_spoken": 52.9
+        "name": "Bosnian",
+        "percent": 52.9,
+        "y": true
       },
       {
-        "language": "Serbian",
-        "percentage_spoken": 30.8
+        "name": "Serbian",
+        "percent": 30.8,
+        "y": true
       },
       {
-        "language": "Croatian",
-        "percentage_spoken": 14.6
+        "name": "Croatian",
+        "percent": 14.6,
+        "y": true
       }
     ]
   },
@@ -396,16 +463,19 @@
     "emoji": "🇧🇼",
     "languages": [
       {
-        "language": "Setswana",
-        "percentage_spoken": 77.3
+        "name": "Setswana",
+        "percent": 77.3,
+        "y": true
       },
       {
-        "language": "Sekalanga",
-        "percentage_spoken": 7.4
+        "name": "Sekalanga",
+        "percent": 7.4,
+        "y": true
       },
       {
-        "language": "Shekgalagadi",
-        "percentage_spoken": 3.4
+        "name": "Shekgalagadi",
+        "percent": 3.4,
+        "y": true
       }
     ]
   },
@@ -414,8 +484,9 @@
     "emoji": "🇧🇷",
     "languages": [
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -424,12 +495,14 @@
     "emoji": "🇧🇳",
     "languages": [
       {
-        "language": "Malay",
-        "percentage_spoken": 0
+        "name": "Malay",
+        "percent": 10.8,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9.7,
+        "y": false
       }
     ]
   },
@@ -438,16 +511,19 @@
     "emoji": "🇧🇬",
     "languages": [
       {
-        "language": "Bulgarian",
-        "percentage_spoken": 76.8
+        "name": "Bulgarian",
+        "percent": 76.8,
+        "y": true
       },
       {
-        "language": "Turkish",
-        "percentage_spoken": 8.2
+        "name": "Turkish",
+        "percent": 8.2,
+        "y": true
       },
       {
-        "language": "Romani",
-        "percentage_spoken": 3.8
+        "name": "Romani",
+        "percent": 3.8,
+        "y": true
       }
     ]
   },
@@ -456,12 +532,14 @@
     "emoji": "🇧🇫",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 90,
+        "y": false
       },
       {
-        "language": "native African  belonging to Sudanic family spoken by 90 of the population",
-        "percentage_spoken": 0
+        "name": "Mossi",
+        "percent": 40,
+        "y": false
       }
     ]
   },
@@ -470,16 +548,9 @@
     "emoji": "🇧🇮",
     "languages": [
       {
-        "language": "Kirundi",
-        "percentage_spoken": 29.7
-      },
-      {
-        "language": "Kirundi and other language",
-        "percentage_spoken": 9.1
-      },
-      {
-        "language": "more than 2",
-        "percentage_spoken": 3.7
+        "name": "Kirundi",
+        "percent": 38.8,
+        "y": false
       }
     ]
   },
@@ -488,12 +559,14 @@
     "emoji": "🇨🇻",
     "languages": [
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Crioulo",
-        "percentage_spoken": 0
+        "name": "Crioulo",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -502,8 +575,9 @@
     "emoji": "🇰🇭",
     "languages": [
       {
-        "language": "Khmer",
-        "percentage_spoken": 96.3
+        "name": "Khmer",
+        "percent": 96.3,
+        "y": true
       }
     ]
   },
@@ -512,16 +586,19 @@
     "emoji": "🇨🇲",
     "languages": [
       {
-        "language": "24 major African language groups",
-        "percentage_spoken": 0
+        "name": "24 major African language groups",
+        "percent": 19.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 13.5,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 80.0,
+        "y": false
       }
     ]
   },
@@ -530,12 +607,14 @@
     "emoji": "🇨🇦",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 58.7
+        "name": "English",
+        "percent": 58.7,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 22
+        "name": "French",
+        "percent": 22,
+        "y": true
       }
     ]
   },
@@ -544,16 +623,19 @@
     "emoji": "🇰🇾",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 90.9
+        "name": "English",
+        "percent": 90.9,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 4
+        "name": "Spanish",
+        "percent": 4,
+        "y": true
       },
       {
-        "language": "Filipino",
-        "percentage_spoken": 3.3
+        "name": "Filipino",
+        "percent": 3.3,
+        "y": true
       }
     ]
   },
@@ -562,12 +644,14 @@
     "emoji": "🇨🇫",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 16.1,
+        "y": false
       },
       {
-        "language": "Sangho",
-        "percentage_spoken": 0
+        "name": "Sangho",
+        "percent": 13.8,
+        "y": false
       }
     ]
   },
@@ -576,16 +660,19 @@
     "emoji": "🇹🇩",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 14.3,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 10.9,
+        "y": false
       },
       {
-        "language": "Sara",
-        "percentage_spoken": 0
+        "name": "Sara",
+        "percent": 11.3,
+        "y": false
       }
     ]
   },
@@ -594,12 +681,14 @@
     "emoji": "🇨🇱",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 99.5
+        "name": "Spanish",
+        "percent": 99.5,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 10.2
+        "name": "English",
+        "percent": 10.2,
+        "y": true
       }
     ]
   },
@@ -608,12 +697,19 @@
     "emoji": "🇨🇳",
     "languages": [
       {
-        "language": "Mandarin",
-        "percentage_spoken": 0
+        "name": "Mandarin",
+        "percent": 70,
+        "y": false
       },
       {
-        "language": "Cantonese",
-        "percentage_spoken": 0
+        "name": "Cantonese",
+        "percent": 20,
+        "y": false
+      },
+      {
+        "name": "Chinese",
+        "percent": 99,
+        "y": false
       }
     ]
   },
@@ -622,24 +718,29 @@
     "emoji": "🇨🇽",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 6.2,
+        "y": false
       },
       {
-        "language": "Mandarin",
-        "percentage_spoken": 0
+        "name": "Mandarin",
+        "percent": 14.7,
+        "y": false
       },
       {
-        "language": "Cantonese",
-        "percentage_spoken": 0
+        "name": "Cantonese",
+        "percent": 7.8,
+        "y": false
       },
       {
-        "language": "Malay",
-        "percentage_spoken": 0
+        "name": "Malay",
+        "percent": 12.3,
+        "y": false
       },
       {
-        "language": "Tagalog",
-        "percentage_spoken": 0
+        "name": "Tagalog",
+        "percent": 13.5,
+        "y": false
       }
     ]
   },
@@ -648,12 +749,14 @@
     "emoji": "🇨🇨",
     "languages": [
       {
-        "language": "Malay",
-        "percentage_spoken": 0
+        "name": "Malay",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -662,8 +765,9 @@
     "emoji": "🇨🇴",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -672,16 +776,19 @@
     "emoji": "🇰🇲",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 22.8,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 14.5,
+        "y": false
       },
       {
-        "language": "Shikomoro",
-        "percentage_spoken": 0
+        "name": "Shikomoro",
+        "percent": 11.6,
+        "y": false
       }
     ]
   },
@@ -690,12 +797,14 @@
     "emoji": "🇨🇰",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 86.4
+        "name": "English",
+        "percent": 86.4,
+        "y": true
       },
       {
-        "language": "Cook Islands Maori",
-        "percentage_spoken": 76.2
+        "name": "Cook Islands Maori",
+        "percent": 76.2,
+        "y": true
       }
     ]
   },
@@ -704,12 +813,14 @@
     "emoji": "🇨🇷",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -718,8 +829,9 @@
     "emoji": "🇨🇮",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -728,8 +840,9 @@
     "emoji": "🇭🇷",
     "languages": [
       {
-        "language": "Croatian",
-        "percentage_spoken": 95.6
+        "name": "Croatian",
+        "percent": 95.6,
+        "y": true
       }
     ]
   },
@@ -738,8 +851,9 @@
     "emoji": "🇨🇺",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -748,12 +862,14 @@
     "emoji": "🇨🇾",
     "languages": [
       {
-        "language": "Greek",
-        "percentage_spoken": 80.9
+        "name": "Greek",
+        "percent": 80.9,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 4.1
+        "name": "English",
+        "percent": 4.1,
+        "y": true
       }
     ]
   },
@@ -762,20 +878,24 @@
     "emoji": "🇩🇰",
     "languages": [
       {
-        "language": "Danish",
-        "percentage_spoken": 0
+        "name": "Danish",
+        "percent": 16.9,
+        "y": false
       },
       {
-        "language": "Faroese",
-        "percentage_spoken": 0
+        "name": "Faroese",
+        "percent": 13.1,
+        "y": false
       },
       {
-        "language": "Greenlandic",
-        "percentage_spoken": 0
+        "name": "Greenlandic",
+        "percent": 15.8,
+        "y": false
       },
       {
-        "language": "German",
-        "percentage_spoken": 0
+        "name": "German",
+        "percent": 13.7,
+        "y": false
       }
     ]
   },
@@ -784,20 +904,24 @@
     "emoji": "🇩🇯",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 8.4,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 16.8,
+        "y": false
       },
       {
-        "language": "Somali",
-        "percentage_spoken": 0
+        "name": "Somali",
+        "percent": 12.5,
+        "y": false
       },
       {
-        "language": "Afar",
-        "percentage_spoken": 0
+        "name": "Afar",
+        "percent": 13.5,
+        "y": false
       }
     ]
   },
@@ -806,12 +930,14 @@
     "emoji": "🇩🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "French patois",
-        "percentage_spoken": 0
+        "name": "French patois",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -820,8 +946,9 @@
     "emoji": "🇩🇴",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -830,12 +957,14 @@
     "emoji": "🇪🇨",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 93
+        "name": "Spanish",
+        "percent": 93,
+        "y": true
       },
       {
-        "language": "Quechua",
-        "percentage_spoken": 4.1
+        "name": "Quechua",
+        "percent": 4.1,
+        "y": true
       }
     ]
   },
@@ -844,12 +973,19 @@
     "emoji": "🇪🇬",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 80,
+        "y": false
       },
       {
-        "language": "English and French widely understood by educated classes",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
+      },
+      {
+        "name": "French",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -858,12 +994,14 @@
     "emoji": "🇸🇻",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Nawat",
-        "percentage_spoken": 0
+        "name": "Nawat",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -872,8 +1010,9 @@
     "emoji": "🇬🇶",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 67.6
+        "name": "Spanish",
+        "percent": 67.6,
+        "y": true
       }
     ]
   },
@@ -882,28 +1021,34 @@
     "emoji": "🇪🇷",
     "languages": [
       {
-        "language": "Tigrinya",
-        "percentage_spoken": 0
+        "name": "Tigrinya",
+        "percent": 10,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 8.3,
+        "y": false
       },
       {
-        "language": "Tigre",
-        "percentage_spoken": 0
+        "name": "Tigre",
+        "percent": 10,
+        "y": false
       },
       {
-        "language": "Kunama",
-        "percentage_spoken": 0
+        "name": "Kunama",
+        "percent": 9.2,
+        "y": false
       },
       {
-        "language": "Afar",
-        "percentage_spoken": 0
+        "name": "Afar",
+        "percent": 9.4,
+        "y": false
       }
     ]
   },
@@ -912,12 +1057,14 @@
     "emoji": "🇪🇪",
     "languages": [
       {
-        "language": "Estonian",
-        "percentage_spoken": 68.5
+        "name": "Estonian",
+        "percent": 68.5,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 29.6
+        "name": "Russian",
+        "percent": 29.6,
+        "y": true
       }
     ]
   },
@@ -926,32 +1073,39 @@
     "emoji": "🇪🇹",
     "languages": [
       {
-        "language": "Oromo",
-        "percentage_spoken": 33.8
+        "name": "Oromo",
+        "percent": 33.8,
+        "y": true
       },
       {
-        "language": "Amharic",
-        "percentage_spoken": 29.3
+        "name": "Amharic",
+        "percent": 29.3,
+        "y": true
       },
       {
-        "language": "Somali",
-        "percentage_spoken": 6.2
+        "name": "Somali",
+        "percent": 6.2,
+        "y": true
       },
       {
-        "language": "Tigrigna",
-        "percentage_spoken": 5.9
+        "name": "Tigrigna",
+        "percent": 5.9,
+        "y": true
       },
       {
-        "language": "Sidamo",
-        "percentage_spoken": 4
+        "name": "Sidamo",
+        "percent": 4,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 2.2,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 3.9,
+        "y": false
       }
     ]
   },
@@ -960,12 +1114,14 @@
     "emoji": "🇫🇴",
     "languages": [
       {
-        "language": "Faroese",
-        "percentage_spoken": 93.8
+        "name": "Faroese",
+        "percent": 93.8,
+        "y": true
       },
       {
-        "language": "Danish",
-        "percentage_spoken": 3.2
+        "name": "Danish",
+        "percent": 3.2,
+        "y": true
       }
     ]
   },
@@ -974,16 +1130,19 @@
     "emoji": "🇫🇯",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 10.1,
+        "y": false
       },
       {
-        "language": "Fijian",
-        "percentage_spoken": 0
+        "name": "Fijian",
+        "percent": 19.2,
+        "y": false
       },
       {
-        "language": "Hindustani",
-        "percentage_spoken": 0
+        "name": "Hindustani",
+        "percent": 21,
+        "y": false
       }
     ]
   },
@@ -992,12 +1151,14 @@
     "emoji": "🇫🇮",
     "languages": [
       {
-        "language": "Finnish",
-        "percentage_spoken": 88.3
+        "name": "Finnish",
+        "percent": 88.3,
+        "y": true
       },
       {
-        "language": "Swedish",
-        "percentage_spoken": 5.3
+        "name": "Swedish",
+        "percent": 5.3,
+        "y": true
       }
     ]
   },
@@ -1006,8 +1167,9 @@
     "emoji": "🇫🇷",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 100
+        "name": "French",
+        "percent": 100,
+        "y": true
       }
     ]
   },
@@ -1016,12 +1178,14 @@
     "emoji": "🇵🇫",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 70
+        "name": "French",
+        "percent": 70,
+        "y": true
       },
       {
-        "language": "Polynesian",
-        "percentage_spoken": 28.2
+        "name": "Polynesian",
+        "percent": 28.2,
+        "y": true
       }
     ]
   },
@@ -1030,28 +1194,34 @@
     "emoji": "🇬🇦",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 10.7,
+        "y": false
       },
       {
-        "language": "Fang",
-        "percentage_spoken": 0
+        "name": "Fang",
+        "percent": 7.8,
+        "y": false
       },
       {
-        "language": "Myene",
-        "percentage_spoken": 0
+        "name": "Myene",
+        "percent": 7.9,
+        "y": false
       },
       {
-        "language": "Nzebi",
-        "percentage_spoken": 0
+        "name": "Nzebi",
+        "percent": 9,
+        "y": false
       },
       {
-        "language": "Bapounou/Eschira",
-        "percentage_spoken": 0
+        "name": "Bapounou/Eschira",
+        "percent": 6.4,
+        "y": false
       },
       {
-        "language": "Bandjabi",
-        "percentage_spoken": 0
+        "name": "Bandjabi",
+        "percent": 11.8,
+        "y": false
       }
     ]
   },
@@ -1060,16 +1230,19 @@
     "emoji": "🇬🇪",
     "languages": [
       {
-        "language": "Georgian",
-        "percentage_spoken": 87.6
+        "name": "Georgian",
+        "percent": 87.6,
+        "y": true
       },
       {
-        "language": "Azeri",
-        "percentage_spoken": 6.2
+        "name": "Azeri",
+        "percent": 6.2,
+        "y": true
       },
       {
-        "language": "Armenian",
-        "percentage_spoken": 3.9
+        "name": "Armenian",
+        "percent": 3.9,
+        "y": true
       }
     ]
   },
@@ -1078,8 +1251,9 @@
     "emoji": "🇩🇪",
     "languages": [
       {
-        "language": "German",
-        "percentage_spoken": 0
+        "name": "German",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -1088,44 +1262,54 @@
     "emoji": "🇬🇭",
     "languages": [
       {
-        "language": "Asante",
-        "percentage_spoken": 16
+        "name": "Asante",
+        "percent": 16,
+        "y": true
       },
       {
-        "language": "Ewe",
-        "percentage_spoken": 14
+        "name": "Ewe",
+        "percent": 14,
+        "y": true
       },
       {
-        "language": "Fante",
-        "percentage_spoken": 11.6
+        "name": "Fante",
+        "percent": 11.6,
+        "y": true
       },
       {
-        "language": "Boron",
-        "percentage_spoken": 4.9
+        "name": "Boron",
+        "percent": 4.9,
+        "y": true
       },
       {
-        "language": "Dagomba",
-        "percentage_spoken": 4.4
+        "name": "Dagomba",
+        "percent": 4.4,
+        "y": true
       },
       {
-        "language": "Dangme",
-        "percentage_spoken": 4.2
+        "name": "Dangme",
+        "percent": 4.2,
+        "y": true
       },
       {
-        "language": "Dagarte",
-        "percentage_spoken": 3.9
+        "name": "Dagarte",
+        "percent": 3.9,
+        "y": true
       },
       {
-        "language": "Kokomba",
-        "percentage_spoken": 3.5
+        "name": "Kokomba",
+        "percent": 3.5,
+        "y": true
       },
       {
-        "language": "Akyem",
-        "percentage_spoken": 3.2
+        "name": "Akyem",
+        "percent": 3.2,
+        "y": true
       },
       {
-        "language": "Ga",
-        "percentage_spoken": 3.1
+        "name": "Ga",
+        "percent": 3.1,
+        "y": true
       }
     ]
   },
@@ -1134,20 +1318,24 @@
     "emoji": "🇬🇮",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 11.7,
+        "y": false
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 12.6,
+        "y": false
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 9.5,
+        "y": false
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 11.7,
+        "y": false
       }
     ]
   },
@@ -1156,8 +1344,9 @@
     "emoji": "🇬🇷",
     "languages": [
       {
-        "language": "Greek",
-        "percentage_spoken": 99
+        "name": "Greek",
+        "percent": 99,
+        "y": true
       }
     ]
   },
@@ -1166,16 +1355,19 @@
     "emoji": "🇬🇱",
     "languages": [
       {
-        "language": "Greenlandic",
-        "percentage_spoken": 0
+        "name": "Greenlandic",
+        "percent": 10.2,
+        "y": false
       },
       {
-        "language": "Danish",
-        "percentage_spoken": 0
+        "name": "Danish",
+        "percent": 9.1,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 11.8,
+        "y": false
       }
     ]
   },
@@ -1184,12 +1376,14 @@
     "emoji": "🇬🇩",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "French patois",
-        "percentage_spoken": 0
+        "name": "French patois",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1198,20 +1392,24 @@
     "emoji": "🇬🇺",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 43.6
+        "name": "English",
+        "percent": 43.6,
+        "y": true
       },
       {
-        "language": "Filipino",
-        "percentage_spoken": 21.2
+        "name": "Filipino",
+        "percent": 21.2,
+        "y": true
       },
       {
-        "language": "Chamorro",
-        "percentage_spoken": 17.8
+        "name": "Chamorro",
+        "percent": 17.8,
+        "y": true
       },
       {
-        "language": "Asian",
-        "percentage_spoken": 6.3
+        "name": "Asian",
+        "percent": 6.3,
+        "y": true
       }
     ]
   },
@@ -1220,24 +1418,29 @@
     "emoji": "🇬🇹",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 68.9
+        "name": "Spanish",
+        "percent": 68.9,
+        "y": true
       },
       {
-        "language": "K'iche",
-        "percentage_spoken": 8.7
+        "name": "K'iche",
+        "percent": 8.7,
+        "y": true
       },
       {
-        "language": "Q'eqchi",
-        "percentage_spoken": 7
+        "name": "Q'eqchi",
+        "percent": 7,
+        "y": true
       },
       {
-        "language": "Mam",
-        "percentage_spoken": 4.6
+        "name": "Mam",
+        "percent": 4.6,
+        "y": true
       },
       {
-        "language": "Kaqchikel",
-        "percentage_spoken": 4.3
+        "name": "Kaqchikel",
+        "percent": 4.3,
+        "y": true
       }
     ]
   },
@@ -1246,12 +1449,14 @@
     "emoji": "🇬🇬",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9.9,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 13.4,
+        "y": false
       }
     ]
   },
@@ -1260,8 +1465,9 @@
     "emoji": "🇬🇳",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -1270,20 +1476,24 @@
     "emoji": "🇬🇼",
     "languages": [
       {
-        "language": "Crioulo",
-        "percentage_spoken": 0
+        "name": "Crioulo",
+        "percent": 10.5,
+        "y": false
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 14.6,
+        "y": false
       },
       {
-        "language": "Pular",
-        "percentage_spoken": 0
+        "name": "Pular",
+        "percent": 14.6,
+        "y": false
       },
       {
-        "language": "Mandingo",
-        "percentage_spoken": 0
+        "name": "Mandingo",
+        "percent": 8.5,
+        "y": false
       }
     ]
   },
@@ -1292,24 +1502,29 @@
     "emoji": "🇬🇾",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 6.2,
+        "y": false
       },
       {
-        "language": "Guyanese Creole",
-        "percentage_spoken": 0
+        "name": "Guyanese Creole",
+        "percent": 9,
+        "y": false
       },
       {
-        "language": "Amerindian",
-        "percentage_spoken": 0
+        "name": "Amerindian",
+        "percent": 10,
+        "y": false
       },
       {
-        "language": "Indian",
-        "percentage_spoken": 0
+        "name": "Indian",
+        "percent": 5.7,
+        "y": false
       },
       {
-        "language": "Chinese",
-        "percentage_spoken": 0
+        "name": "Chinese",
+        "percent": 5,
+        "y": false
       }
     ]
   },
@@ -1318,12 +1533,14 @@
     "emoji": "🇭🇹",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Creole",
-        "percentage_spoken": 0
+        "name": "Creole",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1332,8 +1549,9 @@
     "emoji": "🇭🇳",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1342,12 +1560,14 @@
     "emoji": "🇭🇰",
     "languages": [
       {
-        "language": "Cantonese",
-        "percentage_spoken": 88.9
+        "name": "Cantonese",
+        "percent": 88.9,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 4.3
+        "name": "English",
+        "percent": 4.3,
+        "y": true
       }
     ]
   },
@@ -1356,16 +1576,19 @@
     "emoji": "🇭🇺",
     "languages": [
       {
-        "language": "Hungarian",
-        "percentage_spoken": 99.6
+        "name": "Hungarian",
+        "percent": 99.6,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 16
+        "name": "English",
+        "percent": 16,
+        "y": true
       },
       {
-        "language": "German",
-        "percentage_spoken": 11.2
+        "name": "German",
+        "percent": 11.2,
+        "y": true
       }
     ]
   },
@@ -1374,20 +1597,24 @@
     "emoji": "🇮🇸",
     "languages": [
       {
-        "language": "Icelandic",
-        "percentage_spoken": 0
+        "name": "Icelandic",
+        "percent": 11.9,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 16.8,
+        "y": false
       },
       {
-        "language": "Nordic",
-        "percentage_spoken": 0
+        "name": "Nordic",
+        "percent": 16.5,
+        "y": false
       },
       {
-        "language": "German widely spoken",
-        "percentage_spoken": 0
+        "name": "German",
+        "percent": 6.8,
+        "y": false
       }
     ]
   },
@@ -1396,44 +1623,54 @@
     "emoji": "🇮🇳",
     "languages": [
       {
-        "language": "Hindi",
-        "percentage_spoken": 41
+        "name": "Hindi",
+        "percent": 41,
+        "y": true
       },
       {
-        "language": "Bengali",
-        "percentage_spoken": 8.1
+        "name": "Bengali",
+        "percent": 8.1,
+        "y": true
       },
       {
-        "language": "Telugu",
-        "percentage_spoken": 7.2
+        "name": "Telugu",
+        "percent": 7.2,
+        "y": true
       },
       {
-        "language": "Marathi",
-        "percentage_spoken": 7
+        "name": "Marathi",
+        "percent": 7,
+        "y": true
       },
       {
-        "language": "Tamil",
-        "percentage_spoken": 5.9
+        "name": "Tamil",
+        "percent": 5.9,
+        "y": true
       },
       {
-        "language": "Urdu",
-        "percentage_spoken": 5
+        "name": "Urdu",
+        "percent": 5,
+        "y": true
       },
       {
-        "language": "Gujarati",
-        "percentage_spoken": 4.5
+        "name": "Gujarati",
+        "percent": 4.5,
+        "y": true
       },
       {
-        "language": "Kannada",
-        "percentage_spoken": 3.7
+        "name": "Kannada",
+        "percent": 3.7,
+        "y": true
       },
       {
-        "language": "Malayalam",
-        "percentage_spoken": 3.2
+        "name": "Malayalam",
+        "percent": 3.2,
+        "y": true
       },
       {
-        "language": "Oriya",
-        "percentage_spoken": 3.2
+        "name": "Oriya",
+        "percent": 3.2,
+        "y": true
       }
     ]
   },
@@ -1442,16 +1679,19 @@
     "emoji": "🇮🇩",
     "languages": [
       {
-        "language": "Bahasa Indonesia",
-        "percentage_spoken": 0
+        "name": "Bahasa Indonesia",
+        "percent": 13.2,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 12.7,
+        "y": false
       },
       {
-        "language": "Dutch",
-        "percentage_spoken": 0
+        "name": "Dutch",
+        "percent": 17.2,
+        "y": false
       }
     ]
   },
@@ -1460,32 +1700,44 @@
     "emoji": "🇮🇷",
     "languages": [
       {
-        "language": "Persian",
-        "percentage_spoken": 0
+        "name": "Persian",
+        "percent": 6.5,
+        "y": false
       },
       {
-        "language": "Kurdish",
-        "percentage_spoken": 0
+        "name": "Kurdish",
+        "percent": 8.6,
+        "y": false
       },
       {
-        "language": "Gilaki and Mazandarani",
-        "percentage_spoken": 0
+        "name": "Mazandarani",
+        "percent": 7,
+        "y": false
       },
       {
-        "language": "Luri",
-        "percentage_spoken": 0
+        "name": "Gilaki",
+        "percent": 7,
+        "y": false
       },
       {
-        "language": "Balochi",
-        "percentage_spoken": 0
+        "name": "Luri",
+        "percent": 6.6,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Balochi",
+        "percent": 4.8,
+        "y": false
       },
       {
-        "language": "other",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 5.8,
+        "y": false
+      },
+      {
+        "name": "other",
+        "percent": 8,
+        "y": false
       }
     ]
   },
@@ -1494,24 +1746,29 @@
     "emoji": "🇮🇶",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 14.7,
+        "y": false
       },
       {
-        "language": "Kurdish",
-        "percentage_spoken": 0
+        "name": "Kurdish",
+        "percent": 12.8,
+        "y": false
       },
       {
-        "language": "Turkmen",
-        "percentage_spoken": 0
+        "name": "Turkmen",
+        "percent": 7.4,
+        "y": false
       },
       {
-        "language": "Syriac",
-        "percentage_spoken": 0
+        "name": "Syriac",
+        "percent": 8,
+        "y": false
       },
       {
-        "language": "Armenian",
-        "percentage_spoken": 0
+        "name": "Armenian",
+        "percent": 8.5,
+        "y": false
       }
     ]
   },
@@ -1520,12 +1777,14 @@
     "emoji": "🇮🇪",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Irish",
-        "percentage_spoken": 0
+        "name": "Irish",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1534,12 +1793,14 @@
     "emoji": "🇮🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Manx Gaelic",
-        "percentage_spoken": 0
+        "name": "Manx Gaelic",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1548,16 +1809,19 @@
     "emoji": "🇮🇱",
     "languages": [
       {
-        "language": "Hebrew",
-        "percentage_spoken": 0
+        "name": "Hebrew",
+        "percent": 23.4,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 18.8,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 13.1,
+        "y": false
       }
     ]
   },
@@ -1566,20 +1830,24 @@
     "emoji": "🇮🇹",
     "languages": [
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 11.4,
+        "y": false
       },
       {
-        "language": "German",
-        "percentage_spoken": 0
+        "name": "German",
+        "percent": 8.6,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 10.9,
+        "y": false
       },
       {
-        "language": "Slovene",
-        "percentage_spoken": 0
+        "name": "Slovene",
+        "percent": 17.4,
+        "y": false
       }
     ]
   },
@@ -1588,12 +1856,14 @@
     "emoji": "🇯🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English patois",
-        "percentage_spoken": 0
+        "name": "English patois",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1602,8 +1872,9 @@
     "emoji": "🇯🇵",
     "languages": [
       {
-        "language": "Japanese",
-        "percentage_spoken": 0
+        "name": "Japanese",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -1612,12 +1883,14 @@
     "emoji": "🇯🇪",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 94.5
+        "name": "English",
+        "percent": 94.5,
+        "y": true
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 4.6
+        "name": "Portuguese",
+        "percent": 4.6,
+        "y": true
       }
     ]
   },
@@ -1626,12 +1899,14 @@
     "emoji": "🇯🇴",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1640,12 +1915,14 @@
     "emoji": "🇰🇿",
     "languages": [
       {
-        "language": "Kazakh",
-        "percentage_spoken": 74
+        "name": "Kazakh",
+        "percent": 74,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 94.4
+        "name": "Russian",
+        "percent": 94.4,
+        "y": true
       }
     ]
   },
@@ -1654,12 +1931,14 @@
     "emoji": "🇰🇪",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 24.6,
+        "y": false
       },
       {
-        "language": "Kiswahili",
-        "percentage_spoken": 0
+        "name": "Kiswahili",
+        "percent": 22.8,
+        "y": false
       }
     ]
   },
@@ -1668,12 +1947,14 @@
     "emoji": "🇰🇮",
     "languages": [
       {
-        "language": "I-Kiribati",
-        "percentage_spoken": 0
+        "name": "I-Kiribati",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -1682,12 +1963,14 @@
     "emoji": "🇰🇼",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 80,
+        "y": false
       },
       {
-        "language": "English widely spoken",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 80,
+        "y": false
       }
     ]
   },
@@ -1696,16 +1979,19 @@
     "emoji": "🇰🇬",
     "languages": [
       {
-        "language": "Kyrgyz",
-        "percentage_spoken": 71.4
+        "name": "Kyrgyz",
+        "percent": 71.4,
+        "y": true
       },
       {
-        "language": "Uzbek",
-        "percentage_spoken": 14.4
+        "name": "Uzbek",
+        "percent": 14.4,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 9
+        "name": "Russian",
+        "percent": 9,
+        "y": true
       }
     ]
   },
@@ -1714,16 +2000,19 @@
     "emoji": "🇱🇦",
     "languages": [
       {
-        "language": "Lao",
-        "percentage_spoken": 0
+        "name": "Lao",
+        "percent": 9.4,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 15.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 18.7,
+        "y": false
       }
     ]
   },
@@ -1732,12 +2021,14 @@
     "emoji": "🇱🇻",
     "languages": [
       {
-        "language": "Latvian",
-        "percentage_spoken": 56.3
+        "name": "Latvian",
+        "percent": 56.3,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 33.8
+        "name": "Russian",
+        "percent": 33.8,
+        "y": true
       }
     ]
   },
@@ -1746,20 +2037,24 @@
     "emoji": "🇱🇧",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 6.6,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 18.5,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7.9,
+        "y": false
       },
       {
-        "language": "Armenian",
-        "percentage_spoken": 0
+        "name": "Armenian",
+        "percent": 9.1,
+        "y": false
       }
     ]
   },
@@ -1768,20 +2063,24 @@
     "emoji": "🇱🇸",
     "languages": [
       {
-        "language": "Sesotho",
-        "percentage_spoken": 0
+        "name": "Sesotho",
+        "percent": 12.4,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7.1,
+        "y": false
       },
       {
-        "language": "Zulu",
-        "percentage_spoken": 0
+        "name": "Zulu",
+        "percent": 13.6,
+        "y": false
       },
       {
-        "language": "Xhosa",
-        "percentage_spoken": 0
+        "name": "Xhosa",
+        "percent": 10.1,
+        "y": false
       }
     ]
   },
@@ -1790,8 +2089,9 @@
     "emoji": "🇱🇷",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 20
+        "name": "English",
+        "percent": 20,
+        "y": true
       }
     ]
   },
@@ -1800,16 +2100,19 @@
     "emoji": "🇱🇾",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 10,
+        "y": false
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 18.1,
+        "y": false
       },
       {
-        "language": "English; Berber",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 13.6,
+        "y": false
       }
     ]
   },
@@ -1818,8 +2121,9 @@
     "emoji": "🇱🇮",
     "languages": [
       {
-        "language": "German",
-        "percentage_spoken": 94.5
+        "name": "German",
+        "percent": 94.5,
+        "y": true
       }
     ]
   },
@@ -1828,16 +2132,19 @@
     "emoji": "🇱🇹",
     "languages": [
       {
-        "language": "Lithuanian",
-        "percentage_spoken": 82
+        "name": "Lithuanian",
+        "percent": 82,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 8
+        "name": "Russian",
+        "percent": 8,
+        "y": true
       },
       {
-        "language": "Polish",
-        "percentage_spoken": 5.6
+        "name": "Polish",
+        "percent": 5.6,
+        "y": true
       }
     ]
   },
@@ -1846,20 +2153,24 @@
     "emoji": "🇱🇺",
     "languages": [
       {
-        "language": "Luxembourgish",
-        "percentage_spoken": 55.8
+        "name": "Luxembourgish",
+        "percent": 55.8,
+        "y": true
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 15.7
+        "name": "Portuguese",
+        "percent": 15.7,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 12.1
+        "name": "French",
+        "percent": 12.1,
+        "y": true
       },
       {
-        "language": "German",
-        "percentage_spoken": 3.1
+        "name": "German",
+        "percent": 3.1,
+        "y": true
       }
     ]
   },
@@ -1868,16 +2179,19 @@
     "emoji": "🇲🇴",
     "languages": [
       {
-        "language": "Cantonese",
-        "percentage_spoken": 80.1
+        "name": "Cantonese",
+        "percent": 80.1,
+        "y": true
       },
       {
-        "language": "Mandarin",
-        "percentage_spoken": 5.5
+        "name": "Mandarin",
+        "percent": 5.5,
+        "y": true
       },
       {
-        "language": "Tagalog",
-        "percentage_spoken": 3
+        "name": "Tagalog",
+        "percent": 3,
+        "y": true
       }
     ]
   },
@@ -1886,16 +2200,19 @@
     "emoji": "🇲🇰",
     "languages": [
       {
-        "language": "Macedonian",
-        "percentage_spoken": 66.5
+        "name": "Macedonian",
+        "percent": 66.5,
+        "y": true
       },
       {
-        "language": "Albanian",
-        "percentage_spoken": 25.1
+        "name": "Albanian",
+        "percent": 25.1,
+        "y": true
       },
       {
-        "language": "Turkish",
-        "percentage_spoken": 3.5
+        "name": "Turkish",
+        "percent": 3.5,
+        "y": true
       }
     ]
   },
@@ -1904,16 +2221,19 @@
     "emoji": "🇲🇬",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 16.3,
+        "y": false
       },
       {
-        "language": "Malagasy",
-        "percentage_spoken": 0
+        "name": "Malagasy",
+        "percent": 16.3,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 15,
+        "y": false
       }
     ]
   },
@@ -1922,52 +2242,64 @@
     "emoji": "🇲🇼",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 2.4,
+        "y": false
       },
       {
-        "language": "Chichewa",
-        "percentage_spoken": 0
+        "name": "Chichewa",
+        "percent": 2.9,
+        "y": false
       },
       {
-        "language": "Chinyanja",
-        "percentage_spoken": 0
+        "name": "Chinyanja",
+        "percent": 3.7,
+        "y": false
       },
       {
-        "language": "Chiyao",
-        "percentage_spoken": 0
+        "name": "Chiyao",
+        "percent": 3.5,
+        "y": false
       },
       {
-        "language": "Chitumbuka",
-        "percentage_spoken": 0
+        "name": "Chitumbuka",
+        "percent": 3.2,
+        "y": false
       },
       {
-        "language": "Chilomwe",
-        "percentage_spoken": 0
+        "name": "Chilomwe",
+        "percent": 4.1,
+        "y": false
       },
       {
-        "language": "Chinkhonde",
-        "percentage_spoken": 0
+        "name": "Chinkhonde",
+        "percent": 2.7,
+        "y": false
       },
       {
-        "language": "Chingoni",
-        "percentage_spoken": 0
+        "name": "Chingoni",
+        "percent": 5.2,
+        "y": false
       },
       {
-        "language": "Chisena",
-        "percentage_spoken": 0
+        "name": "Chisena",
+        "percent": 3.4,
+        "y": false
       },
       {
-        "language": "Chitonga",
-        "percentage_spoken": 0
+        "name": "Chitonga",
+        "percent": 3.3,
+        "y": false
       },
       {
-        "language": "Chinyakyusa",
-        "percentage_spoken": 0
+        "name": "Chinyakyusa",
+        "percent": 2.5,
+        "y": false
       },
       {
-        "language": "Chilambya",
-        "percentage_spoken": 0
+        "name": "Chilambya",
+        "percent": 5.2,
+        "y": false
       }
     ]
   },
@@ -1976,40 +2308,49 @@
     "emoji": "🇲🇾",
     "languages": [
       {
-        "language": "Bahasa Malaysia",
-        "percentage_spoken": 0
+        "name": "Bahasa Malaysia",
+        "percent": 5.3,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 4.8,
+        "y": false
       },
       {
-        "language": "Cantonese",
-        "percentage_spoken": 0
+        "name": "Cantonese",
+        "percent": 5.6,
+        "y": false
       },
       {
-        "language": "Mandarin",
-        "percentage_spoken": 0
+        "name": "Mandarin",
+        "percent": 4.8,
+        "y": false
       },
       {
-        "language": "Tamil",
-        "percentage_spoken": 0
+        "name": "Tamil",
+        "percent": 4.1,
+        "y": false
       },
       {
-        "language": "Telugu",
-        "percentage_spoken": 0
+        "name": "Telugu",
+        "percent": 5.7,
+        "y": false
       },
       {
-        "language": "Malayalam",
-        "percentage_spoken": 0
+        "name": "Malayalam",
+        "percent": 7.9,
+        "y": false
       },
       {
-        "language": "Panjabi",
-        "percentage_spoken": 0
+        "name": "Panjabi",
+        "percent": 6,
+        "y": false
       },
       {
-        "language": "Thai",
-        "percentage_spoken": 0
+        "name": "Thai",
+        "percent": 6.4,
+        "y": false
       }
     ]
   },
@@ -2018,12 +2359,14 @@
     "emoji": "🇲🇻",
     "languages": [
       {
-        "language": "Dhivehi",
-        "percentage_spoken": 0
+        "name": "Dhivehi",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2032,40 +2375,49 @@
     "emoji": "🇲🇱",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 2.3,
+        "y": false
       },
       {
-        "language": "Bambara",
-        "percentage_spoken": 46.3
+        "name": "Bambara",
+        "percent": 46.3,
+        "y": true
       },
       {
-        "language": "Peul/Foulfoulbe",
-        "percentage_spoken": 9.4
+        "name": "Foulfoulbe",
+        "percent": 9.4,
+        "y": true
       },
       {
-        "language": "Dogon",
-        "percentage_spoken": 7.2
+        "name": "Dogon",
+        "percent": 7.2,
+        "y": true
       },
       {
-        "language": "Maraka/Soninke",
-        "percentage_spoken": 6.4
+        "name": "Soninke",
+        "percent": 6.4,
+        "y": true
       },
       {
-        "language": "Malinke",
-        "percentage_spoken": 5.6
+        "name": "Malinke",
+        "percent": 5.6,
+        "y": true
       },
       {
-        "language": "Sonrhai/Djerma",
-        "percentage_spoken": 5.6
+        "name": "Djerma",
+        "percent": 5.6,
+        "y": true
       },
       {
-        "language": "Minianka",
-        "percentage_spoken": 4.3
+        "name": "Minianka",
+        "percent": 4.3,
+        "y": true
       },
       {
-        "language": "Tamacheq",
-        "percentage_spoken": 3.5
+        "name": "Tamacheq",
+        "percent": 3.5,
+        "y": true
       }
     ]
   },
@@ -2074,16 +2426,19 @@
     "emoji": "🇲🇹",
     "languages": [
       {
-        "language": "Maltese",
-        "percentage_spoken": 90.1
+        "name": "Maltese",
+        "percent": 90.1,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 6
+        "name": "English",
+        "percent": 6,
+        "y": true
       },
       {
-        "language": "multilingual",
-        "percentage_spoken": 3
+        "name": "multilingual",
+        "percent": 3,
+        "y": true
       }
     ]
   },
@@ -2092,8 +2447,9 @@
     "emoji": "🇲🇭",
     "languages": [
       {
-        "language": "Marshallese",
-        "percentage_spoken": 98.2
+        "name": "Marshallese",
+        "percent": 98.2,
+        "y": true
       }
     ]
   },
@@ -2102,24 +2458,29 @@
     "emoji": "🇲🇷",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 9.9,
+        "y": false
       },
       {
-        "language": "Pular",
-        "percentage_spoken": 0
+        "name": "Pular",
+        "percent": 6.1,
+        "y": false
       },
       {
-        "language": "Soninke",
-        "percentage_spoken": 0
+        "name": "Soninke",
+        "percent": 9.1,
+        "y": false
       },
       {
-        "language": "Wolof",
-        "percentage_spoken": 0
+        "name": "Wolof",
+        "percent": 6.1,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 12.6,
+        "y": false
       }
     ]
   },
@@ -2128,16 +2489,19 @@
     "emoji": "🇲🇺",
     "languages": [
       {
-        "language": "Creole",
-        "percentage_spoken": 86.5
+        "name": "Creole",
+        "percent": 86.5,
+        "y": true
       },
       {
-        "language": "Bhojpuri",
-        "percentage_spoken": 5.3
+        "name": "Bhojpuri",
+        "percent": 5.3,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 4.1
+        "name": "French",
+        "percent": 4.1,
+        "y": true
       }
     ]
   },
@@ -2146,8 +2510,9 @@
     "emoji": "🇲🇽",
     "languages": [
       {
-        "language": "Spanish only",
-        "percentage_spoken": 92.7
+        "name": "Spanish",
+        "percent": 92.7,
+        "y": true
       }
     ]
   },
@@ -2156,20 +2521,24 @@
     "emoji": "🇲🇩",
     "languages": [
       {
-        "language": "Moldovan/Romanian",
-        "percentage_spoken": 80.2
+        "name": "Romanian",
+        "percent": 80.2,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 9.7
+        "name": "Russian",
+        "percent": 9.7,
+        "y": true
       },
       {
-        "language": "Gagauz",
-        "percentage_spoken": 4.2
+        "name": "Gagauz",
+        "percent": 4.2,
+        "y": true
       },
       {
-        "language": "Ukrainian",
-        "percentage_spoken": 3.9
+        "name": "Ukrainian",
+        "percent": 3.9,
+        "y": true
       }
     ]
   },
@@ -2178,20 +2547,24 @@
     "emoji": "🇲🇨",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 12.5,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7.2,
+        "y": false
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 17.2,
+        "y": false
       },
       {
-        "language": "Monegasque",
-        "percentage_spoken": 0
+        "name": "Monegasque",
+        "percent": 16.9,
+        "y": false
       }
     ]
   },
@@ -2200,16 +2573,19 @@
     "emoji": "🇲🇳",
     "languages": [
       {
-        "language": "Mongolian",
-        "percentage_spoken": 90
+        "name": "Mongolian",
+        "percent": 90,
+        "y": true
       },
       {
-        "language": "Turkic",
-        "percentage_spoken": 0
+        "name": "Turkic",
+        "percent": 14.9,
+        "y": false
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 0
+        "name": "Russian",
+        "percent": 21.6,
+        "y": false
       }
     ]
   },
@@ -2218,8 +2594,9 @@
     "emoji": "🇲🇸",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2228,16 +2605,19 @@
     "emoji": "🇲🇦",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 8.9,
+        "y": false
       },
       {
-        "language": "Berber",
-        "percentage_spoken": 0
+        "name": "Berber",
+        "percent": 19.1,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 22.5,
+        "y": false
       }
     ]
   },
@@ -2246,28 +2626,34 @@
     "emoji": "🇲🇿",
     "languages": [
       {
-        "language": "Emakhuwa",
-        "percentage_spoken": 25.3
+        "name": "Emakhuwa",
+        "percent": 25.3,
+        "y": true
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 10.7
+        "name": "Portuguese",
+        "percent": 10.7,
+        "y": true
       },
       {
-        "language": "Xichangana",
-        "percentage_spoken": 10.3
+        "name": "Xichangana",
+        "percent": 10.3,
+        "y": true
       },
       {
-        "language": "Cisena",
-        "percentage_spoken": 7.5
+        "name": "Cisena",
+        "percent": 7.5,
+        "y": true
       },
       {
-        "language": "Elomwe",
-        "percentage_spoken": 7
+        "name": "Elomwe",
+        "percent": 7,
+        "y": true
       },
       {
-        "language": "Echuwabo",
-        "percentage_spoken": 5.1
+        "name": "Echuwabo",
+        "percent": 5.1,
+        "y": true
       }
     ]
   },
@@ -2276,32 +2662,39 @@
     "emoji": "🇳🇦",
     "languages": [
       {
-        "language": "Oshivambo",
-        "percentage_spoken": 48.9
+        "name": "Oshivambo",
+        "percent": 48.9,
+        "y": true
       },
       {
-        "language": "Nama/Damara",
-        "percentage_spoken": 11.3
+        "name": "Nama/Damara",
+        "percent": 11.3,
+        "y": true
       },
       {
-        "language": "Afrikaans",
-        "percentage_spoken": 10.4
+        "name": "Afrikaans",
+        "percent": 10.4,
+        "y": true
       },
       {
-        "language": "Otjiherero",
-        "percentage_spoken": 8.6
+        "name": "Otjiherero",
+        "percent": 8.6,
+        "y": true
       },
       {
-        "language": "Kavango",
-        "percentage_spoken": 8.5
+        "name": "Kavango",
+        "percent": 8.5,
+        "y": true
       },
       {
-        "language": "Caprivi",
-        "percentage_spoken": 4.8
+        "name": "Caprivi",
+        "percent": 4.8,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 3.4
+        "name": "English",
+        "percent": 3.4,
+        "y": true
       }
     ]
   },
@@ -2310,8 +2703,9 @@
     "emoji": "🇳🇷",
     "languages": [
       {
-        "language": "Nauruan",
-        "percentage_spoken": 93
+        "name": "Nauruan",
+        "percent": 93,
+        "y": true
       }
     ]
   },
@@ -2320,36 +2714,44 @@
     "emoji": "🇳🇵",
     "languages": [
       {
-        "language": "Nepali",
-        "percentage_spoken": 44.6
+        "name": "Nepali",
+        "percent": 44.6,
+        "y": true
       },
       {
-        "language": "Maithali",
-        "percentage_spoken": 11.7
+        "name": "Maithali",
+        "percent": 11.7,
+        "y": true
       },
       {
-        "language": "Bhojpuri",
-        "percentage_spoken": 6
+        "name": "Bhojpuri",
+        "percent": 6,
+        "y": true
       },
       {
-        "language": "Tharu",
-        "percentage_spoken": 5.8
+        "name": "Tharu",
+        "percent": 5.8,
+        "y": true
       },
       {
-        "language": "Tamang",
-        "percentage_spoken": 5.1
+        "name": "Tamang",
+        "percent": 5.1,
+        "y": true
       },
       {
-        "language": "Newar",
-        "percentage_spoken": 3.2
+        "name": "Newar",
+        "percent": 3.2,
+        "y": true
       },
       {
-        "language": "Magar",
-        "percentage_spoken": 3
+        "name": "Magar",
+        "percent": 3,
+        "y": true
       },
       {
-        "language": "Bajjika",
-        "percentage_spoken": 3
+        "name": "Bajjika",
+        "percent": 3,
+        "y": true
       }
     ]
   },
@@ -2358,8 +2760,9 @@
     "emoji": "🇳🇱",
     "languages": [
       {
-        "language": "Dutch",
-        "percentage_spoken": 0
+        "name": "Dutch",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2368,8 +2771,9 @@
     "emoji": "🇳🇨",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2378,12 +2782,14 @@
     "emoji": "🇳🇿",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 89.8
+        "name": "English",
+        "percent": 89.8,
+        "y": true
       },
       {
-        "language": "Maori",
-        "percentage_spoken": 3.5
+        "name": "Maori",
+        "percent": 3.5,
+        "y": true
       }
     ]
   },
@@ -2392,8 +2798,9 @@
     "emoji": "🇳🇮",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 95.3
+        "name": "Spanish",
+        "percent": 95.3,
+        "y": true
       }
     ]
   },
@@ -2402,16 +2809,19 @@
     "emoji": "🇳🇪",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 21.8,
+        "y": false
       },
       {
-        "language": "Hausa",
-        "percentage_spoken": 0
+        "name": "Hausa",
+        "percent": 24.7,
+        "y": false
       },
       {
-        "language": "Djerma",
-        "percentage_spoken": 0
+        "name": "Djerma",
+        "percent": 16.9,
+        "y": false
       }
     ]
   },
@@ -2420,24 +2830,29 @@
     "emoji": "🇳🇬",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 10.1,
+        "y": false
       },
       {
-        "language": "Hausa",
-        "percentage_spoken": 0
+        "name": "Hausa",
+        "percent": 11.7,
+        "y": false
       },
       {
-        "language": "Yoruba",
-        "percentage_spoken": 0
+        "name": "Yoruba",
+        "percent": 6.3,
+        "y": false
       },
       {
-        "language": "Igbo",
-        "percentage_spoken": 0
+        "name": "Igbo",
+        "percent": 11.1,
+        "y": false
       },
       {
-        "language": "Fulani",
-        "percentage_spoken": 0
+        "name": "Fulani",
+        "percent": 10.7,
+        "y": false
       }
     ]
   },
@@ -2446,20 +2861,14 @@
     "emoji": "🇳🇺",
     "languages": [
       {
-        "language": "Niuean",
-        "percentage_spoken": 46
+        "name": "Niuean",
+        "percent": 78,
+        "y": true
       },
       {
-        "language": "Niuean and English",
-        "percentage_spoken": 32
-      },
-      {
-        "language": "English",
-        "percentage_spoken": 11
-      },
-      {
-        "language": "Niuean and others",
-        "percentage_spoken": 5
+        "name": "English",
+        "percent": 43,
+        "y": true
       }
     ]
   },
@@ -2468,8 +2877,9 @@
     "emoji": "🇳🇫",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 67.6
+        "name": "English",
+        "percent": 67.6,
+        "y": true
       }
     ]
   },
@@ -2478,20 +2888,24 @@
     "emoji": "🇲🇵",
     "languages": [
       {
-        "language": "Philippine",
-        "percentage_spoken": 32.8
+        "name": "Philippine",
+        "percent": 32.8,
+        "y": true
       },
       {
-        "language": "Chamorro",
-        "percentage_spoken": 24.1
+        "name": "Chamorro",
+        "percent": 24.1,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 17
+        "name": "English",
+        "percent": 17,
+        "y": true
       },
       {
-        "language": "Chinese",
-        "percentage_spoken": 6.8
+        "name": "Chinese",
+        "percent": 6.8,
+        "y": true
       }
     ]
   },
@@ -2500,12 +2914,9 @@
     "emoji": "🇳🇴",
     "languages": [
       {
-        "language": "Bokmal Norwegian",
-        "percentage_spoken": 0
-      },
-      {
-        "language": "Nynorsk Norwegian",
-        "percentage_spoken": 0
+        "name": "Norwegian",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2514,20 +2925,24 @@
     "emoji": "🇴🇲",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 9.2,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9.2,
+        "y": false
       },
       {
-        "language": "Baluchi",
-        "percentage_spoken": 0
+        "name": "Baluchi",
+        "percent": 13.6,
+        "y": false
       },
       {
-        "language": "Urdu",
-        "percentage_spoken": 0
+        "name": "Urdu",
+        "percent": 12.5,
+        "y": false
       }
     ]
   },
@@ -2536,28 +2951,34 @@
     "emoji": "🇵🇰",
     "languages": [
       {
-        "language": "Punjabi",
-        "percentage_spoken": 48
+        "name": "Punjabi",
+        "percent": 48,
+        "y": true
       },
       {
-        "language": "Sindhi",
-        "percentage_spoken": 12
+        "name": "Sindhi",
+        "percent": 12,
+        "y": true
       },
       {
-        "language": "Saraiki",
-        "percentage_spoken": 10
+        "name": "Saraiki",
+        "percent": 10,
+        "y": true
       },
       {
-        "language": "Pashto",
-        "percentage_spoken": 8
+        "name": "Pashto",
+        "percent": 8,
+        "y": true
       },
       {
-        "language": "Urdu",
-        "percentage_spoken": 8
+        "name": "Urdu",
+        "percent": 8,
+        "y": true
       },
       {
-        "language": "Balochi",
-        "percentage_spoken": 3
+        "name": "Balochi",
+        "percent": 3,
+        "y": true
       }
     ]
   },
@@ -2566,16 +2987,19 @@
     "emoji": "🇵🇼",
     "languages": [
       {
-        "language": "Palauan",
-        "percentage_spoken": 65.2
+        "name": "Palauan",
+        "percent": 65.2,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 19.1
+        "name": "English",
+        "percent": 19.1,
+        "y": true
       },
       {
-        "language": "Filipino",
-        "percentage_spoken": 9.9
+        "name": "Filipino",
+        "percent": 9.9,
+        "y": true
       }
     ]
   },
@@ -2584,28 +3008,34 @@
     "emoji": "🇵🇦",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 10.1,
+        "y": false
       },
       {
-        "language": "Panamanian English Creole",
-        "percentage_spoken": 0
+        "name": "Panamanian English Creole",
+        "percent": 5.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7,
+        "y": false
       },
       {
-        "language": "Chinese",
-        "percentage_spoken": 0
+        "name": "Chinese",
+        "percent": 10.2,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 6.3,
+        "y": false
       },
       {
-        "language": "French Creole",
-        "percentage_spoken": 0
+        "name": "French Creole",
+        "percent": 6.6,
+        "y": false
       }
     ]
   },
@@ -2614,16 +3044,19 @@
     "emoji": "🇵🇬",
     "languages": [
       {
-        "language": "Tok Pisin",
-        "percentage_spoken": 0
+        "name": "Tok Pisin",
+        "percent": 7.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 15.7,
+        "y": false
       },
       {
-        "language": "Hiri Motu",
-        "percentage_spoken": 0
+        "name": "Hiri Motu",
+        "percent": 8.9,
+        "y": false
       }
     ]
   },
@@ -2632,12 +3065,14 @@
     "emoji": "🇵🇾",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Guarani",
-        "percentage_spoken": 0
+        "name": "Guarani",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2646,12 +3081,14 @@
     "emoji": "🇵🇪",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 84.1
+        "name": "Spanish",
+        "percent": 84.1,
+        "y": true
       },
       {
-        "language": "Quechua",
-        "percentage_spoken": 13
+        "name": "Quechua",
+        "percent": 13,
+        "y": true
       }
     ]
   },
@@ -2660,12 +3097,14 @@
     "emoji": "🇵🇭",
     "languages": [
       {
-        "language": "Filipino",
-        "percentage_spoken": 0
+        "name": "Filipino",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2674,12 +3113,14 @@
     "emoji": "🇵🇳",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Pitkern",
-        "percentage_spoken": 0
+        "name": "Pitkern",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2688,8 +3129,9 @@
     "emoji": "🇵🇱",
     "languages": [
       {
-        "language": "Polish",
-        "percentage_spoken": 98.2
+        "name": "Polish",
+        "percent": 98.2,
+        "y": true
       }
     ]
   },
@@ -2698,12 +3140,14 @@
     "emoji": "🇵🇹",
     "languages": [
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Mirandese",
-        "percentage_spoken": 0
+        "name": "Mirandese",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2712,12 +3156,14 @@
     "emoji": "🇵🇷",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2726,12 +3172,14 @@
     "emoji": "🇶🇦",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2740,12 +3188,14 @@
     "emoji": "🇷🇴",
     "languages": [
       {
-        "language": "Romanian",
-        "percentage_spoken": 85.4
+        "name": "Romanian",
+        "percent": 85.4,
+        "y": true
       },
       {
-        "language": "Hungarian",
-        "percentage_spoken": 6.3
+        "name": "Hungarian",
+        "percent": 6.3,
+        "y": true
       }
     ]
   },
@@ -2754,12 +3204,14 @@
     "emoji": "🇷🇺",
     "languages": [
       {
-        "language": "Russian",
-        "percentage_spoken": 85.7
+        "name": "Russian",
+        "percent": 85.7,
+        "y": true
       },
       {
-        "language": "Tatar",
-        "percentage_spoken": 3.2
+        "name": "Tatar",
+        "percent": 3.2,
+        "y": true
       }
     ]
   },
@@ -2768,8 +3220,9 @@
     "emoji": "🇷🇼",
     "languages": [
       {
-        "language": "Kinyarwanda",
-        "percentage_spoken": 93.2
+        "name": "Kinyarwanda",
+        "percent": 93.2,
+        "y": true
       }
     ]
   },
@@ -2778,8 +3231,9 @@
     "emoji": "🇰🇳",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2788,12 +3242,14 @@
     "emoji": "🇱🇨",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "French patois",
-        "percentage_spoken": 0
+        "name": "French patois",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2802,8 +3258,9 @@
     "emoji": "🇵🇲",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2812,12 +3269,14 @@
     "emoji": "🇻🇨",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "French patois",
-        "percentage_spoken": 0
+        "name": "French patois",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2826,12 +3285,14 @@
     "emoji": "🇼🇸",
     "languages": [
       {
-        "language": "Samoan",
-        "percentage_spoken": 0
+        "name": "Samoan",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -2840,8 +3301,9 @@
     "emoji": "🇸🇲",
     "languages": [
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2850,28 +3312,34 @@
     "emoji": "🇸🇹",
     "languages": [
       {
-        "language": "Portuguese",
-        "percentage_spoken": 98.4
+        "name": "Portuguese",
+        "percent": 98.4,
+        "y": true
       },
       {
-        "language": "Forro",
-        "percentage_spoken": 36.2
+        "name": "Forro",
+        "percent": 36.2,
+        "y": true
       },
       {
-        "language": "Cabo Verdian",
-        "percentage_spoken": 8.5
+        "name": "Cabo Verdian",
+        "percent": 8.5,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 6.8
+        "name": "French",
+        "percent": 6.8,
+        "y": true
       },
       {
-        "language": "Angolar",
-        "percentage_spoken": 6.6
+        "name": "Angolar",
+        "percent": 6.6,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 4.9
+        "name": "English",
+        "percent": 4.9,
+        "y": true
       }
     ]
   },
@@ -2880,8 +3348,9 @@
     "emoji": "🇸🇦",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -2890,32 +3359,39 @@
     "emoji": "🇸🇳",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 10.6,
+        "y": false
       },
       {
-        "language": "Wolof",
-        "percentage_spoken": 0
+        "name": "Wolof",
+        "percent": 7.7,
+        "y": false
       },
       {
-        "language": "Pular",
-        "percentage_spoken": 0
+        "name": "Pular",
+        "percent": 9.4,
+        "y": false
       },
       {
-        "language": "Jola",
-        "percentage_spoken": 0
+        "name": "Jola",
+        "percent": 9.8,
+        "y": false
       },
       {
-        "language": "Mandinka",
-        "percentage_spoken": 0
+        "name": "Mandinka",
+        "percent": 7.8,
+        "y": false
       },
       {
-        "language": "Serer",
-        "percentage_spoken": 0
+        "name": "Serer",
+        "percent": 9.7,
+        "y": false
       },
       {
-        "language": "Soninke",
-        "percentage_spoken": 0
+        "name": "Soninke",
+        "percent": 8.1,
+        "y": false
       }
     ]
   },
@@ -2924,12 +3400,14 @@
     "emoji": "🇸🇨",
     "languages": [
       {
-        "language": "Seychellois Creole",
-        "percentage_spoken": 89.1
+        "name": "Seychellois Creole",
+        "percent": 89.1,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 5.1
+        "name": "English",
+        "percent": 5.1,
+        "y": true
       }
     ]
   },
@@ -2938,20 +3416,24 @@
     "emoji": "🇸🇱",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 16.2,
+        "y": false
       },
       {
-        "language": "Mende",
-        "percentage_spoken": 0
+        "name": "Mende",
+        "percent": 15.6,
+        "y": false
       },
       {
-        "language": "Temne",
-        "percentage_spoken": 0
+        "name": "Temne",
+        "percent": 9.6,
+        "y": false
       },
       {
-        "language": "Krio",
-        "percentage_spoken": 0
+        "name": "Krio",
+        "percent": 10.6,
+        "y": false
       }
     ]
   },
@@ -2960,32 +3442,39 @@
     "emoji": "🇸🇬",
     "languages": [
       {
-        "language": "Mandarin",
-        "percentage_spoken": 36.3
+        "name": "Mandarin",
+        "percent": 36.3,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 29.8
+        "name": "English",
+        "percent": 29.8,
+        "y": true
       },
       {
-        "language": "Malay",
-        "percentage_spoken": 11.9
+        "name": "Malay",
+        "percent": 11.9,
+        "y": true
       },
       {
-        "language": "Hokkien",
-        "percentage_spoken": 8.1
+        "name": "Hokkien",
+        "percent": 8.1,
+        "y": true
       },
       {
-        "language": "Cantonese",
-        "percentage_spoken": 4.1
+        "name": "Cantonese",
+        "percent": 4.1,
+        "y": true
       },
       {
-        "language": "Tamil",
-        "percentage_spoken": 3.2
+        "name": "Tamil",
+        "percent": 3.2,
+        "y": true
       },
       {
-        "language": "Teochew",
-        "percentage_spoken": 3.2
+        "name": "Teochew",
+        "percent": 3.2,
+        "y": true
       }
     ]
   },
@@ -2994,12 +3483,14 @@
     "emoji": "🇸🇰",
     "languages": [
       {
-        "language": "Slovak",
-        "percentage_spoken": 78.6
+        "name": "Slovak",
+        "percent": 78.6,
+        "y": true
       },
       {
-        "language": "Hungarian",
-        "percentage_spoken": 9.4
+        "name": "Hungarian",
+        "percent": 9.4,
+        "y": true
       }
     ]
   },
@@ -3008,20 +3499,24 @@
     "emoji": "🇸🇮",
     "languages": [
       {
-        "language": "Slovenian",
-        "percentage_spoken": 91.1
+        "name": "Slovenian",
+        "percent": 91.1,
+        "y": true
       },
       {
-        "language": "Serbo-Croatian",
-        "percentage_spoken": 4.5
+        "name": "Serbo-Croatian",
+        "percent": 4.5,
+        "y": true
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 6.7,
+        "y": false
       },
       {
-        "language": "Hungarian",
-        "percentage_spoken": 0
+        "name": "Hungarian",
+        "percent": 12.4,
+        "y": false
       }
     ]
   },
@@ -3030,12 +3525,14 @@
     "emoji": "🇸🇧",
     "languages": [
       {
-        "language": "Melanesian pidgin",
-        "percentage_spoken": 0
+        "name": "Melanesian pidgin",
+        "percent": 21.9,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 21.8,
+        "y": false
       }
     ]
   },
@@ -3044,20 +3541,24 @@
     "emoji": "🇸🇴",
     "languages": [
       {
-        "language": "Somali",
-        "percentage_spoken": 0
+        "name": "Somali",
+        "percent": 9,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 18,
+        "y": false
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 15.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 15.8,
+        "y": false
       }
     ]
   },
@@ -3066,36 +3567,44 @@
     "emoji": "🇿🇦",
     "languages": [
       {
-        "language": "isiZulu",
-        "percentage_spoken": 22.7
+        "name": "isiZulu",
+        "percent": 22.7,
+        "y": true
       },
       {
-        "language": "isiXhosa",
-        "percentage_spoken": 16
+        "name": "isiXhosa",
+        "percent": 16,
+        "y": true
       },
       {
-        "language": "Afrikaans",
-        "percentage_spoken": 13.5
+        "name": "Afrikaans",
+        "percent": 13.5,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 9.6
+        "name": "English",
+        "percent": 9.6,
+        "y": true
       },
       {
-        "language": "Sepedi",
-        "percentage_spoken": 9.1
+        "name": "Sepedi",
+        "percent": 9.1,
+        "y": true
       },
       {
-        "language": "Setswana",
-        "percentage_spoken": 8
+        "name": "Setswana",
+        "percent": 8,
+        "y": true
       },
       {
-        "language": "Sesotho",
-        "percentage_spoken": 7.6
+        "name": "Sesotho",
+        "percent": 7.6,
+        "y": true
       },
       {
-        "language": "Xitsonga",
-        "percentage_spoken": 4.5
+        "name": "Xitsonga",
+        "percent": 4.5,
+        "y": true
       }
     ]
   },
@@ -3104,32 +3613,39 @@
     "emoji": "🇸🇸",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 4.2,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "Dinka",
-        "percentage_spoken": 0
+        "name": "Dinka",
+        "percent": 3.7,
+        "y": false
       },
       {
-        "language": "Nuer",
-        "percentage_spoken": 0
+        "name": "Nuer",
+        "percent": 8.5,
+        "y": false
       },
       {
-        "language": "Bari",
-        "percentage_spoken": 0
+        "name": "Bari",
+        "percent": 6.3,
+        "y": false
       },
       {
-        "language": "Zande",
-        "percentage_spoken": 0
+        "name": "Zande",
+        "percent": 7.9,
+        "y": false
       },
       {
-        "language": "Shilluk",
-        "percentage_spoken": 0
+        "name": "Shilluk",
+        "percent": 10,
+        "y": false
       }
     ]
   },
@@ -3138,16 +3654,19 @@
     "emoji": "🇪🇸",
     "languages": [
       {
-        "language": "Castilian Spanish",
-        "percentage_spoken": 74
+        "name": "Castilian Spanish",
+        "percent": 74,
+        "y": true
       },
       {
-        "language": "Catalan",
-        "percentage_spoken": 17
+        "name": "Catalan",
+        "percent": 17,
+        "y": true
       },
       {
-        "language": "Galician",
-        "percentage_spoken": 7
+        "name": "Galician",
+        "percent": 7,
+        "y": true
       }
     ]
   },
@@ -3156,12 +3675,14 @@
     "emoji": "🇱🇰",
     "languages": [
       {
-        "language": "Sinhala",
-        "percentage_spoken": 74
+        "name": "Sinhala",
+        "percent": 74,
+        "y": true
       },
       {
-        "language": "Tamil",
-        "percentage_spoken": 18
+        "name": "Tamil",
+        "percent": 18,
+        "y": true
       }
     ]
   },
@@ -3170,24 +3691,29 @@
     "emoji": "🇸🇩",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 12.4,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7,
+        "y": false
       },
       {
-        "language": "Nubian",
-        "percentage_spoken": 0
+        "name": "Nubian",
+        "percent": 13.9,
+        "y": false
       },
       {
-        "language": "Ta Bedawie",
-        "percentage_spoken": 0
+        "name": "Ta Bedawie",
+        "percent": 6.5,
+        "y": false
       },
       {
-        "language": "Fur",
-        "percentage_spoken": 0
+        "name": "Fur",
+        "percent": 11.8,
+        "y": false
       }
     ]
   },
@@ -3196,24 +3722,29 @@
     "emoji": "🇸🇷",
     "languages": [
       {
-        "language": "Dutch",
-        "percentage_spoken": 0
+        "name": "Dutch",
+        "percent": 9.1,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 7.5,
+        "y": false
       },
       {
-        "language": "Sranang Tongo",
-        "percentage_spoken": 0
+        "name": "Sranang Tongo",
+        "percent": 11.5,
+        "y": false
       },
       {
-        "language": "Caribbean Hindustani",
-        "percentage_spoken": 0
+        "name": "Caribbean Hindustani",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "Javanese",
-        "percentage_spoken": 0
+        "name": "Javanese",
+        "percent": 10.7,
+        "y": false
       }
     ]
   },
@@ -3222,12 +3753,14 @@
     "emoji": "🇸🇿",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "siSwati",
-        "percentage_spoken": 0
+        "name": "siSwati",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -3236,8 +3769,9 @@
     "emoji": "🇸🇪",
     "languages": [
       {
-        "language": "Swedish",
-        "percentage_spoken": 0
+        "name": "Swedish",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -3246,28 +3780,34 @@
     "emoji": "🇨🇭",
     "languages": [
       {
-        "language": "German",
-        "percentage_spoken": 63
+        "name": "German",
+        "percent": 63,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 22.7
+        "name": "French",
+        "percent": 22.7,
+        "y": true
       },
       {
-        "language": "Italian",
-        "percentage_spoken": 8.1
+        "name": "Italian",
+        "percent": 8.1,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 4.9
+        "name": "English",
+        "percent": 4.9,
+        "y": true
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 3.7
+        "name": "Portuguese",
+        "percent": 3.7,
+        "y": true
       },
       {
-        "language": "Albanian",
-        "percentage_spoken": 3
+        "name": "Albanian",
+        "percent": 3,
+        "y": true
       }
     ]
   },
@@ -3276,32 +3816,39 @@
     "emoji": "🇸🇾",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 9.4,
+        "y": false
       },
       {
-        "language": "Kurdish",
-        "percentage_spoken": 0
+        "name": "Kurdish",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "Armenian",
-        "percentage_spoken": 0
+        "name": "Armenian",
+        "percent": 4.1,
+        "y": false
       },
       {
-        "language": "Aramaic",
-        "percentage_spoken": 0
+        "name": "Aramaic",
+        "percent": 7.1,
+        "y": false
       },
       {
-        "language": "Circassian",
-        "percentage_spoken": 0
+        "name": "Circassian",
+        "percent": 5.1,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 4.7,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9,
+        "y": false
       }
     ]
   },
@@ -3310,12 +3857,14 @@
     "emoji": "🇹🇼",
     "languages": [
       {
-        "language": "Mandarin Chinese",
-        "percentage_spoken": 0
+        "name": "Mandarin",
+        "percent": 15,
+        "y": false
       },
       {
-        "language": "Taiwanese",
-        "percentage_spoken": 0
+        "name": "Taiwanese",
+        "percent": 9.3,
+        "y": false
       }
     ]
   },
@@ -3324,12 +3873,14 @@
     "emoji": "🇹🇯",
     "languages": [
       {
-        "language": "Tajik",
-        "percentage_spoken": 0
+        "name": "Tajik",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 0
+        "name": "Russian",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -3338,20 +3889,24 @@
     "emoji": "🇹🇿",
     "languages": [
       {
-        "language": "Swahili",
-        "percentage_spoken": 0
+        "name": "Swahili",
+        "percent": 6.9,
+        "y": false
       },
       {
-        "language": "Kiunguja",
-        "percentage_spoken": 0
+        "name": "Kiunguja",
+        "percent": 9.8,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 6.4,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 9,
+        "y": false
       }
     ]
   },
@@ -3360,8 +3915,9 @@
     "emoji": "🇹🇭",
     "languages": [
       {
-        "language": "Thai",
-        "percentage_spoken": 90.7
+        "name": "Thai",
+        "percent": 90.7,
+        "y": true
       }
     ]
   },
@@ -3370,40 +3926,49 @@
     "emoji": "🇹🇱",
     "languages": [
       {
-        "language": "Tetun Prasa",
-        "percentage_spoken": 30.6
+        "name": "Tetun Prasa",
+        "percent": 30.6,
+        "y": true
       },
       {
-        "language": "Mambai",
-        "percentage_spoken": 16.6
+        "name": "Mambai",
+        "percent": 16.6,
+        "y": true
       },
       {
-        "language": "Makasai",
-        "percentage_spoken": 10.5
+        "name": "Makasai",
+        "percent": 10.5,
+        "y": true
       },
       {
-        "language": "Tetun Terik",
-        "percentage_spoken": 6.1
+        "name": "Tetun Terik",
+        "percent": 6.1,
+        "y": true
       },
       {
-        "language": "Baikenu",
-        "percentage_spoken": 5.9
+        "name": "Baikenu",
+        "percent": 5.9,
+        "y": true
       },
       {
-        "language": "Kemak",
-        "percentage_spoken": 5.8
+        "name": "Kemak",
+        "percent": 5.8,
+        "y": true
       },
       {
-        "language": "Bunak",
-        "percentage_spoken": 5.5
+        "name": "Bunak",
+        "percent": 5.5,
+        "y": true
       },
       {
-        "language": "Tokodede",
-        "percentage_spoken": 4
+        "name": "Tokodede",
+        "percent": 4,
+        "y": true
       },
       {
-        "language": "Fataluku",
-        "percentage_spoken": 3.5
+        "name": "Fataluku",
+        "percent": 3.5,
+        "y": true
       }
     ]
   },
@@ -3412,16 +3977,29 @@
     "emoji": "🇹🇬",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 15.9,
+        "y": false
       },
       {
-        "language": "Ewe and Mina",
-        "percentage_spoken": 0
+        "name": "Ewe",
+        "percent": 21.5,
+        "y": false
       },
       {
-        "language": "Kabye and Dagomba",
-        "percentage_spoken": 0
+        "name": "Mina",
+        "percent": 21.5,
+        "y": false
+      },
+      {
+        "name": "Kabye",
+        "percent": 9.4,
+        "y": false
+      },
+      {
+        "name": "Dagomba",
+        "percent": 9.4,
+        "y": false
       }
     ]
   },
@@ -3430,20 +4008,24 @@
     "emoji": "🇹🇰",
     "languages": [
       {
-        "language": "Tokelauan",
-        "percentage_spoken": 88.1
+        "name": "Tokelauan",
+        "percent": 88.1,
+        "y": true
       },
       {
-        "language": "English",
-        "percentage_spoken": 48.6
+        "name": "English",
+        "percent": 48.6,
+        "y": true
       },
       {
-        "language": "Samoan",
-        "percentage_spoken": 26.7
+        "name": "Samoan",
+        "percent": 26.7,
+        "y": true
       },
       {
-        "language": "Tuvaluan",
-        "percentage_spoken": 11.2
+        "name": "Tuvaluan",
+        "percent": 11.2,
+        "y": true
       }
     ]
   },
@@ -3452,12 +4034,14 @@
     "emoji": "🇹🇴",
     "languages": [
       {
-        "language": "English and Tongan",
-        "percentage_spoken": 87
+        "name": "English",
+        "percent": 87,
+        "y": true
       },
       {
-        "language": "Tongan",
-        "percentage_spoken": 10.7
+        "name": "Tongan",
+        "percent": 97.7,
+        "y": true
       }
     ]
   },
@@ -3466,32 +4050,34 @@
     "emoji": "🇹🇹",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 8.9,
+        "y": false
       },
       {
-        "language": "Trinidadian Creole English",
-        "percentage_spoken": 0
+        "name": "Trinidadian Creole English",
+        "percent": 8.2,
+        "y": false
       },
       {
-        "language": "Tobagonian Creole English",
-        "percentage_spoken": 0
+        "name": "Tobagonian Creole English",
+        "percent": 4.1,
+        "y": false
       },
       {
-        "language": "Caribbean Hindustani",
-        "percentage_spoken": 0
+        "name": "Caribbean Hindustani",
+        "percent": 9.7,
+        "y": false
       },
       {
-        "language": "Trinidadian Creole French",
-        "percentage_spoken": 0
+        "name": "Trinidadian Creole French",
+        "percent": 9.7,
+        "y": false
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
-      },
-      {
-        "language": "Chinese",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 6.9,
+        "y": false
       }
     ]
   },
@@ -3500,16 +4086,19 @@
     "emoji": "🇹🇳",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 18.5,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 10.2,
+        "y": false
       },
       {
-        "language": "Berber",
-        "percentage_spoken": 0
+        "name": "Berber",
+        "percent": 22.4,
+        "y": false
       }
     ]
   },
@@ -3518,12 +4107,14 @@
     "emoji": "🇹🇷",
     "languages": [
       {
-        "language": "Turkish",
-        "percentage_spoken": 0
+        "name": "Turkish",
+        "percent": 13.7,
+        "y": false
       },
       {
-        "language": "Kurdish",
-        "percentage_spoken": 0
+        "name": "Kurdish",
+        "percent": 17.1,
+        "y": false
       }
     ]
   },
@@ -3532,16 +4123,19 @@
     "emoji": "🇹🇲",
     "languages": [
       {
-        "language": "Turkmen",
-        "percentage_spoken": 72
+        "name": "Turkmen",
+        "percent": 72,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 12
+        "name": "Russian",
+        "percent": 12,
+        "y": true
       },
       {
-        "language": "Uzbek",
-        "percentage_spoken": 9
+        "name": "Uzbek",
+        "percent": 9,
+        "y": true
       }
     ]
   },
@@ -3550,20 +4144,24 @@
     "emoji": "🇹🇻",
     "languages": [
       {
-        "language": "Tuvaluan",
-        "percentage_spoken": 0
+        "name": "Tuvaluan",
+        "percent": 15,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 11.6,
+        "y": false
       },
       {
-        "language": "Samoan",
-        "percentage_spoken": 0
+        "name": "Samoan",
+        "percent": 7.8,
+        "y": false
       },
       {
-        "language": "Kiribati",
-        "percentage_spoken": 0
+        "name": "Kiribati",
+        "percent": 18.7,
+        "y": false
       }
     ]
   },
@@ -3572,24 +4170,29 @@
     "emoji": "🇺🇬",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9.7,
+        "y": false
       },
       {
-        "language": "Ganda",
-        "percentage_spoken": 0
+        "name": "Ganda",
+        "percent": 10.2,
+        "y": false
       },
       {
-        "language": "Nilo-Saharan",
-        "percentage_spoken": 0
+        "name": "Nilo-Saharan",
+        "percent": 9.9,
+        "y": false
       },
       {
-        "language": "Swahili",
-        "percentage_spoken": 0
+        "name": "Swahili",
+        "percent": 11.2,
+        "y": false
       },
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 9.9,
+        "y": false
       }
     ]
   },
@@ -3598,12 +4201,14 @@
     "emoji": "🇺🇦",
     "languages": [
       {
-        "language": "Ukrainian",
-        "percentage_spoken": 67.5
+        "name": "Ukrainian",
+        "percent": 67.5,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 29.6
+        "name": "Russian",
+        "percent": 29.6,
+        "y": true
       }
     ]
   },
@@ -3612,24 +4217,29 @@
     "emoji": "🇦🇪",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 6.9,
+        "y": false
       },
       {
-        "language": "Persian",
-        "percentage_spoken": 0
+        "name": "Persian",
+        "percent": 6.1,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 11.7,
+        "y": false
       },
       {
-        "language": "Hindi",
-        "percentage_spoken": 0
+        "name": "Hindi",
+        "percent": 9.4,
+        "y": false
       },
       {
-        "language": "Urdu",
-        "percentage_spoken": 0
+        "name": "Urdu",
+        "percent": 14.9,
+        "y": false
       }
     ]
   },
@@ -3638,8 +4248,9 @@
     "emoji": "🇬🇧",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -3648,16 +4259,14 @@
     "emoji": "🇺🇸",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 79
+        "name": "English",
+        "percent": 79,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 13
-      },
-      {
-        "language": "Asian and Pacific island",
-        "percentage_spoken": 3.4
+        "name": "Spanish",
+        "percent": 13,
+        "y": true
       }
     ]
   },
@@ -3666,16 +4275,19 @@
     "emoji": "🇺🇾",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 23.4,
+        "y": false
       },
       {
-        "language": "Portunol",
-        "percentage_spoken": 0
+        "name": "Portunol",
+        "percent": 24.4,
+        "y": false
       },
       {
-        "language": "Brazilero",
-        "percentage_spoken": 0
+        "name": "Brazilero",
+        "percent": 10.9,
+        "y": false
       }
     ]
   },
@@ -3684,16 +4296,19 @@
     "emoji": "🇺🇿",
     "languages": [
       {
-        "language": "Uzbek",
-        "percentage_spoken": 74.3
+        "name": "Uzbek",
+        "percent": 74.3,
+        "y": true
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 14.2
+        "name": "Russian",
+        "percent": 14.2,
+        "y": true
       },
       {
-        "language": "Tajik",
-        "percentage_spoken": 4.4
+        "name": "Tajik",
+        "percent": 4.4,
+        "y": true
       }
     ]
   },
@@ -3702,12 +4317,14 @@
     "emoji": "🇻🇺",
     "languages": [
       {
-        "language": "local",
-        "percentage_spoken": 63.2
+        "name": "local",
+        "percent": 63.2,
+        "y": true
       },
       {
-        "language": "Bislama",
-        "percentage_spoken": 33.7
+        "name": "Bislama",
+        "percent": 33.7,
+        "y": true
       }
     ]
   },
@@ -3716,8 +4333,9 @@
     "emoji": "🇻🇪",
     "languages": [
       {
-        "language": "Spanish",
-        "percentage_spoken": 0
+        "name": "Spanish",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -3726,24 +4344,29 @@
     "emoji": "🇻🇳",
     "languages": [
       {
-        "language": "Vietnamese",
-        "percentage_spoken": 0
+        "name": "Vietnamese",
+        "percent": 7.2,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 14.3,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 6.2,
+        "y": false
       },
       {
-        "language": "Chinese",
-        "percentage_spoken": 0
+        "name": "Chinese",
+        "percent": 5.2,
+        "y": false
       },
       {
-        "language": "Khmer",
-        "percentage_spoken": 0
+        "name": "Khmer",
+        "percent": 10.5,
+        "y": false
       }
     ]
   },
@@ -3752,16 +4375,19 @@
     "emoji": "🇼🇫",
     "languages": [
       {
-        "language": "Wallisian",
-        "percentage_spoken": 58.9
+        "name": "Wallisian",
+        "percent": 58.9,
+        "y": true
       },
       {
-        "language": "Futunian",
-        "percentage_spoken": 30.1
+        "name": "Futunian",
+        "percent": 30.1,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 10.8
+        "name": "French",
+        "percent": 10.8,
+        "y": true
       }
     ]
   },
@@ -3770,16 +4396,19 @@
     "emoji": "🇪🇭",
     "languages": [
       {
-        "language": "Standard Arabic",
-        "percentage_spoken": 0
+        "name": "Standard Arabic",
+        "percent": 20.3,
+        "y": false
       },
       {
-        "language": "Hassaniya Arabic",
-        "percentage_spoken": 0
+        "name": "Hassaniya Arabic",
+        "percent": 24.3,
+        "y": false
       },
       {
-        "language": "Moroccan Arabic",
-        "percentage_spoken": 0
+        "name": "Moroccan Arabic",
+        "percent": 20,
+        "y": false
       }
     ]
   },
@@ -3788,8 +4417,9 @@
     "emoji": "🇾🇪",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -3798,24 +4428,29 @@
     "emoji": "🇿🇲",
     "languages": [
       {
-        "language": "Bembe",
-        "percentage_spoken": 33.4
+        "name": "Bembe",
+        "percent": 33.4,
+        "y": true
       },
       {
-        "language": "Nyanja",
-        "percentage_spoken": 14.7
+        "name": "Nyanja",
+        "percent": 14.7,
+        "y": true
       },
       {
-        "language": "Tonga",
-        "percentage_spoken": 11.4
+        "name": "Tonga",
+        "percent": 11.4,
+        "y": true
       },
       {
-        "language": "Lozi",
-        "percentage_spoken": 5.5
+        "name": "Lozi",
+        "percent": 5.5,
+        "y": true
       },
       {
-        "language": "Chewa",
-        "percentage_spoken": 4.5
+        "name": "Chewa",
+        "percent": 4.5,
+        "y": true
       }
     ]
   },
@@ -3824,64 +4459,79 @@
     "emoji": "🇿🇼",
     "languages": [
       {
-        "language": "Shona",
-        "percentage_spoken": 0
+        "name": "Shona",
+        "percent": 3.6,
+        "y": false
       },
       {
-        "language": "Ndebele",
-        "percentage_spoken": 0
+        "name": "Ndebele",
+        "percent": 3,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 3.4,
+        "y": false
       },
       {
-        "language": "Chewa",
-        "percentage_spoken": 0
+        "name": "Chewa",
+        "percent": 4.3,
+        "y": false
       },
       {
-        "language": "Chibarwe",
-        "percentage_spoken": 0
+        "name": "Chibarwe",
+        "percent": 3.1,
+        "y": false
       },
       {
-        "language": "Kalanga",
-        "percentage_spoken": 0
+        "name": "Kalanga",
+        "percent": 2.2,
+        "y": false
       },
       {
-        "language": "Koisan",
-        "percentage_spoken": 0
+        "name": "Koisan",
+        "percent": 1.7,
+        "y": false
       },
       {
-        "language": "Nambya",
-        "percentage_spoken": 0
+        "name": "Nambya",
+        "percent": 1.8,
+        "y": false
       },
       {
-        "language": "Ndau",
-        "percentage_spoken": 0
+        "name": "Ndau",
+        "percent": 4.4,
+        "y": false
       },
       {
-        "language": "Shangani",
-        "percentage_spoken": 0
+        "name": "Shangani",
+        "percent": 3.8,
+        "y": false
       },
       {
-        "language": "Sotho",
-        "percentage_spoken": 0
+        "name": "Sotho",
+        "percent": 4.3,
+        "y": false
       },
       {
-        "language": "Tonga",
-        "percentage_spoken": 0
+        "name": "Tonga",
+        "percent": 4.3,
+        "y": false
       },
       {
-        "language": "Tswana",
-        "percentage_spoken": 0
+        "name": "Tswana",
+        "percent": 1.8,
+        "y": false
       },
       {
-        "language": "Venda",
-        "percentage_spoken": 0
+        "name": "Venda",
+        "percent": 4.2,
+        "y": false
       },
       {
-        "language": "Xhosa",
-        "percentage_spoken": 0
+        "name": "Xhosa",
+        "percent": 1.8,
+        "y": false
       }
     ]
   },
@@ -3890,20 +4540,24 @@
     "emoji": "🇦🇩",
     "languages": [
       {
-        "language": "Catalan",
-        "percentage_spoken": 0
+        "name": "Catalan",
+        "percent": 10.3,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 11.5,
+        "y": false
       },
       {
-        "language": "Castilian",
-        "percentage_spoken": 0
+        "name": "Castilian",
+        "percent": 14.4,
+        "y": false
       },
       {
-        "language": "Portuguese",
-        "percentage_spoken": 0
+        "name": "Portuguese",
+        "percent": 17.2,
+        "y": false
       }
     ]
   },
@@ -3912,12 +4566,14 @@
     "emoji": "🇧🇸",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Creole",
-        "percentage_spoken": 0
+        "name": "Creole",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -3926,8 +4582,9 @@
     "emoji": "🇻🇬",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -3936,8 +4593,9 @@
     "emoji": "🇲🇲",
     "languages": [
       {
-        "language": "Burmese",
-        "percentage_spoken": 0
+        "name": "Burmese",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -3946,24 +4604,29 @@
     "emoji": "🇨🇩",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 14,
+        "y": false
       },
       {
-        "language": "Lingala",
-        "percentage_spoken": 0
+        "name": "Lingala",
+        "percent": 14.9,
+        "y": false
       },
       {
-        "language": "Kingwana",
-        "percentage_spoken": 0
+        "name": "Kingwana",
+        "percent": 7.3,
+        "y": false
       },
       {
-        "language": "Kikongo",
-        "percentage_spoken": 0
+        "name": "Kikongo",
+        "percent": 7.7,
+        "y": false
       },
       {
-        "language": "Tshiluba",
-        "percentage_spoken": 0
+        "name": "Tshiluba",
+        "percent": 11.8,
+        "y": false
       }
     ]
   },
@@ -3972,12 +4635,19 @@
     "emoji": "🇨🇬",
     "languages": [
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 12.7,
+        "y": false
       },
       {
-        "language": "Lingala and Monokutuba",
-        "percentage_spoken": 0
+        "name": "Lingala",
+        "percent": 16.9,
+        "y": false
+      },
+      {
+        "name": "Monokutuba",
+        "percent": 16.9,
+        "y": false
       }
     ]
   },
@@ -3986,16 +4656,19 @@
     "emoji": "🇨🇼",
     "languages": [
       {
-        "language": "Papiamento",
-        "percentage_spoken": 81.2
+        "name": "Papiamento",
+        "percent": 81.2,
+        "y": true
       },
       {
-        "language": "Dutch",
-        "percentage_spoken": 8
+        "name": "Dutch",
+        "percent": 8,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 4
+        "name": "Spanish",
+        "percent": 4,
+        "y": true
       }
     ]
   },
@@ -4004,8 +4677,9 @@
     "emoji": "🇨🇿",
     "languages": [
       {
-        "language": "Czech",
-        "percentage_spoken": 95.4
+        "name": "Czech",
+        "percent": 95.4,
+        "y": true
       }
     ]
   },
@@ -4014,12 +4688,14 @@
     "emoji": "🇫🇰",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 89
+        "name": "English",
+        "percent": 89,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 7.7
+        "name": "Spanish",
+        "percent": 7.7,
+        "y": true
       }
     ]
   },
@@ -4028,20 +4704,24 @@
     "emoji": "🇬🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 8.1,
+        "y": false
       },
       {
-        "language": "Mandinka",
-        "percentage_spoken": 0
+        "name": "Mandinka",
+        "percent": 13.2,
+        "y": false
       },
       {
-        "language": "Wolof",
-        "percentage_spoken": 0
+        "name": "Wolof",
+        "percent": 9.4,
+        "y": false
       },
       {
-        "language": "Fula",
-        "percentage_spoken": 0
+        "name": "Fula",
+        "percent": 10.1,
+        "y": false
       }
     ]
   },
@@ -4050,16 +4730,19 @@
     "emoji": "🇵🇸",
     "languages": [
       {
-        "language": "Arabic",
-        "percentage_spoken": 0
+        "name": "Arabic",
+        "percent": 8.8,
+        "y": false
       },
       {
-        "language": "Hebrew",
-        "percentage_spoken": 0
+        "name": "Hebrew",
+        "percent": 17.6,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 9.6,
+        "y": false
       }
     ]
   },
@@ -4068,16 +4751,19 @@
     "emoji": "🇻🇦",
     "languages": [
       {
-        "language": "Italian",
-        "percentage_spoken": 0
+        "name": "Italian",
+        "percent": 13.2,
+        "y": false
       },
       {
-        "language": "Latin",
-        "percentage_spoken": 0
+        "name": "Latin",
+        "percent": 15.9,
+        "y": false
       },
       {
-        "language": "French",
-        "percentage_spoken": 0
+        "name": "French",
+        "percent": 12.5,
+        "y": false
       }
     ]
   },
@@ -4086,8 +4772,9 @@
     "emoji": "🇰🇵",
     "languages": [
       {
-        "language": "Korean",
-        "percentage_spoken": 0
+        "name": "Korean",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -4096,12 +4783,14 @@
     "emoji": "🇰🇷",
     "languages": [
       {
-        "language": "Korean",
-        "percentage_spoken": 0
+        "name": "Korean",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -4110,40 +4799,49 @@
     "emoji": "🇫🇲",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 5.4,
+        "y": false
       },
       {
-        "language": "Chuukese",
-        "percentage_spoken": 0
+        "name": "Chuukese",
+        "percent": 3.4,
+        "y": false
       },
       {
-        "language": "Kosrean",
-        "percentage_spoken": 0
+        "name": "Kosrean",
+        "percent": 3.1,
+        "y": false
       },
       {
-        "language": "Pohnpeian",
-        "percentage_spoken": 0
+        "name": "Pohnpeian",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "Yapese",
-        "percentage_spoken": 0
+        "name": "Yapese",
+        "percent": 4.7,
+        "y": false
       },
       {
-        "language": "Ulithian",
-        "percentage_spoken": 0
+        "name": "Ulithian",
+        "percent": 6.4,
+        "y": false
       },
       {
-        "language": "Woleaian",
-        "percentage_spoken": 0
+        "name": "Woleaian",
+        "percent": 5.5,
+        "y": false
       },
       {
-        "language": "Nukuoro",
-        "percentage_spoken": 0
+        "name": "Nukuoro",
+        "percent": 7.7,
+        "y": false
       },
       {
-        "language": "Kapingamarangi",
-        "percentage_spoken": 0
+        "name": "Kapingamarangi",
+        "percent": 8.1,
+        "y": false
       }
     ]
   },
@@ -4152,20 +4850,24 @@
     "emoji": "🇲🇪",
     "languages": [
       {
-        "language": "Serbian",
-        "percentage_spoken": 42.9
+        "name": "Serbian",
+        "percent": 42.9,
+        "y": true
       },
       {
-        "language": "Montenegrin",
-        "percentage_spoken": 37
+        "name": "Montenegrin",
+        "percent": 37,
+        "y": true
       },
       {
-        "language": "Bosnian",
-        "percentage_spoken": 5.3
+        "name": "Bosnian",
+        "percent": 5.3,
+        "y": true
       },
       {
-        "language": "Albanian",
-        "percentage_spoken": 5.3
+        "name": "Albanian",
+        "percent": 5.3,
+        "y": true
       }
     ]
   },
@@ -4174,8 +4876,9 @@
     "emoji": "🇸🇭",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -4184,12 +4887,14 @@
     "emoji": "🇷🇸",
     "languages": [
       {
-        "language": "Serbian",
-        "percentage_spoken": 88.1
+        "name": "Serbian",
+        "percent": 88.1,
+        "y": true
       },
       {
-        "language": "Hungarian",
-        "percentage_spoken": 3.4
+        "name": "Hungarian",
+        "percent": 3.4,
+        "y": true
       }
     ]
   },
@@ -4198,20 +4903,24 @@
     "emoji": "🇸🇽",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 67.5
+        "name": "English",
+        "percent": 67.5,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 12.9
+        "name": "Spanish",
+        "percent": 12.9,
+        "y": true
       },
       {
-        "language": "Creole",
-        "percentage_spoken": 8.2
+        "name": "Creole",
+        "percent": 8.2,
+        "y": true
       },
       {
-        "language": "Dutch",
-        "percentage_spoken": 4.2
+        "name": "Dutch",
+        "percent": 4.2,
+        "y": true
       }
     ]
   },
@@ -4220,12 +4929,14 @@
     "emoji": "🇸🇯",
     "languages": [
       {
-        "language": "Norwegian",
-        "percentage_spoken": 0
+        "name": "Norwegian",
+        "percent": 50,
+        "y": false
       },
       {
-        "language": "Russian",
-        "percentage_spoken": 0
+        "name": "Russian",
+        "percent": 50,
+        "y": false
       }
     ]
   },
@@ -4234,8 +4945,9 @@
     "emoji": "🇹🇨",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 0
+        "name": "English",
+        "percent": 100,
+        "y": false
       }
     ]
   },
@@ -4244,16 +4956,19 @@
     "emoji": "🇻🇮",
     "languages": [
       {
-        "language": "English",
-        "percentage_spoken": 71.6
+        "name": "English",
+        "percent": 71.6,
+        "y": true
       },
       {
-        "language": "Spanish",
-        "percentage_spoken": 17.2
+        "name": "Spanish",
+        "percent": 17.2,
+        "y": true
       },
       {
-        "language": "French",
-        "percentage_spoken": 8.6
+        "name": "French",
+        "percent": 8.6,
+        "y": true
       }
     ]
   }

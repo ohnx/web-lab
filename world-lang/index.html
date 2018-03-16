@@ -17,9 +17,17 @@
             <h2>What languages can you speak?</h2>
             <p>You're able to communicate with <span style="font-weight: bold;" id="language_percentage">0%</span> of the world!</p>
             <fieldset id="language_checkboxes">Loading languages...</fieldset>
-            <p>Data Sources</p>
+            <h3>Accuracy</h3>
+            <p>
+                * means that the exact data was not given in the CIA world factbook. An approximation was done instead.
+                If you know of a reliable source that has better information, please let me know by sending a Pull Request
+                (see "open source" link below) or emailing me (click my name below to be led to my website, which has my email)!
+            </p>
+            <h3>Sources</h3>
+            <p>Data</p>
             <ul>
-                <li><a href="https://github.com/OpenBookPrices/country-data">Country and Language info</a></li>
+                <li><a href="https://github.com/OpenBookPrices/country-data">Country emojis and names</a></li>
+                <li><a href="https://www.cia.gov/library/publications/the-world-factbook/">Language info</a></li>
                 <li><a href="https://www.npmjs.com/package/countryjs">Population data</a></li>
                 <li><a href="https://github.com/markmarkoh/datamaps">World map</a></li>
             </ul>
@@ -29,16 +37,17 @@
                 <li><a href="https://github.com/davidmerfield/randomColor">randomColor</a> for generation of language colours</li>
             </ul>
             <p>This experiment is <a href="https://github.com/ohnx/web-lab/tree/gh-pages/world-lang">open source!</a></p>
+            <hr />
+            <p><a href="https://masonx.ca/">an experiment by mason</a></p>
         </div>
         <div id="map"></div>
         <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/randomcolor/0.5.2/randomColor.min.js"></script>
         <script src="data/datamaps.world.hires.min.js"></script>
-        <script src="data/language_codes.js"></script>
-        <script src="data/country_languages.js"></script>
+        <script src="data/country_info.js"></script>
         <script>
-            /* global Datamap, d3, randomColor, language_codes, country_languages, navigator */
+            /* global Datamap, d3, randomColor, country_info, navigator */
             var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
             var str = '';
             var language_populations = {}, used_languages_array = [], used_languages_by_population = [];
@@ -49,24 +58,25 @@
 
             /* build a list of all used language codes */
             /* loop through all countries */
-            for (var country in country_languages) {
-                if (!country_languages.hasOwnProperty(country)) continue;
+            for (var country in country_info) {
+                if (!country_info.hasOwnProperty(country)) continue;
                 /* loop through all languages */
-                for (var i = 0; i < country_languages[country].languages.length; i++) {
+                for (var i = 0; i < country_info[country].languages.length; i++) {
                     /* set initial value to 0 */
-                    if (!(country_languages[country].languages[i] in language_populations)) language_populations[country_languages[country].languages[i]] = 0;
+                    if (!(country_info[country].languages[i].name in language_populations)) language_populations[country_info[country].languages[i].name] = 0;
                     /* add the language population */
-                    language_populations[country_languages[country].languages[i]] += country_languages[country].population == undefined ? 0 : country_languages[country].population;
+                    var population = country_info[country].population == undefined ? 0 : country_info[country].population;
+                    language_populations[country_info[country].languages[i].name] += Math.floor(population * country_info[country].languages[i].percent / 100);
                 }
                 /* add total population */
-                totalPopulation += country_languages[country].population == undefined ? 0 : country_languages[country].population;
+                totalPopulation += country_info[country].population == undefined ? 0 : country_info[country].population;
             }
 
             /* loop through all the languages found and convert to array */
-            for (var code in language_populations) {
-                if (!language_populations.hasOwnProperty(code)) continue;
-                used_languages_array.push(code);
-                language_colours[code] = randomColor();
+            for (var name in language_populations) {
+                if (!language_populations.hasOwnProperty(name)) continue;
+                used_languages_array.push(name);
+                language_colours[name] = randomColor();
             }
             /* Sort used languages by nice name (not ISO code) */
             /*used_languages_array.sort(function (a,b) {
@@ -83,7 +93,7 @@
             /* create checkboxes for all the languages */
             for (var i = 0; i < used_languages_array.length; i++) {
                 str += '<label><input type="checkbox" value="' + used_languages_array[i] + '" class="language_hook">';
-                str += language_codes[used_languages_array[i]].name + '</label>';
+                str += used_languages_array[i] + '</label>';
             }
             /* set the colours */
             setTimeout(function(){
@@ -110,7 +120,7 @@
                         datamap.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
                     }
                 },
-                data: country_languages,
+                data: country_info,
                 geographyConfig: {
                     popupTemplate: function(geo, data) {
                         /* make the country name not have the comma stuff after it */
@@ -120,15 +130,17 @@
                             countryName = countryNameSplit[1] + ' ' + countryNameSplit[0];
                         }
                         /* top bar with emoji on mac */
-                        var str = '<div class="hoverinfo"><strong>Official languages in ' + countryName + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
+                        var str = '<div class="hoverinfo"><strong>Common languages in ' + countryName + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
                         var lang;
                         /* loop through all the languages */
                         for (var i = 0; i < data.languages.length; i++) {
-                            lang = (data.languages[i] in language_codes) ? language_codes[data.languages[i]].name : data.languages[i];
-                            if (selected_languages.indexOf(data.languages[i]) >= 0) {
+                            lang = data.languages[i].name;
+                            if (selected_languages.indexOf(data.languages[i].name) >= 0) {
                                 lang = '<b>' + lang + '</b>';
                             }
-                            str += '<li>' + lang + '</li>';
+                            str += '<li>' + lang + ' (' + data.languages[i].percent + '% speaking';
+                            if (!data.languages[i].y) str += '*';
+                            str += ')</li>';
                         }
                         str += '</ul></div>';
                         return str;
@@ -140,36 +152,42 @@
             d3.select(window).on('resize', function() {
                 map.resize();
             });
+            function country_speaks_language(country, language) {
+                for (var i = 0; i < country_info[country].languages.length; i++) {
+                    if (country_info[country].languages[i].name == language) return true;
+                }
+                return false;
+            }
             /* function called to update the map */
             function updateMap(sender) {
-                /* the language code to update */
-                var language_code = sender.target.value;
+                /* the language name to update */
+                var language_name = sender.target.value;
                 /* whether we are adding this language or removing it */
                 var removing_language = !sender.target.checked;
                 /* build list of countries with this language */
                 var langs_to_update = {};
                 /* the new colour for this country */
-                var updatedColor = removing_language ? NO_COLOUR : language_colours[language_code];
+                var updatedColor = removing_language ? NO_COLOUR : language_colours[language_name];
                 /* remove the currently selected language */
                 if (removing_language) {
-                    var index = selected_languages.indexOf(language_code);
+                    var index = selected_languages.indexOf(language_name);
                     if (index > -1) selected_languages.splice(index, 1);
                 }
 
                 /* loop through all countries */
-                for (var country in country_languages) {
-                    if (!country_languages.hasOwnProperty(country)) continue;
+                for (var country in country_info) {
+                    if (!country_info.hasOwnProperty(country)) continue;
                     /* does this country speak this language? */
-                    if (country_languages[country].languages.indexOf(language_code) >= 0) {
+                    if (country_speaks_language(country, language_name)) {
                         /* the country speaks this language. check if this country speaks any other selected languages */
                         var countrySpeaksAnotherSelectedLanguage = false;
                         var i;
 
                         /* does this country speak an already-selected language? */
                         /* loop through all languages this country speaks */
-                        for (i = 0; i < country_languages[country].languages.length; i++) {
+                        for (i = 0; i < country_info[country].languages.length; i++) {
                             /* check if selected_languages has this language in it */
-                            if (selected_languages.indexOf(country_languages[country].languages[i]) >= 0) {
+                            if (selected_languages.indexOf(country_info[country].languages[i].name) >= 0) {
                                 /* this country has more selected languages so don't change it! */
                                 countrySpeaksAnotherSelectedLanguage = true;
                                 break;
@@ -180,7 +198,7 @@
                         if (countrySpeaksAnotherSelectedLanguage) {
                             /* check if we are removing this country and if we are, update its colour to another language it speaks */
                             if (removing_language) {
-                                langs_to_update[country] = language_colours[country_languages[country].languages[i]];
+                                langs_to_update[country] = language_colours[country_info[country].languages[i].name];
                             } else {
                                 langs_to_update[country] = updatedColor;
                             }
@@ -188,7 +206,7 @@
                             /* update the colour */
                             langs_to_update[country] = updatedColor;
                             /* the population of this country */
-                            var countryPopulation = country_languages[country].population == undefined ? 0 : country_languages[country].population;
+                            var countryPopulation = country_info[country].population == undefined ? 0 : country_info[country].population;
 
                             /* 2 code paths - 1. we are removing it; 2. we are adding the country */
                             if (removing_language) {
@@ -203,7 +221,7 @@
                 }
 
                 /* add the newly selected language */
-                if (!removing_language) selected_languages.push(language_code);
+                if (!removing_language) selected_languages.push(language_name);
 
                 /* update the colours */
                 map.updateChoropleth(langs_to_update);
