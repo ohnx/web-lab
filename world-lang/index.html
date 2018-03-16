@@ -6,7 +6,8 @@
         <style>
             body { margin: 0; overflow: hidden; }
             body, .datamaps-hoverover { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Arial', Arial, sans-serif !important; }
-            #modal { transition: 0.2s all; position: fixed; opacity: 0.5; display: inline-block; top: 0; right: 0; z-index: 1000; background: white; padding: 0.5em; max-height: 10%; max-width: 50%; overflow: auto; }
+            h1, h2, h3 { font-weight: normal; }
+            #modal { transition: 0.4s all; position: fixed; opacity: 0.5; display: inline-block; top: 0; right: 0; z-index: 1000; background: white; padding: 0.5em; max-height: 10%; max-width: 50%; width: 350px; overflow: auto; }
             #modal:hover { opacity: 1; max-height: 50%; }
             label { display: block; padding-bottom: 0.4em; }
         </style>
@@ -36,31 +37,40 @@
             var str = '';
             var used_languages = {}, used_languages_array = [];
             var selected_languages = [];
-            var country_colours = {};
+            var language_colours = {};
             var totalPopulation = 0, runningTotalPopulation = 0;
             const NO_COLOUR = '#ccc';
+
             /* build a list of all used language codes */
+            /* loop through all countries */
             for (var country in country_languages) {
                 if (!country_languages.hasOwnProperty(country)) continue;
+                /* loop through all languages */
                 for (var i = 0; i < country_languages[country].languages.length; i++) {
                     used_languages[country_languages[country].languages[i]] = true;
                 }
+                /* add total population */
                 totalPopulation += country_languages[country].population == undefined ? 0 : country_languages[country].population;
             }
+
+            /* loop through all the languages found and convert to array */
             for (var code in used_languages) {
                 if (!used_languages.hasOwnProperty(code)) continue;
                 used_languages_array.push(code);
-                country_colours[code] = randomColor();
+                language_colours[code] = randomColor();
             }
+            /* Sort used languages by nice name (not ISO code) */
             used_languages_array.sort(function(a,b){
                 if (language_codes[a].name > language_codes[b].name) return 1;
                 else if (language_codes[a].name < language_codes[b].name) return -1;
                 return 0;
             });
+            /* create checkboxes for all the languages */
             for (var i = 0; i < used_languages_array.length; i++) {
                 str += '<label><input type="checkbox" value="' + used_languages_array[i] + '" class="language_hook">';
                 str += language_codes[used_languages_array[i]].name + '</label>';
             }
+            /* set the colours */
             setTimeout(function(){
                 document.getElementById('language_checkboxes').innerHTML = str;
                 setTimeout(function() {
@@ -70,6 +80,7 @@
                     }
                 }, 100);
             }, 10);
+            /* create map */
             var map = new Datamap({
                 scope: 'world',
                 element: document.getElementById('map'),
@@ -78,7 +89,7 @@
                 fills: {
                     defaultFill: NO_COLOUR
                 },
-                done: function(datamap){
+                done: function(datamap) {
                     datamap.svg.call(d3.behavior.zoom().on("zoom", redraw));
                     function redraw() {
                         datamap.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
@@ -87,7 +98,7 @@
                 data: country_languages,
                 geographyConfig: {
                     popupTemplate: function(geo, data) {
-                        var str = '<div class="hoverinfo"><strong>Languages spoken in ' + geo.properties.name + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
+                        var str = '<div class="hoverinfo"><strong>Official languages in ' + geo.properties.name + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
                         var lang;
                         for (var i = 0; i < data.languages.length; i++) {
                             lang = (data.languages[i] in language_codes) ? language_codes[data.languages[i]].name : data.languages[i];
@@ -101,47 +112,78 @@
             d3.select(window).on('resize', function() {
                 map.resize();
             });
+            /* function called to update the map */
             function updateMap(sender) {
+                /* the language code to update */
                 var language_code = sender.target.value;
+                /* whether we are adding this language or removing it */
+                var removing_language = !sender.target.checked;
                 /* build list of countries with this language */
                 var langs_to_update = {};
-                var updatedColor = sender.target.checked ? country_colours[language_code] : NO_COLOUR;
-                if (sender.target.checked) selected_languages.push(language_code);
-                else {
+                /* the new colour for this country */
+                var updatedColor = removing_language ? NO_COLOUR : language_colours[language_code];
+                /* remove the currently selected language */
+                if (removing_language) {
                     var index = selected_languages.indexOf(language_code);
                     if (index > -1) selected_languages.splice(index, 1);
                 }
 
+                /* loop through all countries */
                 for (var country in country_languages) {
                     if (!country_languages.hasOwnProperty(country)) continue;
+                    /* does this country speak this language? */
                     if (country_languages[country].languages.indexOf(language_code) >= 0) {
-                        var dontChangeColour = false;
-                        /* check that this country doesn't already have a selected language (but only if deselecting) */
-                        for (var i = 0; i < country_languages[country].languages.length && !sender.target.checked; i++) {
+                        /* the country speaks this language. check if this country speaks any other selected languages */
+                        var countrySpeaksAnotherSelectedLanguage = false;
+                        var i;
+
+                        /* does this country speak an already-selected language? */
+                        /* loop through all languages this country speaks */
+                        for (i = 0; i < country_languages[country].languages.length; i++) {
+                            /* check if selected_languages has this language in it */
                             if (selected_languages.indexOf(country_languages[country].languages[i]) >= 0) {
-                                /* don't change colour */
-                                dontChangeColour = true;
+                                /* this country has more selected languages so don't change it! */
+                                countrySpeaksAnotherSelectedLanguage = true;
                                 break;
                             }
                         }
-                        /* always change colour if we're updating */
-                        if (!dontChangeColour) {
+
+                        /* check our flag now */
+                        if (countrySpeaksAnotherSelectedLanguage) {
+                            /* check if we are removing this country and if we are, update its colour to another language it speaks */
+                            if (removing_language) {
+                                langs_to_update[country] = language_colours[country_languages[country].languages[i]];
+                            } else {
+                                langs_to_update[country] = updatedColor;
+                            }
+                        } else {
+                            /* update the colour */
                             langs_to_update[country] = updatedColor;
-                            console.log(country + " has population " + country_languages[country].population);
-                            /* TODO - fix data collection so there are no undefined */
-                            var nbrToAdd = country_languages[country].population == undefined ? 0 : country_languages[country].population;
-                            if (!sender.target.checked) nbrToAdd = -nbrToAdd; /* subtracting */
-                            runningTotalPopulation += nbrToAdd; /* TODO this is broken */
+                            /* the population of this country */
+                            var countryPopulation = country_languages[country].population == undefined ? 0 : country_languages[country].population;
+
+                            /* 2 code paths - 1. we are removing it; 2. we are adding the country */
+                            if (removing_language) {
+                                /* removing country, so remove the population from the running total */
+                                runningTotalPopulation -= countryPopulation;
+                            } else {
+                                /* adding country, so add the population to the running total */
+                                runningTotalPopulation += countryPopulation;
+                            } 
                         }
                     }
                 }
-                console.log(langs_to_update);
+
+                /* add the newly selected language */
+                if (!removing_language) selected_languages.push(language_code);
+
+                /* update the colours */
                 map.updateChoropleth(langs_to_update);
+
+                /* Update the percentage */
                 var percentage = runningTotalPopulation / totalPopulation;
-                percentage *= 1000;
-                percentage = Math.round(percentage);
-                percentage /= 10;
-                document.getElementById('language_percentage').innerHTML = percentage + '%';
+                percentage *= 100;
+                document.getElementById('language_percentage').innerHTML = percentage.toFixed(1) + '%';
             }
         </script>
     </body>
