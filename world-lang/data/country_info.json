@@ -42,17 +42,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 18.5,
+        "percent": 20.7,
         "y": false
       },
       {
         "name": "French",
-        "percent": 14.9,
+        "percent": 29.2,
         "y": false
       },
       {
         "name": "Berber",
-        "percent": 16.6,
+        "percent": 28.5,
         "y": false
       }
     ]
@@ -147,27 +147,27 @@
     "languages": [
       {
         "name": "Spanish",
-        "percent": 8.5,
+        "percent": 15.3,
         "y": false
       },
       {
         "name": "Italian",
-        "percent": 8.7,
+        "percent": 12.9,
         "y": false
       },
       {
         "name": "English",
-        "percent": 12.3,
+        "percent": 14.6,
         "y": false
       },
       {
         "name": "German",
-        "percent": 6,
+        "percent": 17.3,
         "y": false
       },
       {
         "name": "French",
-        "percent": 5.4,
+        "percent": 12.4,
         "y": false
       }
     ]
@@ -248,7 +248,7 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 17.4,
+        "percent": 25.2,
         "y": false
       },
       {
@@ -258,12 +258,12 @@
       },
       {
         "name": "Farsi",
-        "percent": 18.3,
+        "percent": 14.3,
         "y": false
       },
       {
         "name": "Urdu",
-        "percent": 9.8,
+        "percent": 17.4,
         "y": false
       }
     ]
@@ -364,17 +364,17 @@
     "languages": [
       {
         "name": "French",
-        "percent": 11,
-        "y": false
-      },
-      {
-        "name": "Yoruba",
-        "percent": 15.7,
+        "percent": 17.2,
         "y": false
       },
       {
         "name": "Fon",
-        "percent": 15.7,
+        "percent": 29.4,
+        "y": false
+      },
+      {
+        "name": "Yoruba",
+        "percent": 29.4,
         "y": false
       }
     ]
@@ -496,12 +496,12 @@
     "languages": [
       {
         "name": "Malay",
-        "percent": 10.8,
+        "percent": 29.3,
         "y": false
       },
       {
         "name": "English",
-        "percent": 9.7,
+        "percent": 29.5,
         "y": false
       }
     ]
@@ -533,12 +533,12 @@
     "languages": [
       {
         "name": "French",
-        "percent": 90,
+        "percent": 50,
         "y": false
       },
       {
-        "name": "Mossi",
-        "percent": 40,
+        "name": "native African  belonging to Sudanic family spoken by 90 of the population",
+        "percent": 50,
         "y": false
       }
     ]
@@ -550,7 +550,7 @@
       {
         "name": "Kirundi",
         "percent": 38.8,
-        "y": false
+        "y": true
       }
     ]
   },
@@ -587,17 +587,17 @@
     "languages": [
       {
         "name": "24 major African language groups",
-        "percent": 19.6,
+        "percent": 26,
         "y": false
       },
       {
         "name": "English",
-        "percent": 13.5,
+        "percent": 23.4,
         "y": false
       },
       {
         "name": "French",
-        "percent": 80.0,
+        "percent": 18.4,
         "y": false
       }
     ]
@@ -645,12 +645,12 @@
     "languages": [
       {
         "name": "French",
-        "percent": 16.1,
+        "percent": 24.9,
         "y": false
       },
       {
         "name": "Sangho",
-        "percent": 13.8,
+        "percent": 22.2,
         "y": false
       }
     ]
@@ -661,17 +661,17 @@
     "languages": [
       {
         "name": "French",
-        "percent": 14.3,
+        "percent": 28.9,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 10.9,
+        "percent": 28,
         "y": false
       },
       {
         "name": "Sara",
-        "percent": 11.3,
+        "percent": 28.7,
         "y": false
       }
     ]
@@ -698,17 +698,12 @@
     "languages": [
       {
         "name": "Mandarin",
-        "percent": 70,
+        "percent": 71.5,
         "y": false
       },
       {
         "name": "Cantonese",
-        "percent": 20,
-        "y": false
-      },
-      {
-        "name": "Chinese",
-        "percent": 99,
+        "percent": 5,
         "y": false
       }
     ]
@@ -719,27 +714,27 @@
     "languages": [
       {
         "name": "English",
-        "percent": 6.2,
+        "percent": 11.1,
         "y": false
       },
       {
         "name": "Mandarin",
-        "percent": 14.7,
+        "percent": 16.4,
         "y": false
       },
       {
         "name": "Cantonese",
-        "percent": 7.8,
+        "percent": 17,
         "y": false
       },
       {
         "name": "Malay",
-        "percent": 12.3,
+        "percent": 18.8,
         "y": false
       },
       {
         "name": "Tagalog",
-        "percent": 13.5,
+        "percent": 14.9,
         "y": false
       }
     ]
@@ -777,17 +772,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 22.8,
+        "percent": 18.4,
         "y": false
       },
       {
         "name": "French",
-        "percent": 14.5,
+        "percent": 38.5,
         "y": false
       },
       {
         "name": "Shikomoro",
-        "percent": 11.6,
+        "percent": 39.8,
         "y": false
       }
     ]
@@ -879,22 +874,22 @@
     "languages": [
       {
         "name": "Danish",
-        "percent": 16.9,
+        "percent": 27,
         "y": false
       },
       {
         "name": "Faroese",
-        "percent": 13.1,
+        "percent": 29.3,
         "y": false
       },
       {
         "name": "Greenlandic",
-        "percent": 15.8,
+        "percent": 29.9,
         "y": false
       },
       {
         "name": "German",
-        "percent": 13.7,
+        "percent": 30,
         "y": false
       }
     ]
@@ -905,22 +900,22 @@
     "languages": [
       {
         "name": "French",
-        "percent": 8.4,
+        "percent": 20,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 16.8,
+        "percent": 25.5,
         "y": false
       },
       {
         "name": "Somali",
-        "percent": 12.5,
+        "percent": 13.9,
         "y": false
       },
       {
         "name": "Afar",
-        "percent": 13.5,
+        "percent": 29.9,
         "y": false
       }
     ]
@@ -974,12 +969,12 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 80,
+        "percent": 90,
         "y": false
       },
       {
         "name": "English",
-        "percent": 50,
+        "percent": 60,
         "y": false
       },
       {
@@ -1022,32 +1017,32 @@
     "languages": [
       {
         "name": "Tigrinya",
-        "percent": 10,
+        "percent": 7.8,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 5.5,
+        "percent": 8.7,
         "y": false
       },
       {
         "name": "English",
-        "percent": 8.3,
+        "percent": 14.1,
         "y": false
       },
       {
         "name": "Tigre",
-        "percent": 10,
+        "percent": 14.3,
         "y": false
       },
       {
         "name": "Kunama",
-        "percent": 9.2,
+        "percent": 9.8,
         "y": false
       },
       {
         "name": "Afar",
-        "percent": 9.4,
+        "percent": 14.4,
         "y": false
       }
     ]
@@ -1099,12 +1094,12 @@
       },
       {
         "name": "English",
-        "percent": 2.2,
+        "percent": 3.9,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 3.9,
+        "percent": 7.7,
         "y": false
       }
     ]
@@ -1131,17 +1126,17 @@
     "languages": [
       {
         "name": "English",
-        "percent": 10.1,
+        "percent": 28.8,
         "y": false
       },
       {
         "name": "Fijian",
-        "percent": 19.2,
+        "percent": 28.5,
         "y": false
       },
       {
         "name": "Hindustani",
-        "percent": 21,
+        "percent": 17.3,
         "y": false
       }
     ]
@@ -1195,32 +1190,32 @@
     "languages": [
       {
         "name": "French",
-        "percent": 10.7,
+        "percent": 11.7,
         "y": false
       },
       {
         "name": "Fang",
-        "percent": 7.8,
+        "percent": 19.3,
         "y": false
       },
       {
         "name": "Myene",
-        "percent": 7.9,
+        "percent": 16.2,
         "y": false
       },
       {
         "name": "Nzebi",
-        "percent": 9,
+        "percent": 8.7,
         "y": false
       },
       {
         "name": "Bapounou/Eschira",
-        "percent": 6.4,
+        "percent": 9.9,
         "y": false
       },
       {
         "name": "Bandjabi",
-        "percent": 11.8,
+        "percent": 11.9,
         "y": false
       }
     ]
@@ -1319,22 +1314,22 @@
     "languages": [
       {
         "name": "English",
-        "percent": 11.7,
+        "percent": 23.4,
         "y": false
       },
       {
         "name": "Spanish",
-        "percent": 12.6,
+        "percent": 19.3,
         "y": false
       },
       {
         "name": "Italian",
-        "percent": 9.5,
+        "percent": 19.3,
         "y": false
       },
       {
         "name": "Portuguese",
-        "percent": 11.7,
+        "percent": 24.9,
         "y": false
       }
     ]
@@ -1356,17 +1351,17 @@
     "languages": [
       {
         "name": "Greenlandic",
-        "percent": 10.2,
+        "percent": 18.3,
         "y": false
       },
       {
         "name": "Danish",
-        "percent": 9.1,
+        "percent": 36,
         "y": false
       },
       {
         "name": "English",
-        "percent": 11.8,
+        "percent": 38.6,
         "y": false
       }
     ]
@@ -1450,12 +1445,12 @@
     "languages": [
       {
         "name": "English",
-        "percent": 9.9,
+        "percent": 22.1,
         "y": false
       },
       {
         "name": "French",
-        "percent": 13.4,
+        "percent": 18,
         "y": false
       }
     ]
@@ -1477,22 +1472,22 @@
     "languages": [
       {
         "name": "Crioulo",
-        "percent": 10.5,
+        "percent": 21.9,
         "y": false
       },
       {
         "name": "Portuguese",
-        "percent": 14.6,
+        "percent": 14.9,
         "y": false
       },
       {
         "name": "Pular",
-        "percent": 14.6,
+        "percent": 16.9,
         "y": false
       },
       {
         "name": "Mandingo",
-        "percent": 8.5,
+        "percent": 29.6,
         "y": false
       }
     ]
@@ -1503,27 +1498,27 @@
     "languages": [
       {
         "name": "English",
-        "percent": 6.2,
+        "percent": 24.2,
         "y": false
       },
       {
         "name": "Guyanese Creole",
-        "percent": 9,
+        "percent": 15.2,
         "y": false
       },
       {
         "name": "Amerindian",
-        "percent": 10,
+        "percent": 19.8,
         "y": false
       },
       {
         "name": "Indian",
-        "percent": 5.7,
+        "percent": 22.2,
         "y": false
       },
       {
         "name": "Chinese",
-        "percent": 5,
+        "percent": 17.8,
         "y": false
       }
     ]
@@ -1598,22 +1593,22 @@
     "languages": [
       {
         "name": "Icelandic",
-        "percent": 11.9,
+        "percent": 17.3,
         "y": false
       },
       {
         "name": "English",
-        "percent": 16.8,
+        "percent": 26.8,
         "y": false
       },
       {
         "name": "Nordic",
-        "percent": 16.5,
+        "percent": 29.7,
         "y": false
       },
       {
-        "name": "German",
-        "percent": 6.8,
+        "name": "German widely spoken",
+        "percent": 22.6,
         "y": false
       }
     ]
@@ -1680,17 +1675,17 @@
     "languages": [
       {
         "name": "Bahasa Indonesia",
-        "percent": 13.2,
+        "percent": 16.6,
         "y": false
       },
       {
         "name": "English",
-        "percent": 12.7,
+        "percent": 18.7,
         "y": false
       },
       {
         "name": "Dutch",
-        "percent": 17.2,
+        "percent": 25.2,
         "y": false
       }
     ]
@@ -1701,42 +1696,42 @@
     "languages": [
       {
         "name": "Persian",
-        "percent": 6.5,
+        "percent": 10.9,
         "y": false
       },
       {
         "name": "Kurdish",
-        "percent": 8.6,
-        "y": false
-      },
-      {
-        "name": "Mazandarani",
-        "percent": 7,
+        "percent": 12.3,
         "y": false
       },
       {
         "name": "Gilaki",
-        "percent": 7,
+        "percent": 14.1,
+        "y": false
+      },
+      {
+        "name": "Mazandarani",
+        "percent": 14.1,
         "y": false
       },
       {
         "name": "Luri",
-        "percent": 6.6,
+        "percent": 12.1,
         "y": false
       },
       {
         "name": "Balochi",
-        "percent": 4.8,
+        "percent": 6.7,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 5.8,
+        "percent": 8.4,
         "y": false
       },
       {
         "name": "other",
-        "percent": 8,
+        "percent": 15.5,
         "y": false
       }
     ]
@@ -1747,27 +1742,27 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 14.7,
+        "percent": 10.4,
         "y": false
       },
       {
         "name": "Kurdish",
-        "percent": 12.8,
+        "percent": 20.5,
         "y": false
       },
       {
         "name": "Turkmen",
-        "percent": 7.4,
+        "percent": 24.3,
         "y": false
       },
       {
         "name": "Syriac",
-        "percent": 8,
+        "percent": 14.5,
         "y": false
       },
       {
         "name": "Armenian",
-        "percent": 8.5,
+        "percent": 23.5,
         "y": false
       }
     ]
@@ -1810,17 +1805,17 @@
     "languages": [
       {
         "name": "Hebrew",
-        "percent": 23.4,
+        "percent": 36.7,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 18.8,
+        "percent": 21.2,
         "y": false
       },
       {
         "name": "English",
-        "percent": 13.1,
+        "percent": 28.7,
         "y": false
       }
     ]
@@ -1831,22 +1826,22 @@
     "languages": [
       {
         "name": "Italian",
-        "percent": 11.4,
+        "percent": 29.7,
         "y": false
       },
       {
         "name": "German",
-        "percent": 8.6,
+        "percent": 19.3,
         "y": false
       },
       {
         "name": "French",
-        "percent": 10.9,
+        "percent": 21.9,
         "y": false
       },
       {
         "name": "Slovene",
-        "percent": 17.4,
+        "percent": 21.2,
         "y": false
       }
     ]
@@ -1932,12 +1927,12 @@
     "languages": [
       {
         "name": "English",
-        "percent": 24.6,
+        "percent": 23.9,
         "y": false
       },
       {
         "name": "Kiswahili",
-        "percent": 22.8,
+        "percent": 22.3,
         "y": false
       }
     ]
@@ -1964,12 +1959,12 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 80,
+        "percent": 50,
         "y": false
       },
       {
-        "name": "English",
-        "percent": 80,
+        "name": "English widely spoken",
+        "percent": 50,
         "y": false
       }
     ]
@@ -2001,17 +1996,17 @@
     "languages": [
       {
         "name": "Lao",
-        "percent": 9.4,
+        "percent": 25,
         "y": false
       },
       {
         "name": "French",
-        "percent": 15.6,
+        "percent": 18.9,
         "y": false
       },
       {
         "name": "English",
-        "percent": 18.7,
+        "percent": 15,
         "y": false
       }
     ]
@@ -2038,22 +2033,22 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 6.6,
+        "percent": 14.4,
         "y": false
       },
       {
         "name": "French",
-        "percent": 18.5,
+        "percent": 31.1,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7.9,
+        "percent": 27.1,
         "y": false
       },
       {
         "name": "Armenian",
-        "percent": 9.1,
+        "percent": 29.9,
         "y": false
       }
     ]
@@ -2064,22 +2059,22 @@
     "languages": [
       {
         "name": "Sesotho",
-        "percent": 12.4,
+        "percent": 19.9,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7.1,
+        "percent": 20.2,
         "y": false
       },
       {
         "name": "Zulu",
-        "percent": 13.6,
+        "percent": 15.6,
         "y": false
       },
       {
         "name": "Xhosa",
-        "percent": 10.1,
+        "percent": 28.6,
         "y": false
       }
     ]
@@ -2101,17 +2096,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 10,
+        "percent": 23.4,
         "y": false
       },
       {
         "name": "Italian",
-        "percent": 18.1,
+        "percent": 34.5,
         "y": false
       },
       {
-        "name": "English",
-        "percent": 13.6,
+        "name": "English; Berber",
+        "percent": 32.2,
         "y": false
       }
     ]
@@ -2222,17 +2217,17 @@
     "languages": [
       {
         "name": "French",
-        "percent": 16.3,
+        "percent": 24.7,
         "y": false
       },
       {
         "name": "Malagasy",
-        "percent": 16.3,
+        "percent": 25,
         "y": false
       },
       {
         "name": "English",
-        "percent": 15,
+        "percent": 21.6,
         "y": false
       }
     ]
@@ -2243,62 +2238,62 @@
     "languages": [
       {
         "name": "English",
-        "percent": 2.4,
+        "percent": 7.6,
         "y": false
       },
       {
         "name": "Chichewa",
-        "percent": 2.9,
+        "percent": 7.5,
         "y": false
       },
       {
         "name": "Chinyanja",
-        "percent": 3.7,
+        "percent": 6.2,
         "y": false
       },
       {
         "name": "Chiyao",
-        "percent": 3.5,
+        "percent": 9.3,
         "y": false
       },
       {
         "name": "Chitumbuka",
-        "percent": 3.2,
+        "percent": 7.2,
         "y": false
       },
       {
         "name": "Chilomwe",
-        "percent": 4.1,
+        "percent": 7.3,
         "y": false
       },
       {
         "name": "Chinkhonde",
-        "percent": 2.7,
+        "percent": 6,
         "y": false
       },
       {
         "name": "Chingoni",
-        "percent": 5.2,
+        "percent": 9.6,
         "y": false
       },
       {
         "name": "Chisena",
-        "percent": 3.4,
+        "percent": 8.2,
         "y": false
       },
       {
         "name": "Chitonga",
-        "percent": 3.3,
+        "percent": 5.5,
         "y": false
       },
       {
         "name": "Chinyakyusa",
-        "percent": 2.5,
+        "percent": 7.4,
         "y": false
       },
       {
         "name": "Chilambya",
-        "percent": 5.2,
+        "percent": 10.2,
         "y": false
       }
     ]
@@ -2309,47 +2304,47 @@
     "languages": [
       {
         "name": "Bahasa Malaysia",
-        "percent": 5.3,
+        "percent": 9.4,
         "y": false
       },
       {
         "name": "English",
-        "percent": 4.8,
-        "y": false
-      },
-      {
-        "name": "Cantonese",
         "percent": 5.6,
         "y": false
       },
       {
+        "name": "Cantonese",
+        "percent": 13.8,
+        "y": false
+      },
+      {
         "name": "Mandarin",
-        "percent": 4.8,
+        "percent": 7.5,
         "y": false
       },
       {
         "name": "Tamil",
-        "percent": 4.1,
+        "percent": 6.2,
         "y": false
       },
       {
         "name": "Telugu",
-        "percent": 5.7,
+        "percent": 12.5,
         "y": false
       },
       {
         "name": "Malayalam",
-        "percent": 7.9,
+        "percent": 9.9,
         "y": false
       },
       {
         "name": "Panjabi",
-        "percent": 6,
+        "percent": 10.9,
         "y": false
       },
       {
         "name": "Thai",
-        "percent": 6.4,
+        "percent": 12.4,
         "y": false
       }
     ]
@@ -2376,7 +2371,7 @@
     "languages": [
       {
         "name": "French",
-        "percent": 2.3,
+        "percent": 8.3,
         "y": false
       },
       {
@@ -2385,7 +2380,7 @@
         "y": true
       },
       {
-        "name": "Foulfoulbe",
+        "name": "Peul/Foulfoulbe",
         "percent": 9.4,
         "y": true
       },
@@ -2395,7 +2390,7 @@
         "y": true
       },
       {
-        "name": "Soninke",
+        "name": "Maraka/Soninke",
         "percent": 6.4,
         "y": true
       },
@@ -2405,7 +2400,7 @@
         "y": true
       },
       {
-        "name": "Djerma",
+        "name": "Sonrhai/Djerma",
         "percent": 5.6,
         "y": true
       },
@@ -2459,27 +2454,27 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 9.9,
+        "percent": 16.9,
         "y": false
       },
       {
         "name": "Pular",
-        "percent": 6.1,
+        "percent": 17.8,
         "y": false
       },
       {
         "name": "Soninke",
-        "percent": 9.1,
+        "percent": 11.1,
         "y": false
       },
       {
         "name": "Wolof",
-        "percent": 6.1,
+        "percent": 17.5,
         "y": false
       },
       {
         "name": "French",
-        "percent": 12.6,
+        "percent": 10.9,
         "y": false
       }
     ]
@@ -2521,7 +2516,7 @@
     "emoji": "🇲🇩",
     "languages": [
       {
-        "name": "Romanian",
+        "name": "Moldovan/Romanian",
         "percent": 80.2,
         "y": true
       },
@@ -2548,22 +2543,22 @@
     "languages": [
       {
         "name": "French",
-        "percent": 12.5,
+        "percent": 30.3,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7.2,
+        "percent": 24.9,
         "y": false
       },
       {
         "name": "Italian",
-        "percent": 17.2,
+        "percent": 19.7,
         "y": false
       },
       {
         "name": "Monegasque",
-        "percent": 16.9,
+        "percent": 28.7,
         "y": false
       }
     ]
@@ -2579,12 +2574,12 @@
       },
       {
         "name": "Turkic",
-        "percent": 14.9,
+        "percent": 27.2,
         "y": false
       },
       {
         "name": "Russian",
-        "percent": 21.6,
+        "percent": 26.2,
         "y": false
       }
     ]
@@ -2606,17 +2601,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 8.9,
+        "percent": 36.4,
         "y": false
       },
       {
         "name": "Berber",
-        "percent": 19.1,
+        "percent": 39.8,
         "y": false
       },
       {
         "name": "French",
-        "percent": 22.5,
+        "percent": 41.4,
         "y": false
       }
     ]
@@ -2810,17 +2805,17 @@
     "languages": [
       {
         "name": "French",
-        "percent": 21.8,
+        "percent": 18.1,
         "y": false
       },
       {
         "name": "Hausa",
-        "percent": 24.7,
+        "percent": 31,
         "y": false
       },
       {
         "name": "Djerma",
-        "percent": 16.9,
+        "percent": 18,
         "y": false
       }
     ]
@@ -2831,27 +2826,27 @@
     "languages": [
       {
         "name": "English",
-        "percent": 10.1,
+        "percent": 14.1,
         "y": false
       },
       {
         "name": "Hausa",
-        "percent": 11.7,
+        "percent": 10.7,
         "y": false
       },
       {
         "name": "Yoruba",
-        "percent": 6.3,
+        "percent": 10.7,
         "y": false
       },
       {
         "name": "Igbo",
-        "percent": 11.1,
+        "percent": 12.2,
         "y": false
       },
       {
         "name": "Fulani",
-        "percent": 10.7,
+        "percent": 19.9,
         "y": false
       }
     ]
@@ -2867,7 +2862,7 @@
       },
       {
         "name": "English",
-        "percent": 43,
+        "percent": 45,
         "y": true
       }
     ]
@@ -2914,8 +2909,13 @@
     "emoji": "🇳🇴",
     "languages": [
       {
-        "name": "Norwegian",
-        "percent": 100,
+        "name": "Bokmal Norwegian",
+        "percent": 50,
+        "y": false
+      },
+      {
+        "name": "Nynorsk Norwegian",
+        "percent": 50,
         "y": false
       }
     ]
@@ -2926,22 +2926,22 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 9.2,
+        "percent": 18.6,
         "y": false
       },
       {
         "name": "English",
-        "percent": 9.2,
+        "percent": 20,
         "y": false
       },
       {
         "name": "Baluchi",
-        "percent": 13.6,
+        "percent": 14.9,
         "y": false
       },
       {
         "name": "Urdu",
-        "percent": 12.5,
+        "percent": 11.7,
         "y": false
       }
     ]
@@ -3009,32 +3009,32 @@
     "languages": [
       {
         "name": "Spanish",
-        "percent": 10.1,
+        "percent": 7.8,
         "y": false
       },
       {
         "name": "Panamanian English Creole",
-        "percent": 5.6,
+        "percent": 7.2,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7,
+        "percent": 12.7,
         "y": false
       },
       {
         "name": "Chinese",
-        "percent": 10.2,
+        "percent": 12.7,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 6.3,
+        "percent": 13.4,
         "y": false
       },
       {
         "name": "French Creole",
-        "percent": 6.6,
+        "percent": 15.9,
         "y": false
       }
     ]
@@ -3045,17 +3045,17 @@
     "languages": [
       {
         "name": "Tok Pisin",
-        "percent": 7.6,
+        "percent": 13.8,
         "y": false
       },
       {
         "name": "English",
-        "percent": 15.7,
+        "percent": 21.7,
         "y": false
       },
       {
         "name": "Hiri Motu",
-        "percent": 8.9,
+        "percent": 23.7,
         "y": false
       }
     ]
@@ -3360,37 +3360,37 @@
     "languages": [
       {
         "name": "French",
-        "percent": 10.6,
+        "percent": 14.3,
         "y": false
       },
       {
         "name": "Wolof",
-        "percent": 7.7,
+        "percent": 7.2,
         "y": false
       },
       {
         "name": "Pular",
-        "percent": 9.4,
+        "percent": 12,
         "y": false
       },
       {
         "name": "Jola",
-        "percent": 9.8,
+        "percent": 8.7,
         "y": false
       },
       {
         "name": "Mandinka",
-        "percent": 7.8,
+        "percent": 14.9,
         "y": false
       },
       {
         "name": "Serer",
-        "percent": 9.7,
+        "percent": 15.6,
         "y": false
       },
       {
         "name": "Soninke",
-        "percent": 8.1,
+        "percent": 11.6,
         "y": false
       }
     ]
@@ -3417,22 +3417,22 @@
     "languages": [
       {
         "name": "English",
-        "percent": 16.2,
+        "percent": 23.6,
         "y": false
       },
       {
         "name": "Mende",
-        "percent": 15.6,
+        "percent": 19.6,
         "y": false
       },
       {
         "name": "Temne",
-        "percent": 9.6,
+        "percent": 16.2,
         "y": false
       },
       {
         "name": "Krio",
-        "percent": 10.6,
+        "percent": 18.6,
         "y": false
       }
     ]
@@ -3510,12 +3510,12 @@
       },
       {
         "name": "Italian",
-        "percent": 6.7,
+        "percent": 15.1,
         "y": false
       },
       {
         "name": "Hungarian",
-        "percent": 12.4,
+        "percent": 13.2,
         "y": false
       }
     ]
@@ -3526,12 +3526,12 @@
     "languages": [
       {
         "name": "Melanesian pidgin",
-        "percent": 21.9,
+        "percent": 28.6,
         "y": false
       },
       {
         "name": "English",
-        "percent": 21.8,
+        "percent": 32.4,
         "y": false
       }
     ]
@@ -3542,22 +3542,22 @@
     "languages": [
       {
         "name": "Somali",
-        "percent": 9,
+        "percent": 31.1,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 18,
+        "percent": 27.4,
         "y": false
       },
       {
         "name": "Italian",
-        "percent": 15.6,
+        "percent": 26.3,
         "y": false
       },
       {
         "name": "English",
-        "percent": 15.8,
+        "percent": 27.6,
         "y": false
       }
     ]
@@ -3614,37 +3614,37 @@
     "languages": [
       {
         "name": "English",
-        "percent": 4.2,
+        "percent": 11.2,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 5.5,
+        "percent": 15.4,
         "y": false
       },
       {
         "name": "Dinka",
-        "percent": 3.7,
+        "percent": 12.8,
         "y": false
       },
       {
         "name": "Nuer",
-        "percent": 8.5,
+        "percent": 8.3,
         "y": false
       },
       {
         "name": "Bari",
-        "percent": 6.3,
+        "percent": 8.3,
         "y": false
       },
       {
         "name": "Zande",
-        "percent": 7.9,
+        "percent": 14.5,
         "y": false
       },
       {
         "name": "Shilluk",
-        "percent": 10,
+        "percent": 8,
         "y": false
       }
     ]
@@ -3654,7 +3654,7 @@
     "emoji": "🇪🇸",
     "languages": [
       {
-        "name": "Castilian Spanish",
+        "name": "Spanish",
         "percent": 74,
         "y": true
       },
@@ -3692,27 +3692,27 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 12.4,
+        "percent": 21.8,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7,
+        "percent": 13.5,
         "y": false
       },
       {
         "name": "Nubian",
-        "percent": 13.9,
+        "percent": 17.9,
         "y": false
       },
       {
         "name": "Ta Bedawie",
-        "percent": 6.5,
+        "percent": 20,
         "y": false
       },
       {
         "name": "Fur",
-        "percent": 11.8,
+        "percent": 12.4,
         "y": false
       }
     ]
@@ -3723,27 +3723,27 @@
     "languages": [
       {
         "name": "Dutch",
-        "percent": 9.1,
+        "percent": 20.7,
         "y": false
       },
       {
         "name": "English",
-        "percent": 7.5,
+        "percent": 14.9,
         "y": false
       },
       {
         "name": "Sranang Tongo",
-        "percent": 11.5,
+        "percent": 20.4,
         "y": false
       },
       {
         "name": "Caribbean Hindustani",
-        "percent": 5.5,
+        "percent": 18,
         "y": false
       },
       {
         "name": "Javanese",
-        "percent": 10.7,
+        "percent": 20.5,
         "y": false
       }
     ]
@@ -3817,37 +3817,37 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 9.4,
+        "percent": 16.2,
         "y": false
       },
       {
         "name": "Kurdish",
-        "percent": 5.5,
+        "percent": 15.1,
         "y": false
       },
       {
         "name": "Armenian",
-        "percent": 4.1,
+        "percent": 15.3,
         "y": false
       },
       {
         "name": "Aramaic",
-        "percent": 7.1,
+        "percent": 10.9,
         "y": false
       },
       {
         "name": "Circassian",
-        "percent": 5.1,
+        "percent": 8.1,
         "y": false
       },
       {
         "name": "French",
-        "percent": 4.7,
+        "percent": 12.1,
         "y": false
       },
       {
         "name": "English",
-        "percent": 9,
+        "percent": 11.4,
         "y": false
       }
     ]
@@ -3858,12 +3858,12 @@
     "languages": [
       {
         "name": "Mandarin",
-        "percent": 15,
+        "percent": 20.4,
         "y": false
       },
       {
         "name": "Taiwanese",
-        "percent": 9.3,
+        "percent": 29.6,
         "y": false
       }
     ]
@@ -3890,22 +3890,22 @@
     "languages": [
       {
         "name": "Swahili",
-        "percent": 6.9,
+        "percent": 14.3,
         "y": false
       },
       {
         "name": "Kiunguja",
-        "percent": 9.8,
+        "percent": 23.4,
         "y": false
       },
       {
         "name": "English",
-        "percent": 6.4,
+        "percent": 22.7,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 9,
+        "percent": 19.5,
         "y": false
       }
     ]
@@ -3978,27 +3978,27 @@
     "languages": [
       {
         "name": "French",
-        "percent": 15.9,
+        "percent": 17.1,
         "y": false
       },
       {
         "name": "Ewe",
-        "percent": 21.5,
+        "percent": 20.4,
         "y": false
       },
       {
         "name": "Mina",
-        "percent": 21.5,
-        "y": false
-      },
-      {
-        "name": "Kabye",
-        "percent": 9.4,
+        "percent": 20.4,
         "y": false
       },
       {
         "name": "Dagomba",
-        "percent": 9.4,
+        "percent": 32.2,
+        "y": false
+      },
+      {
+        "name": "Kabye",
+        "percent": 32.2,
         "y": false
       }
     ]
@@ -4051,32 +4051,37 @@
     "languages": [
       {
         "name": "English",
-        "percent": 8.9,
+        "percent": 7.4,
         "y": false
       },
       {
         "name": "Trinidadian Creole English",
-        "percent": 8.2,
+        "percent": 17.8,
         "y": false
       },
       {
         "name": "Tobagonian Creole English",
-        "percent": 4.1,
+        "percent": 11.8,
         "y": false
       },
       {
         "name": "Caribbean Hindustani",
-        "percent": 9.7,
+        "percent": 10.2,
         "y": false
       },
       {
         "name": "Trinidadian Creole French",
-        "percent": 9.7,
+        "percent": 9,
         "y": false
       },
       {
         "name": "Spanish",
-        "percent": 6.9,
+        "percent": 14.4,
+        "y": false
+      },
+      {
+        "name": "Chinese",
+        "percent": 15.2,
         "y": false
       }
     ]
@@ -4087,17 +4092,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 18.5,
+        "percent": 34.7,
         "y": false
       },
       {
         "name": "French",
-        "percent": 10.2,
+        "percent": 19.6,
         "y": false
       },
       {
         "name": "Berber",
-        "percent": 22.4,
+        "percent": 31.9,
         "y": false
       }
     ]
@@ -4108,12 +4113,12 @@
     "languages": [
       {
         "name": "Turkish",
-        "percent": 13.7,
+        "percent": 33.1,
         "y": false
       },
       {
         "name": "Kurdish",
-        "percent": 17.1,
+        "percent": 32.1,
         "y": false
       }
     ]
@@ -4145,22 +4150,22 @@
     "languages": [
       {
         "name": "Tuvaluan",
-        "percent": 15,
+        "percent": 22.1,
         "y": false
       },
       {
         "name": "English",
-        "percent": 11.6,
+        "percent": 24.7,
         "y": false
       },
       {
         "name": "Samoan",
-        "percent": 7.8,
+        "percent": 28.4,
         "y": false
       },
       {
         "name": "Kiribati",
-        "percent": 18.7,
+        "percent": 18.6,
         "y": false
       }
     ]
@@ -4171,27 +4176,27 @@
     "languages": [
       {
         "name": "English",
-        "percent": 9.7,
+        "percent": 18.8,
         "y": false
       },
       {
         "name": "Ganda",
-        "percent": 10.2,
+        "percent": 14,
         "y": false
       },
       {
         "name": "Nilo-Saharan",
-        "percent": 9.9,
+        "percent": 18.3,
         "y": false
       },
       {
         "name": "Swahili",
-        "percent": 11.2,
+        "percent": 19.1,
         "y": false
       },
       {
         "name": "Arabic",
-        "percent": 9.9,
+        "percent": 24.8,
         "y": false
       }
     ]
@@ -4218,27 +4223,27 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 6.9,
+        "percent": 15.4,
         "y": false
       },
       {
         "name": "Persian",
-        "percent": 6.1,
+        "percent": 14.7,
         "y": false
       },
       {
         "name": "English",
-        "percent": 11.7,
+        "percent": 22.7,
         "y": false
       },
       {
         "name": "Hindi",
-        "percent": 9.4,
+        "percent": 11.5,
         "y": false
       },
       {
         "name": "Urdu",
-        "percent": 14.9,
+        "percent": 24.7,
         "y": false
       }
     ]
@@ -4276,17 +4281,17 @@
     "languages": [
       {
         "name": "Spanish",
-        "percent": 23.4,
+        "percent": 28.1,
         "y": false
       },
       {
         "name": "Portunol",
-        "percent": 24.4,
+        "percent": 40.1,
         "y": false
       },
       {
         "name": "Brazilero",
-        "percent": 10.9,
+        "percent": 25.5,
         "y": false
       }
     ]
@@ -4345,27 +4350,27 @@
     "languages": [
       {
         "name": "Vietnamese",
-        "percent": 7.2,
+        "percent": 23.6,
         "y": false
       },
       {
         "name": "English",
-        "percent": 14.3,
+        "percent": 14.9,
         "y": false
       },
       {
         "name": "French",
-        "percent": 6.2,
+        "percent": 22.5,
         "y": false
       },
       {
         "name": "Chinese",
-        "percent": 5.2,
+        "percent": 10.3,
         "y": false
       },
       {
         "name": "Khmer",
-        "percent": 10.5,
+        "percent": 12.8,
         "y": false
       }
     ]
@@ -4397,17 +4402,17 @@
     "languages": [
       {
         "name": "Standard Arabic",
-        "percent": 20.3,
+        "percent": 37.1,
         "y": false
       },
       {
         "name": "Hassaniya Arabic",
-        "percent": 24.3,
+        "percent": 39.1,
         "y": false
       },
       {
         "name": "Moroccan Arabic",
-        "percent": 20,
+        "percent": 18.8,
         "y": false
       }
     ]
@@ -4460,42 +4465,42 @@
     "languages": [
       {
         "name": "Shona",
-        "percent": 3.6,
+        "percent": 5.2,
         "y": false
       },
       {
         "name": "Ndebele",
-        "percent": 3,
+        "percent": 7.3,
         "y": false
       },
       {
         "name": "English",
-        "percent": 3.4,
+        "percent": 6,
         "y": false
       },
       {
         "name": "Chewa",
-        "percent": 4.3,
+        "percent": 6.2,
         "y": false
       },
       {
         "name": "Chibarwe",
-        "percent": 3.1,
+        "percent": 4.7,
         "y": false
       },
       {
         "name": "Kalanga",
-        "percent": 2.2,
+        "percent": 4.8,
         "y": false
       },
       {
         "name": "Koisan",
-        "percent": 1.7,
+        "percent": 6.8,
         "y": false
       },
       {
         "name": "Nambya",
-        "percent": 1.8,
+        "percent": 7.1,
         "y": false
       },
       {
@@ -4505,32 +4510,32 @@
       },
       {
         "name": "Shangani",
-        "percent": 3.8,
+        "percent": 7.2,
         "y": false
       },
       {
         "name": "Sotho",
-        "percent": 4.3,
+        "percent": 3.1,
         "y": false
       },
       {
         "name": "Tonga",
-        "percent": 4.3,
+        "percent": 4.7,
         "y": false
       },
       {
         "name": "Tswana",
-        "percent": 1.8,
+        "percent": 7.7,
         "y": false
       },
       {
         "name": "Venda",
-        "percent": 4.2,
+        "percent": 3.3,
         "y": false
       },
       {
         "name": "Xhosa",
-        "percent": 1.8,
+        "percent": 7.7,
         "y": false
       }
     ]
@@ -4541,22 +4546,22 @@
     "languages": [
       {
         "name": "Catalan",
-        "percent": 10.3,
+        "percent": 27.5,
         "y": false
       },
       {
         "name": "French",
-        "percent": 11.5,
+        "percent": 16.2,
         "y": false
       },
       {
         "name": "Castilian",
-        "percent": 14.4,
+        "percent": 30.3,
         "y": false
       },
       {
         "name": "Portuguese",
-        "percent": 17.2,
+        "percent": 14.3,
         "y": false
       }
     ]
@@ -4605,27 +4610,27 @@
     "languages": [
       {
         "name": "French",
-        "percent": 14,
+        "percent": 21.4,
         "y": false
       },
       {
         "name": "Lingala",
-        "percent": 14.9,
+        "percent": 23,
         "y": false
       },
       {
         "name": "Kingwana",
-        "percent": 7.3,
+        "percent": 13.8,
         "y": false
       },
       {
         "name": "Kikongo",
-        "percent": 7.7,
+        "percent": 22.9,
         "y": false
       },
       {
         "name": "Tshiluba",
-        "percent": 11.8,
+        "percent": 18.8,
         "y": false
       }
     ]
@@ -4636,17 +4641,17 @@
     "languages": [
       {
         "name": "French",
-        "percent": 12.7,
+        "percent": 20.7,
         "y": false
       },
       {
         "name": "Lingala",
-        "percent": 16.9,
+        "percent": 25.4,
         "y": false
       },
       {
         "name": "Monokutuba",
-        "percent": 16.9,
+        "percent": 25.4,
         "y": false
       }
     ]
@@ -4705,22 +4710,22 @@
     "languages": [
       {
         "name": "English",
-        "percent": 8.1,
+        "percent": 13.8,
         "y": false
       },
       {
         "name": "Mandinka",
-        "percent": 13.2,
+        "percent": 19.2,
         "y": false
       },
       {
         "name": "Wolof",
-        "percent": 9.4,
+        "percent": 21.3,
         "y": false
       },
       {
         "name": "Fula",
-        "percent": 10.1,
+        "percent": 16.9,
         "y": false
       }
     ]
@@ -4731,17 +4736,17 @@
     "languages": [
       {
         "name": "Arabic",
-        "percent": 8.8,
+        "percent": 28.9,
         "y": false
       },
       {
         "name": "Hebrew",
-        "percent": 17.6,
+        "percent": 23.9,
         "y": false
       },
       {
         "name": "English",
-        "percent": 9.6,
+        "percent": 34.8,
         "y": false
       }
     ]
@@ -4752,17 +4757,17 @@
     "languages": [
       {
         "name": "Italian",
-        "percent": 13.2,
+        "percent": 17.5,
         "y": false
       },
       {
         "name": "Latin",
-        "percent": 15.9,
+        "percent": 27.6,
         "y": false
       },
       {
         "name": "French",
-        "percent": 12.5,
+        "percent": 30.2,
         "y": false
       }
     ]
@@ -4800,37 +4805,37 @@
     "languages": [
       {
         "name": "English",
-        "percent": 5.4,
+        "percent": 9.2,
         "y": false
       },
       {
         "name": "Chuukese",
-        "percent": 3.4,
+        "percent": 6.6,
         "y": false
       },
       {
         "name": "Kosrean",
-        "percent": 3.1,
+        "percent": 9.6,
         "y": false
       },
       {
         "name": "Pohnpeian",
-        "percent": 5.5,
+        "percent": 7.6,
         "y": false
       },
       {
         "name": "Yapese",
-        "percent": 4.7,
+        "percent": 7,
         "y": false
       },
       {
         "name": "Ulithian",
-        "percent": 6.4,
+        "percent": 9,
         "y": false
       },
       {
         "name": "Woleaian",
-        "percent": 5.5,
+        "percent": 13.7,
         "y": false
       },
       {
@@ -4840,7 +4845,7 @@
       },
       {
         "name": "Kapingamarangi",
-        "percent": 8.1,
+        "percent": 11.4,
         "y": false
       }
     ]

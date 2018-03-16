@@ -50,7 +50,7 @@ Congo, Democratic Republic of the	French, Lingala, Kingwana, Kikongo, Tshiluba
 Congo, Republic of the	French, Lingala and Monokutuba, many local languages and dialects
 Cook Islands	English 86.4%, Cook Islands Maori 76.2%, other 8.3%
 Costa Rica	Spanish, English
-Cote d'Ivoire	French, 60 native dialects of which Dioula is the most widely spoken
+Cote d'Ivoire	French, Dioula
 Croatia	Croatian 95.6%, Serbian 1.2%, other 3%, unspecified 0.2%
 Cuba	Spanish
 Curacao	Papiamento 81.2%, Dutch 8%, Spanish 4%, English 2.9%, other 3.9%
@@ -97,7 +97,7 @@ Holy See (Vatican City)	Italian, Latin, French, various other languages
 Honduras	Spanish, Amerindian dialects
 Hong Kong	Cantonese 88.9%, English 4.3%, Mandarin 1.9%, other Chinese dialects 3.1%, other 1.9%
 Hungary	Hungarian 99.6%, English 16%, German 11.2%, Russian 1.6%, Romanian 1.3%, French 1.2%, other 4.2%
-Iceland	Icelandic, English, Nordic languages, German widely spoken
+Iceland	Icelandic, English, Nordic languages, German
 India	Hindi 41%, Bengali 8.1%, Telugu 7.2%, Marathi 7%, Tamil 5.9%, Urdu 5%, Gujarati 4.5%, Kannada 3.7%, Malayalam 3.2%, Oriya 3.2%, Punjabi 2.8%, Assamese 1.3%, Maithili 1.2%, other 5.9%
 Indonesia	Bahasa Indonesia, English, Dutch, local dialects
 Iran	Persian, Azeri Turkic and Turkic dialects, Kurdish, Gilaki and Mazandarani, Luri, Balochi, Arabic, other
@@ -116,7 +116,7 @@ Kiribati	I-Kiribati, English
 Korea, North	Korean
 Korea, South	Korean, English
 Kosovo	Albanian 94.5%, Bosnian 1.7%, Serbian 1.6%, Turkish 1.1%, other 0.9%, unspecified 0.1%
-Kuwait	Arabic, English widely spoken
+Kuwait	Arabic, English
 Kyrgyzstan	Kyrgyz 71.4%, Uzbek 14.4%, Russian 9%, other 5.2%
 Laos	Lao, French, English, various ethnic languages
 Latvia	Latvian 56.3%, Russian 33.8%, other 0.6%, unspecified 9.4%
@@ -138,7 +138,7 @@ Malta	Maltese 90.1%, English 6%, multilingual 3%, other 0.9%
 Marshall Islands	Marshallese 98.2%, other languages 1.8%
 Mauritania	Arabic, Pular, Soninke, Wolof, French
 Mauritius	Creole 86.5%, Bhojpuri 5.3%, French 4.1%, two languages 1.4%, other 2.6%, unspecified 0.1%
-Mexico	Spanish only 92.7%, Spanish and indigenous languages 5.7%, indigenous only 0.8%, unspecified 0.8%
+Mexico	Spanish 92.7%, Spanish and indigenous languages 5.7%, indigenous only 0.8%, unspecified 0.8%
 Micronesia, Federated States of	English, Chuukese, Kosrean, Pohnpeian, Yapese, Ulithian, Woleaian, Nukuoro, Kapingamarangi
 Moldova	Moldovan/Romanian 80.2%, Russian 9.7%, Gagauz 4.2%, Ukrainian 3.9%, Bulgarian 1.5%, Romani 0.3%, other 0.2%
 Monaco	French, English, Italian, Monegasque
@@ -198,7 +198,7 @@ Solomon Islands	Melanesian pidgin, English, 120 indigenous languages
 Somalia	Somali, Arabic, Italian, English
 South Africa	isiZulu 22.7%, isiXhosa 16%, Afrikaans 13.5%, English 9.6%, Sepedi 9.1%, Setswana 8%, Sesotho 7.6%, Xitsonga 4.5%, siSwati 2.5%, Tshivenda 2.4%, isiNdebele 2.1%, sign language 0.5%, other 1.6%
 South Sudan	English, Arabic, Dinka, Nuer, Bari, Zande, Shilluk
-Spain	Castilian Spanish 74%, Catalan 17%, Galician 7%, Basque 2%
+Spain	Spanish 74%, Catalan 17%, Galician 7%, Basque 2%
 Sri Lanka	Sinhala 74%, Tamil 18%, other 8%
 Sudan	Arabic, English, Nubian, Ta Bedawie, Fur
 Suriname	Dutch, English, Sranang Tongo, Caribbean Hindustani, Javanese
