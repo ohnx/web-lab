@@ -158,7 +158,7 @@ for (var cc in data_bycc) {
             /* this is terrible. */
             percentage_spoken = 100 / languages.length;
             if (languages.length >= 3)
-                percentage_spoken *= (Math.random() * (0.5) + 0.25);
+                percentage_spoken *= (Math.random() * (0.75) + 0.5);
             certainty = false;
         } else {
             percentage_spoken = +percentage_spoken;

@@ -208,6 +208,13 @@
                             /* the population of this country */
                             var countryPopulation = country_info[country].population == undefined ? 0 : country_info[country].population;
 
+                            /* find the correct index for this language */
+                            for (var j = 0; j < country_info[country].languages; j++) {
+                                if (country_info[country].languages[j].name == language_name) {
+                                    countryPopulation = Math.floor(countryPopulation * country_info[country].languages[j].percent / 100);
+                                }
+                            }
+
                             /* 2 code paths - 1. we are removing it; 2. we are adding the country */
                             if (removing_language) {
                                 /* removing country, so remove the population from the running total */
