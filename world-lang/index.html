@@ -6,8 +6,8 @@
         <style>
             body { margin: 0; overflow: hidden; }
             body, .datamaps-hoverover { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, 'Arial', Arial, sans-serif !important; }
-            h1, h2, h3 { font-weight: normal; }
-            #modal { transition: 0.4s all; position: fixed; opacity: 0.5; display: inline-block; top: 0; right: 0; z-index: 1000; background: white; padding: 0.5em; max-height: 10%; max-width: 50%; width: 350px; overflow: auto; }
+            h1, h2, h3 { font-weight: normal; margin-top: 0; }
+            #modal { transition: 0.4s all; position: fixed; opacity: 0.5; display: inline-block; top: 0; right: 0; z-index: 1000; background: white; padding: 0.7em; max-height: 10%; max-width: 50%; width: 350px; overflow: auto; }
             #modal:hover { opacity: 1; max-height: 50%; }
             label { display: block; padding-bottom: 0.4em; }
         </style>
@@ -23,6 +23,12 @@
                 <li><a href="https://www.npmjs.com/package/countryjs">Population data</a></li>
                 <li><a href="https://github.com/markmarkoh/datamaps">World map</a></li>
             </ul>
+            <p>Libraries used for visualization</p>
+            <ul>
+                <li><a href="https://d3js.org/">d3</a> for display of the map</li>
+                <li><a href="https://github.com/davidmerfield/randomColor">randomColor</a> for generation of language colours</li>
+            </ul>
+            <p>This experiment is <a href="https://github.com/ohnx/web-lab/tree/gh-pages/world-lang">open source!</a></p>
         </div>
         <div id="map"></div>
         <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
@@ -35,7 +41,7 @@
             /* global Datamap, d3, randomColor, language_codes, country_languages, navigator */
             var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
             var str = '';
-            var used_languages = {}, used_languages_array = [];
+            var language_populations = {}, used_languages_array = [], used_languages_by_population = [];
             var selected_languages = [];
             var language_colours = {};
             var totalPopulation = 0, runningTotalPopulation = 0;
@@ -47,22 +53,31 @@
                 if (!country_languages.hasOwnProperty(country)) continue;
                 /* loop through all languages */
                 for (var i = 0; i < country_languages[country].languages.length; i++) {
-                    used_languages[country_languages[country].languages[i]] = true;
+                    /* set initial value to 0 */
+                    if (!(country_languages[country].languages[i] in language_populations)) language_populations[country_languages[country].languages[i]] = 0;
+                    /* add the language population */
+                    language_populations[country_languages[country].languages[i]] += country_languages[country].population == undefined ? 0 : country_languages[country].population;
                 }
                 /* add total population */
                 totalPopulation += country_languages[country].population == undefined ? 0 : country_languages[country].population;
             }
 
             /* loop through all the languages found and convert to array */
-            for (var code in used_languages) {
-                if (!used_languages.hasOwnProperty(code)) continue;
+            for (var code in language_populations) {
+                if (!language_populations.hasOwnProperty(code)) continue;
                 used_languages_array.push(code);
                 language_colours[code] = randomColor();
             }
             /* Sort used languages by nice name (not ISO code) */
-            used_languages_array.sort(function(a,b){
+            /*used_languages_array.sort(function (a,b) {
                 if (language_codes[a].name > language_codes[b].name) return 1;
                 else if (language_codes[a].name < language_codes[b].name) return -1;
+                return 0;
+            });*/
+            /* Sort languages by speaking population */
+            used_languages_array.sort(function (a,b) {
+                if (language_populations[a] < language_populations[b]) return 1;
+                else if (language_populations[a] > language_populations[b]) return -1;
                 return 0;
             });
             /* create checkboxes for all the languages */
@@ -98,15 +113,28 @@
                 data: country_languages,
                 geographyConfig: {
                     popupTemplate: function(geo, data) {
-                        var str = '<div class="hoverinfo"><strong>Official languages in ' + geo.properties.name + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
+                        /* make the country name not have the comma stuff after it */
+                        var countryName = geo.properties.name;
+                        var countryNameSplit = countryName.split(',');
+                        if (countryNameSplit.length == 2) {
+                            countryName = countryNameSplit[1] + ' ' + countryNameSplit[0];
+                        }
+                        /* top bar with emoji on mac */
+                        var str = '<div class="hoverinfo"><strong>Official languages in ' + countryName + (isMac ? ' ' + data.emoji : '') + '</strong><ul>';
                         var lang;
+                        /* loop through all the languages */
                         for (var i = 0; i < data.languages.length; i++) {
                             lang = (data.languages[i] in language_codes) ? language_codes[data.languages[i]].name : data.languages[i];
+                            if (selected_languages.indexOf(data.languages[i]) >= 0) {
+                                lang = '<b>' + lang + '</b>';
+                            }
                             str += '<li>' + lang + '</li>';
                         }
                         str += '</ul></div>';
                         return str;
-                    }
+                    },
+                    highlightOnHover: false,
+                    borderColor: '#000000'
                 }
             });
             d3.select(window).on('resize', function() {

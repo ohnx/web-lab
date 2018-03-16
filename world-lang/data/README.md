@@ -54,7 +54,7 @@ fs.writeFile("country_languages.json", JSON.stringify(cl), function(){});
 
 ```
 
-## how to generate data from CIA world factbook
+## how to generate data from CIA world factbook (country_info.js)
 
 this is really annoying.
 
