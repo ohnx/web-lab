@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;padding:0 10px;font-family:'Georgia';}h1,h2,h3{line-height:1.2}table{width:100%;margin-top:1em;}table,td,th{border:1px solid black;}input[type="checkbox"]::after{position:relative;left:1em;top:-0.2em;content:'No';font-size:18px;font-family:'Georgia';}input[type="checkbox"]:checked::after{content:'Yes';}pre{white-space:pre-wrap;}fieldset p:last-child{margin-bottom:0;}</style>
+    <title>QEMU Tool</title>
+  </head>
+  <body>
+    <div class="container" id="app">
+      <div class="row">
+        <h1>QEMU Tool</h1>
+        <p>Use this tool to generate/customize/build flags to run QEMU with.</p>
+      </div>
+      <hr />
+      <div class="row">
+        <fieldset>
+          <legend>QEMU main</legend>
+          <!-- command -->
+          <label for="qemuCmd">Command: </label>
+          <input type="text" name="qemuCmd" v-model="qemuCmd" @change="checkType">
+          <label for="qemuCmdQuick">(Quick presets: </label>
+          <select @change="checkType" v-model="qemuCmd">
+            <option value="/usr/bin/qemu-system-x86_64">x86_64</option>
+            <option value="/usr/bin/qemu-system-aarch64">aarch64</option>
+          </select>)<br />
+          <p v-if="cmdWarning">{{ cmdWarning }}</p>
+
+          <!-- kvm -->
+          <div v-if="sysType == 'x86_64'">
+            <label for="enableKvm">Enable KVM? </label>
+            <input type="checkbox" name="enableKvm" v-model="enableKvm"><br />
+          </div>
+
+          <!-- machine -->
+          <div v-if="sysType == 'aarch64'">
+            <label for="machineType">Machine: </label>
+            <select name="machineType" v-model="machineType">
+              <option value="akita">Sharp SL-C1000 (Akita) PDA (PXA270)</option>
+              <option value="ast2500-evb">Aspeed AST2500 EVB (ARM1176)</option>
+              <option value="borzoi">Sharp SL-C3100 (Borzoi) PDA (PXA270)</option>
+              <option value="canon-a1100">Canon PowerShot A1100 IS</option>
+              <option value="cheetah">Palm Tungsten|E aka. Cheetah PDA (OMAP310)</option>
+              <option value="collie">Sharp SL-5500 (Collie) PDA (SA-1110)</option>
+              <option value="connex">Gumstix Connex (PXA255)</option>
+              <option value="cubieboard">cubietech cubieboard</option>
+              <option value="highbank">Calxeda Highbank (ECX-1000)</option>
+              <option value="imx25-pdk">ARM i.MX25 PDK board (ARM926)</option>
+              <option value="integratorcp">ARM Integrator/CP (ARM926EJ-S)</option>
+              <option value="kzm">ARM KZM Emulation Baseboard (ARM1136)</option>
+              <option value="lm3s6965evb">Stellaris LM3S6965EVB</option>
+              <option value="lm3s811evb">Stellaris LM3S811EVB</option>
+              <option value="mainstone">Mainstone II (PXA27x)</option>
+              <option value="midway">Calxeda Midway (ECX-2000)</option>
+              <option value="musicpal">Marvell 88w8618 / MusicPal (ARM926EJ-S)</option>
+              <option value="n800">Nokia N800 tablet aka. RX-34 (OMAP2420)</option>
+              <option value="n810">Nokia N810 tablet aka. RX-44 (OMAP2420)</option>
+              <option value="netduino2">Netduino 2 Machine</option>
+              <option value="none">empty machine</option>
+              <option value="nuri">Samsung NURI board (Exynos4210)</option>
+              <option value="palmetto-bmc">OpenPOWER Palmetto BMC (ARM926EJ-S)</option>
+              <option value="raspi2">Raspberry Pi 2</option>
+              <option value="realview-eb">ARM RealView Emulation Baseboard (ARM926EJ-S)</option>
+              <option value="realview-eb-mpcore">ARM RealView Emulation Baseboard (ARM11MPCore)</option>
+              <option value="realview-pb-a8">ARM RealView Platform Baseboard for Cortex-A8</option>
+              <option value="realview-pbx-a9">ARM RealView Platform Baseboard Explore for Cortex-A9</option>
+              <option value="sabrelite">Freescale i.MX6 Quad SABRE Lite Board (Cortex A9)</option>
+              <option value="smdkc210">Samsung SMDKC210 board (Exynos4210)</option>
+              <option value="spitz">Sharp SL-C3000 (Spitz) PDA (PXA270)</option>
+              <option value="sx1">Siemens SX1 (OMAP310) V2</option>
+              <option value="sx1-v1">Siemens SX1 (OMAP310) V1</option>
+              <option value="terrier">Sharp SL-C3200 (Terrier) PDA (PXA270)</option>
+              <option value="tosa">Sharp SL-6000 (Tosa) PDA (PXA255)</option>
+              <option value="verdex">Gumstix Verdex (PXA270)</option>
+              <option value="versatileab">ARM Versatile/AB (ARM926EJ-S)</option>
+              <option value="versatilepb">ARM Versatile/PB (ARM926EJ-S)</option>
+              <option value="vexpress-a15">ARM Versatile Express for Cortex-A15</option>
+              <option value="vexpress-a9">ARM Versatile Express for Cortex-A9</option>
+              <option value="virt-2.6">QEMU 2.6 ARM Virtual Machine</option>
+              <option value="virt-2.7">QEMU 2.7 ARM Virtual Machine</option>
+              <option value="virt">QEMU 2.8 ARM Virtual Machine (alias of virt-2.8)</option>
+              <option value="virt-2.8">QEMU 2.8 ARM Virtual Machine</option>
+              <option value="xilinx-zynq-a9">Xilinx Zynq Platform Baseboard for Cortex-A9</option>
+              <option value="xlnx-ep108">Xilinx ZynqMP EP108 board</option>
+              <option value="xlnx-zcu102">Xilinx ZynqMP ZCU102 board</option>
+              <option value="z2">Zipit Z2 (PXA27x)</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>CPU</legend>
+          <label for="cpuType">CPU: </label>
+          <select name="cpuType" v-model="cpuType">
+            <!-- x86_64 cpus -->
+            <option v-if="sysType == 'x86_64'" value="486">x86 Broadwell-IBRS Intel Core Processor (Broadwell, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="Broadwell-noTSX-IBRS">Intel Core Processor (Broadwell, no TSX, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="Broadwell-noTSX">Intel Core Processor (Broadwell, no TSX)</option>
+            <option v-if="sysType == 'x86_64'" value="Broadwell">Intel Core Processor (Broadwell)</option>
+            <option v-if="sysType == 'x86_64'" value="Conroe">Intel Celeron_4x0 (Conroe/Merom Class Core 2)</option>
+            <option v-if="sysType == 'x86_64'" value="Haswell-IBRS">Intel Core Processor (Haswell, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="Haswell-noTSX-IBRS">Intel Core Processor (Haswell, no TSX, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="Haswell-noTSX">Intel Core Processor (Haswell, no TSX)</option>
+            <option v-if="sysType == 'x86_64'" value="Haswell">Intel Core Processor (Haswell)</option>
+            <option v-if="sysType == 'x86_64'" value="IvyBridge-IBRS">Intel Xeon E3-12xx v2 (Ivy Bridge, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="IvyBridge">Intel Xeon E3-12xx v2 (Ivy Bridge)</option>
+            <option v-if="sysType == 'x86_64'" value="Nehalem-IBRS">Intel Core i7 9xx (Nehalem Core i7, IBRS update</option>
+            <option v-if="sysType == 'x86_64'" value="Nehalem">Intel Core i7 9xx (Nehalem Class Core i7)</option>
+            <option v-if="sysType == 'x86_64'" value="Opteron_G1">AMD Opteron 240 (Gen 1 Class Opteron)</option>
+            <option v-if="sysType == 'x86_64'" value="Opteron_G2">AMD Opteron 22xx (Gen 2 Class Opteron)</option>
+            <option v-if="sysType == 'x86_64'" value="Opteron_G3">AMD Opteron 23xx (Gen 3 Class Opteron)</option>
+            <option v-if="sysType == 'x86_64'" value="Opteron_G4">AMD Opteron 62xx class CPU</option>
+            <option v-if="sysType == 'x86_64'" value="Opteron_G5">AMD Opteron 63xx class CPU</option>
+            <option v-if="sysType == 'x86_64'" value="Penryn">Intel Core 2 Duo P9xxx (Penryn Class Core 2)</option>
+            <option v-if="sysType == 'x86_64'" value="SandyBridge-IBRS">Intel Xeon E312xx (Sandy Bridge, IBRS update)</option>
+            <option v-if="sysType == 'x86_64'" value="SandyBridge">Intel Xeon E312xx (Sandy Bridge)</option>
+            <option v-if="sysType == 'x86_64'" value="Skylake-Client-IBRS">Intel Core Processor (Skylake, IBRS)</option>
+            <option v-if="sysType == 'x86_64'" value="Skylake-Client">Intel Core Processor (Skylake)</option>
+            <option v-if="sysType == 'x86_64'" value="Westmere-IBRS">Westmere E56xx/L56xx/X56xx (IBRS update)</option>
+            <option v-if="sysType == 'x86_64'" value="Westmere">Westmere E56xx/L56xx/X56xx (Nehalem-C)</option>
+            <option v-if="sysType == 'x86_64'" value="athlon">QEMU Virtual CPU version 2.5+</option>
+            <option v-if="sysType == 'x86_64'" value="core2duo">Intel(R) Core(TM)2 Duo CPU T7700 @ 2.40GHz</option>
+            <option v-if="sysType == 'x86_64'" value="coreduo">Genuine Intel(R) CPU T2600 @ 2.16GHz</option>
+            <option v-if="sysType == 'x86_64'" value="kvm32">Common 32-bit KVM processor</option>
+            <option v-if="sysType == 'x86_64'" value="kvm64">Common KVM processor</option>
+            <option v-if="sysType == 'x86_64'" value="n270">Intel(R) Atom(TM) CPU N270 @ 1.60GHz</option>
+            <option v-if="sysType == 'x86_64'" value="pentium">x86 pentium2</option>
+            <option v-if="sysType == 'x86_64'" value="pentium3">x86 phenom AMD Phenom(tm) 9550 Quad-Core Processor</option>
+            <option v-if="sysType == 'x86_64'" value="qemu32">QEMU Virtual CPU version 2.5+</option>
+            <option v-if="sysType == 'x86_64'" value="qemu64">QEMU Virtual CPU version 2.5+</option>
+            <!-- KVM cpu -->
+            <option v-if="sysType == 'x86_64'" value="host" :disabled="!enableKvm">KVM processor with all supported host features (only available in KVM mode)</option>
+            <!-- arm CPUs -->
+            <option v-if="sysType == 'aarch64'" value="arm1026">arm1026</option>
+            <option v-if="sysType == 'aarch64'" value="arm1136">arm1136</option>
+            <option v-if="sysType == 'aarch64'" value="arm1136-r2">arm1136-r2</option>
+            <option v-if="sysType == 'aarch64'" value="arm1176">arm1176</option>
+            <option v-if="sysType == 'aarch64'" value="arm11mpcore">arm11mpcore</option>
+            <option v-if="sysType == 'aarch64'" value="arm926">arm926</option>
+            <option v-if="sysType == 'aarch64'" value="arm946">arm946</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a15">cortex-a15</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a53">cortex-a53</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a57">cortex-a57</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a7">cortex-a7</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a8">cortex-a8</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-a9">cortex-a9</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-m3">cortex-m3</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-m4">cortex-m4</option>
+            <option v-if="sysType == 'aarch64'" value="cortex-r5">cortex-r5</option>
+            <option v-if="sysType == 'aarch64'" value="pxa250">pxa250</option>
+            <option v-if="sysType == 'aarch64'" value="pxa255">pxa255</option>
+            <option v-if="sysType == 'aarch64'" value="pxa260">pxa260</option>
+            <option v-if="sysType == 'aarch64'" value="pxa261">pxa261</option>
+            <option v-if="sysType == 'aarch64'" value="pxa262">pxa262</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-a0">pxa270-a0</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-a1">pxa270-a1</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270">pxa270</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-b0">pxa270-b0</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-b1">pxa270-b1</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-c0">pxa270-c0</option>
+            <option v-if="sysType == 'aarch64'" value="pxa270-c5">pxa270-c5</option>
+            <option v-if="sysType == 'aarch64'" value="sa1100">sa1100</option>
+            <option v-if="sysType == 'aarch64'" value="sa1110">sa1110</option>
+            <option v-if="sysType == 'aarch64'" value="ti925t">ti925t</option>
+          </select>
+          <span v-if="sysType == 'x86_64'">(<a href="https://www.qemu.org/2018/02/14/qemu-2-11-1-and-spectre-update/">IBRS info</a>)</span>
+          <br />
+          <label for="numCpus">Number of CPU's: </label>
+          <input type="number" name="numCpus" v-model="numCpus" min="1">
+          <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Memory</legend>
+          <label for="memoryAmount">Memory: </label>
+          <input type="number" name="memoryAmount" v-model="memoryAmount" min="1">
+          <select v-model="memorySize">
+            <option value="m">Megabytes</option>
+            <option value="g">Gigabytes</option>
+          </select><br />
+          <label for="memoryBalloon">Enable <a href="https://www.linux-kvm.org/page/Projects/auto-ballooning">ballooning</a>? </label>
+          <input type="checkbox" name="memoryBalloon" v-model="memoryBalloon">
+        </fieldset>
+
+        <fieldset>
+          <legend>Devices</legend>
+          <label for="attachKeyboard">Attach USB keyboard? </label>
+          <input type="checkbox" name="attachKeyboard" v-model="attachKeyboard"><br />
+          <label for="attachMouse">Attach USB mouse? </label>
+          <input type="checkbox" name="attachMouse" v-model="attachMouse"><br />
+          <label for="attachTablet">Attach USB tablet? (recommended over mouse) </label>
+          <input type="checkbox" name="attachTablet" v-model="attachTablet"><br />
+
+          <label for="graphicsCard">Graphics card: </label>
+          <select name="graphicsCard" v-model="graphicsCard">
+            <option value="cirrus">Simple graphics card cirrus</option>
+            <option value="std">Improved graphics card std</option>
+            <option value="vmware">VMWare graphics card</option>
+            <option value="qxl">QXL graphics card</option>
+            <option value="virtio">VirtIO graphics card</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Disks</legend>
+          <label for="numDisks">Number: </label>
+          <input type="number" name="numDisks" v-model="numDisks" @change="updateDiskNum">
+          <fieldset v-for="(disk, i) in disks">
+            <legend>Disk {{ i+1 }}</legend>
+            <label for="diskBus">Bus: </label>
+            <select name="diskBus" v-model="disk.diskBus">
+              <option value="ide">IDE</option>
+              <option value="sata">SATA</option>
+              <option value="scsi">SCSI</option>
+              <option value="virtio">VirtIO</option>
+            </select><br />
+            <label for="diskFile">File: </label>
+            <input name="diskFile" v-model="disk.diskFile" @change="validateDisk"><br />
+            <label for="diskCache">Cache mode: </label>
+            <select name="diskCache" v-model="disk.diskCache">
+              <option value="writeback">Writeback</option>
+              <option value="none">None</option>
+              <option value="writethrough">Writethrough</option>
+              <option value="directsync">Directsync</option>
+              <option value="unsafe">Unsafe</option>
+            </select><br />
+            <label for="diskCdrom">CD-ROM? </label>
+            <input type="checkbox" name="diskCdrom" v-model="disk.diskCdrom"><br />
+          </fieldset>
+          <p>
+            To initialize a disk file, use
+            <a href="http://man7.org/linux/man-pages/man1/fallocate.1.html">fallocate</a> or
+            <a href="http://man7.org/linux/man-pages/man1/dd.1.html">dd</a>.
+            <a href="https://doc.opensuse.org/documentation/leap/virtualization/html/book.virt/cha.cachemodes.html#cachemodes.descr">Cache types</a>.
+          </p>
+          <p v-if="diskWarning">{{ diskWarning }}</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Networking</legend>
+          <label for="networkDevice">Device: </label>
+          <select name="networkDevice" v-model="networkDevice">
+            <option value="e1000-82545em">e1000 (e1000-82545em)</option>
+            <option value="e1000-82544gc">e1000-82544gc</option>
+            <option value="e1000e">e1000e</option>
+            <option value="i82550">i82550</option>
+            <option value="i82551">i82551</option>
+            <option value="i82557a">i82557a</option>
+            <option value="i82557b">i82557b</option>
+            <option value="i82557c">i82557c</option>
+            <option value="i82558a">i82558a</option>
+            <option value="i82558b">i82558b</option>
+            <option value="i82559a">i82559a</option>
+            <option value="i82559b">i82559b</option>
+            <option value="i82559c">i82559c</option>
+            <option value="i82559er">i82559er</option>
+            <option value="i82562">i82562</option>
+            <option value="i82801">i82801</option>
+            <option value="ne2k_isa">ne2k_isa</option>
+            <option value="ne2k_pci">ne2k_pci</option>
+            <option value="pcnet">pcnet</option>
+            <option value="rocker">rocker</option>
+            <option value="rtl8139">rtl8139</option>
+            <option value="usb-bt-dongle">usb-bt-dongle</option>
+            <option value="usb-net">usb-net</option>
+            <option value="virtio-net">virtio</option>
+          </select><br />
+          <label for="networkMac">MAC Address: </label>
+          <input type="text" name="networkMac" v-model="networkMac" @change="validateMac">
+          <button v-on:click="genMAC()">Generate Random</button><br />
+
+          <label for="networkType">Network type: </label>
+          <select name="networkType" v-model="networkType">
+            <option value="user">Userspace networking</option>
+            <option value="tap">TAP driver</option>
+          </select><br />
+          <div v-if="networkType == 'user'">
+            <label for="networkHostname">Guest hostname: </label>
+            <input type="text" name="networkHostname" v-model="networkHostname">
+            <fieldset>
+              <legend>Port forwarding</legend>
+              <label for="numNetworkpfules">Number: </label>
+              <input type="number" name="numNetworkpfules" v-model="numNetworkpfules" @change="updateNetworkpfrulesNum">
+              <table>
+                <tr><th>Protocol</th><th>Host address</th><th>Host port</th><th>Guest port</th></tr>
+                <tr v-for="(networkPfrule, i) in networkPfrules">
+                  <td>
+                    <select style="width:100%;box-sizing:border-box;" v-model="networkPfrule.proto" @change="validateNetworkpfrules">
+                      <option value="tcp">TCP</option>
+                      <option value="udp">UDP</option>
+                    </select>
+                  </td>
+                  <td><input type="text" style="width:100%;box-sizing:border-box;" v-model="networkPfrule.hostaddr" @change="validateNetworkpfrules"></td>
+                  <td><input type="number" style="width:100%;box-sizing:border-box;" v-model="networkPfrule.hostport" @change="validateNetworkpfrules"></td>
+                  <td><input type="number" style="width:100%;box-sizing:border-box;" v-model="networkPfrule.guestport" @change="validateNetworkpfrules"></td>
+                </tr>
+              </table>
+            </fieldset>
+          </div>
+          <div v-if="networkType == 'tap'">
+            Sorry, this mode is not yet implemented.
+          </div>
+          <p v-if="ipWarning">{{ ipWarning }}</p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Display</legend>
+          <label for="displayOption">Output display: </label>
+          <select name="displayOption" v-model="displayOption">
+            <option value="disable">Disable graphics</option>
+            <option value="none">None</option>
+            <option value="sdl">SDL Window</option>
+            <option value="gtk">GTK Window</option>
+            <option value="curses">curses</option>
+            <option value="vnc">VNC server (configure further)</option>
+          </select>
+          <br />
+          <div v-if="displayOption == 'vnc'">
+            <label for="vncOption">VNC host: </label>
+            <input type="text" name="vncOption" v-model="vncOption" @change="validateVNC"><br />
+            <p v-if="vncWarning">{{ vncWarning }}</p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Misc</legend>
+          <label for="serialOption">Serial console: </label>
+          <select name="serialOption" v-model="serialOption">
+            <option value="none">None (disable)</option>
+            <option value="pty">Virtual PTY</option>
+            <option value="stdio">Standard input/output</option>
+          </select>
+          <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Identification</legend>
+          <!-- Name and UUID -->
+          <label for="name">Name: </label>
+          <input type="text" name="name" v-model="name"><br />
+          <label for="uuid">UUID: </label>
+          <input type="text" name="uuid" v-model="uuid">
+          <button v-on:click="genUUID()">Generate Random</button><br />
+        </fieldset>
+
+        <br />
+      </div>
+      <hr />
+      <div class="row">
+        <h2>Generated Flags</h2>
+        <button v-on:click="generateFlags">Generate flags</button>
+        <pre><code>{{ flags }}</code></pre>
+      </div>
+      <hr />
+      <div class="row">
+        An experiment by <a href="https://masonx.ca/">Mason</a>.
+        Not working? Missing a feature? <a href="mailto:me@masonx.ca">Let me know!</a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
