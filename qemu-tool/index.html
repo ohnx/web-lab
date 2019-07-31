@@ -165,7 +165,7 @@
           </select>
           <span v-if="sysType == 'x86_64'">(<a href="https://www.qemu.org/2018/02/14/qemu-2-11-1-and-spectre-update/">IBRS info</a>)</span>
           <br />
-          <label for="numCpus">Number of CPU's: </label>
+          <label for="numCpus">Number of CPU cores: </label>
           <input type="number" name="numCpus" v-model="numCpus" min="1">
           <br />
         </fieldset>
@@ -271,8 +271,8 @@
 
           <label for="networkType">Network type: </label>
           <select name="networkType" v-model="networkType">
-            <option value="user">Userspace networking</option>
-            <option value="tap">TAP driver</option>
+            <option value="user">Userspace networking (easier)</option>
+            <option value="bridge">Bridged (harder to set up, faster)</option>
           </select><br />
           <div v-if="networkType == 'user'">
             <label for="networkHostname">Guest hostname: </label>
@@ -297,8 +297,15 @@
               </table>
             </fieldset>
           </div>
-          <div v-if="networkType == 'tap'">
-            Sorry, this mode is not yet implemented.
+          <div v-if="networkType == 'bridge'">
+            <p>
+              This method requires some more in-depth configuration. For help setting things up on Debian, please
+              consider reading <a href="https://pve.proxmox.com/wiki/Network_Configuration">this page on network configuration with Proxmox</a>.
+            </p>
+            <label for="bridgeName">Bridge name: </label>
+            <input type="text" name="bridgeName" v-model="bridgeName"><br />
+            <label for="helperName">Bridge helper binary location: </label>
+            <input type="text" name="helperName" v-model="helperName">
           </div>
           <p v-if="ipWarning">{{ ipWarning }}</p>
         </fieldset>

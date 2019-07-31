@@ -24,7 +24,7 @@ function uuid() {
 
 /* macaddr() is from https://stackoverflow.com/a/24621956 */
 function macaddr() {
-  return 'XX:XX:XX:XX:XX:XX'.replace(/X/g, function() {
+  return '52:54:XX:XX:XX:XX'.replace(/X/g, function() {
     return '0123456789ABCDEF'.charAt(Math.floor(Math.random() * 16));
   });
 }
@@ -98,6 +98,8 @@ new Vue({
     networkPfrules: [Object.assign({}, defaultNetworkpfrule)],
     numNetworkpfules: 1,
     networkIP: '10.22.22.1',
+    bridgeName: 'br0',
+    helperName: '/usr/lib/qemu/qemu-bridge-helper',
     ipWarning: false,
 
     displayOption: 'sdl',
@@ -134,7 +136,7 @@ new Vue({
       flags.push('-cpu ' + this.cpuType);
 
       /* number of cpu's */
-      flags.push('-smp 1,cores=' + this.numCpus);
+      flags.push('-smp cores=' + this.numCpus + ',threads=1,sockets=1');
 
       /* memory size*/
       if (this.memorySize != 'm') flags.push('-m ' + this.memoryAmount + 'G');
@@ -187,6 +189,8 @@ new Vue({
         }
 
         flags.push(str);
+      } else if (this.networkType == 'bridge') {
+        flags.push('-netdev bridge,id=net1,br=' + this.bridgeName + ',helper=' + this.helperName);
       }
 
       /* graphics */
