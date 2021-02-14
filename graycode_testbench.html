@@ -1,0 +1,97 @@
+<html>
+<head><title>Gray code testbench generator</title></head>
+<body>
+<h1>Gray code-based testbench generator</h1>
+<p>Generate exhaustive testbench for module but using Gray codes so it's more optimal testing per bit twiddle.</p>
+<p><b>todo:</b> also add ways for automated checking if given a truth table</p>
+<h2>input logic variable name on each line</h2>
+<textarea id="binvars" rows=10 cols=40></textarea><br />
+<input id="gatedelay" placeholder="gate delay (0 for none)" type="number">
+<input id="comment" type="checkbox"><label for="comment"> Include Comments</label>
+<h2>output testbench</h2>
+<textarea id="to" rows=10 cols=40></textarea><br />
+<a href="javascript:;" onclick="dostuff();">Go</a>
+<script>
+
+// This function generates all n bit Gray codes and prints the
+// generated codes
+// adapted from https://www.geeksforgeeks.org/generate-n-bit-gray-codes/
+function generateGrayArr(n) {
+    if (n <= 0)
+        return [];
+ 
+    // 'arr' will store all generated codes
+    var arr = ["0", "1"];
+
+    // Every iteration of this loop generates 2*i codes from previously
+    // generated i codes.
+    let i, j;
+    for (i = 2; i < (1<<n); i = i<<1) {
+        // Enter the prviously generated codes again in arr[] in reverse
+        // order. Nor arr[] has double number of codes.
+        for (j = i-1 ; j >= 0 ; j--)
+            arr.push(arr[j]);
+ 
+        // append 0 to the first half
+        for (j = 0 ; j < i ; j++)
+            arr[j] = "0" + arr[j];
+ 
+        // append 1 to the second half
+        for (j = i ; j < 2*i ; j++)
+            arr[j] = "1" + arr[j];
+    }
+
+    return arr;
+}
+
+// find index of difference between two strings
+function finddiff(str1, str2) {
+    if (str1.length != str2.length) return -1;
+    for (var i = 0; i < str1.length; i++) {
+        if (str1[i] != str2[i]) return i;
+    }
+    return -2;
+}
+
+// do stuff
+function dostuff() {
+    // fetch inputs
+    let vars_str = document.getElementById('binvars').value;
+    let gateDelay = parseInt(document.getElementById('gatedelay').value, 10) || 0;
+    let use_comments = document.getElementById('comment').checked;
+
+    // filter boolean = get rid of falsy values (e.g. empty line)
+    let vars = vars_str.split('\n').filter(Boolean);
+    // generate the gray code
+    let grayArr = generateGrayArr(vars.length);
+    if (grayArr.length == 0) return;
+
+    // now do fun stuff
+    let outputStr = '';
+    let i = 0;
+
+    // initial line is ez pz
+    if (use_comments) outputStr += `// ${grayArr[0]}\n`;
+    for (i = 0; i < vars.length; i++) {
+        outputStr += `${vars[i]} = 0;\n`;
+    }
+
+    outputStr += '\n';
+
+    let delayStr = '';
+    if (gateDelay) {
+        delayStr = `#${gateDelay} `;
+    }
+
+    // next lines use the diff from next gray code
+    for (i = 1; i < grayArr.length; i++) {
+        let diff_idx = finddiff(grayArr[i-1], grayArr[i]);
+        if (use_comments) outputStr += `// ${grayArr[i]}\n`;
+        outputStr += `${delayStr}${vars[diff_idx]} = ${grayArr[i][diff_idx]};\n`;
+    }
+
+    document.getElementById('to').value = outputStr;
+}
+</script>
+</body>
+</html>
