@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>wowza!</title>
+        <style>
+            html,body,section,h1,h2 {
+                padding: 0;
+                margin: 0;
+            }
+
+            section {
+                height: 100vh;
+                background: pink;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            @keyframes wowza {
+                0% {background-color: red; font-size: 100%; }
+                25% {background-color: yellow}
+                50% {background-color: lime; font-size: 4000%; }
+                75% {background-color: cyan;}
+                100% {background-color: red; font-size: 100%; }
+            }
+
+            @keyframes wowzatxt {
+                0% {transform: none;}
+                12.5% {transform: rotate3d(3, 1, 1, 30deg);}
+                25% {transform: none;}
+                37.5% {transform: rotate3d(1, 2, 1, -48deg);}
+                50% {transform: none;}
+                62.5% {transform: rotate3d(1, 1, 2, 36deg);}
+                75% {transform: none;}
+                87.5% {transform: rotate3d(1, 1, 1, -28deg);}
+                100% {transform: none;}
+            }
+
+            #wowza {
+                text-align: center;
+                animation: wowza 1s ease infinite;
+                overflow: hidden;
+            }
+
+            #wowza h1 {
+                animation: wowzatxt 4s ease infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="wowza">
+            <h1>wowza!</h1>
+        </section>
+    </body>
+</html>
